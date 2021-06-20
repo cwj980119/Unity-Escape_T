@@ -5,10 +5,11 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public float move_speed; //캐릭터 이동속도
+    Animator animator;
     // Start is called before the first frame update
     void Start()
     {
-        
+        this.animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -23,5 +24,8 @@ public class PlayerController : MonoBehaviour
         {
             transform.Translate(new Vector3(0f, Input.GetAxisRaw("Vertical") * move_speed * Time.deltaTime, 0f));
         }
+
+        // 플레이어 속도에 따라서 애니메이션 속도 변경
+        this.animator.speed = move_speed / 2.0f;
     }
 }
