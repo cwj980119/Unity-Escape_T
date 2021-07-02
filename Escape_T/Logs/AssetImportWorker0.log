@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/release' branch; Version is '2020.3.12f1 (b3b2c6512326) revision 11776710'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19042.746; Version 2009; 64bit' Language: 'ko' Physical Memory: 16092 MB
+OS: 'Windows 10 Home; OS build 19042.1052; Version 2009; 64bit' Language: 'ko' Physical Memory: 16178 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,61 +11,63 @@ C:\Program Files\Unity\Hub\Editor\2020.3.12f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Wonjae/Documents/GitHub/Unity-Escape_T/Escape_T
+C:/Users/82108/OneDrive/문서/GitHub/Unity-Escape_T/Escape_T
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60679
-Successfully changed project path to: C:/Users/Wonjae/Documents/GitHub/Unity-Escape_T/Escape_T
-C:/Users/Wonjae/Documents/GitHub/Unity-Escape_T/Escape_T
+7865
+Successfully changed project path to: C:/Users/82108/OneDrive/문서/GitHub/Unity-Escape_T/Escape_T
+C:/Users/82108/OneDrive/문서/GitHub/Unity-Escape_T/Escape_T
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 50.31 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 68.00 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.12f1 (b3b2c6512326)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Wonjae/Documents/GitHub/Unity-Escape_T/Escape_T/Assets
+[Subsystems] Discovering subsystems at path C:/Users/82108/OneDrive/문서/GitHub/Unity-Escape_T/Escape_T/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x9a49)
+    Renderer: Intel(R) UHD Graphics 620 (ID=0x3ea0)
     Vendor:   
-    VRAM:     8046 MB
-    Driver:   27.20.100.8853
+    VRAM:     8089 MB
+    Driver:   25.20.100.6577
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56936
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56496
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001971 seconds.
+Registered in 0.008919 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 47.85 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 63.15 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.996 seconds
+- Completed reload, in  2.382 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004414 seconds.
+Registered in 0.013249 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000001ADF6A82700 doesn't match image C:\Users\82108\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 41.33 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 59.32 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.037 seconds
+- Completed reload, in  1.885 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.38 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2083 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 92.9 MB.
 System memory in use after: 92.8 MB.
 
 Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2515.
-Total: 1.909200 ms (FindLiveObjects: 0.131100 ms CreateObjectMapping: 0.040300 ms MarkObjects: 1.624000 ms  DeleteObjects: 0.112600 ms)
+Total: 2.437700 ms (FindLiveObjects: 0.202900 ms CreateObjectMapping: 0.068000 ms MarkObjects: 1.939900 ms  DeleteObjects: 0.225900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -79,41 +81,33 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Tile
-  artifactKey: Guid(c583a31c6946fb645972e724fdd43dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tile using Guid(c583a31c6946fb645972e724fdd43dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f26cb856950f25dd3dd3fdab244b7bb') in 0.004291 seconds 
-  Import took 0.006880 seconds .
+  path: Assets/뒤2.png
+  artifactKey: Guid(8446fa712d95bfc449b01322a53471b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/뒤2.png using Guid(8446fa712d95bfc449b01322a53471b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dafe82fbb601bce7914f8da02b5338a') in 0.171035 seconds 
+  Import took 0.175034 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.588333 seconds.
-  path: Assets/Tile/a.png
-  artifactKey: Guid(aee88b077c1b89f49990293fe16cba03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tile/a.png using Guid(aee88b077c1b89f49990293fe16cba03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '124c4f142db84cce7efa2d201191082c') in 0.097408 seconds 
-  Import took 0.100166 seconds .
+  Time since last request: 0.000414 seconds.
+  path: Assets/뒤1.png
+  artifactKey: Guid(91d4c03e9a844af41acee7041923283a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/뒤1.png using Guid(91d4c03e9a844af41acee7041923283a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca4b051fca19b1b2373138878f2ec124') in 0.053708 seconds 
+  Import took 0.057995 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.625047 seconds.
-  path: Assets/Tile/tile_128.png
-  artifactKey: Guid(84a6c5dab93bd3444a80250547bac2eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tile/tile_128.png using Guid(84a6c5dab93bd3444a80250547bac2eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ac26579c30c214ba32761cffd40877b') in 0.009661 seconds 
-  Import took 0.012448 seconds .
+  Time since last request: 1.697168 seconds.
+  path: Assets/뒤3.png
+  artifactKey: Guid(830a7f5da0ff78948bd47563faf9fdd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/뒤3.png using Guid(830a7f5da0ff78948bd47563faf9fdd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50670b5e27cb4fa38620c420fbe3aafb') in 0.047673 seconds 
+  Import took 0.053540 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000842 seconds.
-  path: Assets/Tile/tile_128.png
-  artifactKey: Guid(84a6c5dab93bd3444a80250547bac2eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tile/tile_128.png using Guid(84a6c5dab93bd3444a80250547bac2eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ac26579c30c214ba32761cffd40877b') in 0.010329 seconds 
-  Import took 0.013433 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.553821 seconds.
-  path: Assets/Tile/tile_one.png
-  artifactKey: Guid(10d097c9107c38b459c622d9fc53ce50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tile/tile_one.png using Guid(10d097c9107c38b459c622d9fc53ce50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35c4a4c2723998f1519be9d88aa0d671') in 0.009646 seconds 
-  Import took 0.012686 seconds .
+  Time since last request: 0.004197 seconds.
+  path: Assets/뒤3.png
+  artifactKey: Guid(830a7f5da0ff78948bd47563faf9fdd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/뒤3.png using Guid(830a7f5da0ff78948bd47563faf9fdd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50670b5e27cb4fa38620c420fbe3aafb') in 0.051388 seconds 
+  Import took 0.056380 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
