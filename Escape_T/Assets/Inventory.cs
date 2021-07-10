@@ -5,8 +5,6 @@ using UnityEngine;
 public class Inventory : MonoBehaviour
 {
 
-	public static bool invectoryActivated = false;  // 인벤토리 활성화 여부. true가 되면 카메라 움직임과 다른 입력을 막을 것이다.
-
 	public List<Item> items; // 아이템을 담을 리스트
 
 	[SerializeField]
@@ -19,35 +17,6 @@ public class Inventory : MonoBehaviour
 	private void OnValidate() //유니티 에디터에서 바로 작동(슬롯에 Slot이 자동 등록된다.)
 	{
 		slots = slotParent.GetComponentsInChildren<Slot>();
-	}
-
-	void Update()
-	{
-		TryOpenInventory();
-	}
-
-	private void TryOpenInventory()
-	{
-		if (Input.GetKeyDown(KeyCode.H))
-		{
-			invectoryActivated = !invectoryActivated;
-
-			if (invectoryActivated)
-				OpenInventory();
-			else
-				CloseInventory();
-
-		}
-	}
-
-	private void OpenInventory()
-	{
-		BackGround.SetActive(true);
-	}
-
-	private void CloseInventory()
-	{
-		BackGround.SetActive(false);
 	}
 
 	void Awake() // 시작하면 items에 들어 있는 아이템을 인벤토리에 넣는다.
