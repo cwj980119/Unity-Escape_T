@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    static public PlayerController instance; //캐릭터 중복 생성 방지
+
     public float move_speed;//캐릭터 이동속도
     Vector2 movement = new Vector2();
     Animator animator;
@@ -12,8 +14,16 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        this.animator = GetComponent<Animator>();
-        rigidbody2D = GetComponent<Rigidbody2D>();
+        if(instance == null)
+        {
+            DontDestroyOnLoad(this.gameObject);
+            this.animator = GetComponent<Animator>();
+            rigidbody2D = GetComponent<Rigidbody2D>();
+            instance = this;
+        }
+        else {
+            Destroy(this.gameObject);
+        }
     }
 
     // Update is called once per frame
