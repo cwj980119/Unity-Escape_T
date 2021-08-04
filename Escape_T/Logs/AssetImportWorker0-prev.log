@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/release' branch; Version is '2020.3.12f1 (b3b2c6512326) revision 11776710'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19042.1110; Version 2009; 64bit' Language: 'ko' Physical Memory: 16178 MB
+OS: 'Windows 10 Home; OS build 19042.1110; Version 2009; 64bit' Language: 'ko' Physical Memory: 7865 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,63 +11,63 @@ C:\Program Files\Unity\Hub\Editor\2020.3.12f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/82108/OneDrive/문서/GitHub/Unity-Escape_T/Escape_T
+C:/Users/jungy/OneDrive/문서/GitHub/Unity-Escape_T/Escape_T
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-7897
-Successfully changed project path to: C:/Users/82108/OneDrive/문서/GitHub/Unity-Escape_T/Escape_T
-C:/Users/82108/OneDrive/문서/GitHub/Unity-Escape_T/Escape_T
+55629
+Successfully changed project path to: C:/Users/jungy/OneDrive/문서/GitHub/Unity-Escape_T/Escape_T
+C:/Users/jungy/OneDrive/문서/GitHub/Unity-Escape_T/Escape_T
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 56.95 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 46.56 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.12f1 (b3b2c6512326)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/82108/OneDrive/문서/GitHub/Unity-Escape_T/Escape_T/Assets
+[Subsystems] Discovering subsystems at path C:/Users/jungy/OneDrive/문서/GitHub/Unity-Escape_T/Escape_T/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) UHD Graphics 620 (ID=0x3ea0)
+    Renderer: NVIDIA GeForce MX450 (ID=0x1f97)
     Vendor:   
-    VRAM:     8089 MB
-    Driver:   25.20.100.6577
+    VRAM:     1928 MB
+    Driver:   27.21.14.5256
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56688
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56160
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005735 seconds.
+Registered in 0.001780 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 56.47 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 39.02 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.076 seconds
+- Completed reload, in  1.615 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.011908 seconds.
+Registered in 0.004016 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001CACA2F2040 doesn't match image C:\Users\82108\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file data-00000221E4E42A30 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Assembly-CSharp.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 52.06 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 40.68 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.562 seconds
+- Completed reload, in  0.931 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2088 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 93.0 MB.
 System memory in use after: 93.0 MB.
 
 Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2521.
-Total: 2.842300 ms (FindLiveObjects: 0.311100 ms CreateObjectMapping: 0.159400 ms MarkObjects: 2.158800 ms  DeleteObjects: 0.211900 ms)
+Total: 2.317900 ms (FindLiveObjects: 0.181600 ms CreateObjectMapping: 0.041900 ms MarkObjects: 1.938000 ms  DeleteObjects: 0.155100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -76,150 +76,39 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/교실소품들/교단강의실.png
-  artifactKey: Guid(52f7392ee5f9f2444b6ad144152996c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/교실소품들/교단강의실.png using Guid(52f7392ee5f9f2444b6ad144152996c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85a1b46dea8c153b731175ff16b332e9') in 0.154730 seconds 
-  Import took 0.158963 seconds .
+  path: Assets/Scenes/3F Scene.unity
+  artifactKey: Guid(20b064926434d2240b90b27848f8d63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/3F Scene.unity using Guid(20b064926434d2240b90b27848f8d63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3ccb8c208e586e69bf98b79d57a81cf') in 0.019654 seconds 
+  Import took 0.023554 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000559 seconds.
-  path: Assets/교실소품들/칠판글씨.png
-  artifactKey: Guid(ae225a97ff348db45a16e383bdb12a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/교실소품들/칠판글씨.png using Guid(ae225a97ff348db45a16e383bdb12a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '452f5955926dcdc7818139889e4a4b47') in 0.047818 seconds 
-  Import took 0.053189 seconds .
+  Time since last request: 8.754487 seconds.
+  path: Assets/Scenes/7F Scene.unity
+  artifactKey: Guid(fe1aa9ad4426abd4b905461cf99215b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/7F Scene.unity using Guid(fe1aa9ad4426abd4b905461cf99215b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e8c58b81e6e7d23bdae05e93d2845f0') in 0.004915 seconds 
+  Import took 0.011031 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000335 seconds.
-  path: Assets/교실소품들/자판기사이다.png
-  artifactKey: Guid(b459f1319c40d6f4a96ad9287b30cde6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/교실소품들/자판기사이다.png using Guid(b459f1319c40d6f4a96ad9287b30cde6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f643ff8bc25309d981d1c9f4e054fe48') in 0.031763 seconds 
-  Import took 0.034730 seconds .
+  Time since last request: 2.574586 seconds.
+  path: Assets/Scenes/5F Scene.unity
+  artifactKey: Guid(3c90ed3e1691b1343a73598410bb90ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/5F Scene.unity using Guid(3c90ed3e1691b1343a73598410bb90ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4b3d3a87a96d322f9534d10e5dd52ed') in 0.010923 seconds 
+  Import took 0.017414 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000358 seconds.
-  path: Assets/교실소품들/칠판도형.png
-  artifactKey: Guid(a91f04937027fc849b8b6e985508b725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/교실소품들/칠판도형.png using Guid(a91f04937027fc849b8b6e985508b725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '630d6d661399b601c9f90e26a05b5d80') in 0.041906 seconds 
-  Import took 0.045625 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000488 seconds.
-  path: Assets/교실소품들/칠판빈거.png
-  artifactKey: Guid(ad2a1d9879a366f46a4f6998e7f19d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/교실소품들/칠판빈거.png using Guid(ad2a1d9879a366f46a4f6998e7f19d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed6d3e00804094de183b5e6a28b687c2') in 0.034292 seconds 
-  Import took 0.038214 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000402 seconds.
-  path: Assets/교실소품들/수상한카드.png
-  artifactKey: Guid(317556e5bb7056443bce86b26f3a8008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/교실소품들/수상한카드.png using Guid(317556e5bb7056443bce86b26f3a8008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25f4fcceb61012b4a11af222126d9ebd') in 0.013051 seconds 
-  Import took 0.017114 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000433 seconds.
-  path: Assets/교실소품들/수상한반짝이.png
-  artifactKey: Guid(1b5859d4555033f4b8194d33b2b0d035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/교실소품들/수상한반짝이.png using Guid(1b5859d4555033f4b8194d33b2b0d035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '144831b04a92bb9318e17e8c26cfc6c3') in 0.041774 seconds 
-  Import took 0.046376 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000427 seconds.
-  path: Assets/교실소품들/소화기.png
-  artifactKey: Guid(5ed6fe55d3637ce41b4e009b371c15ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/교실소품들/소화기.png using Guid(5ed6fe55d3637ce41b4e009b371c15ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f1a092cd333b3b544ef2c64e3c262a5') in 0.042869 seconds 
-  Import took 0.047066 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000464 seconds.
-  path: Assets/교실소품들/엘리베이터.png
-  artifactKey: Guid(32299e6781b1e584d82f07497c6d0871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/교실소품들/엘리베이터.png using Guid(32299e6781b1e584d82f07497c6d0871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd74167f4fbf9c8c2476cc4d880726eaa') in 0.040933 seconds 
-  Import took 0.044893 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000335 seconds.
-  path: Assets/교실소품들/자판기콜라.png
-  artifactKey: Guid(6478fcdab4312a044a72fd03e6dad251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/교실소품들/자판기콜라.png using Guid(6478fcdab4312a044a72fd03e6dad251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '027ed08a549512760bc32728a43e6a9c') in 0.037055 seconds 
-  Import took 0.041095 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000374 seconds.
-  path: Assets/교실소품들/사물함복도.png
-  artifactKey: Guid(83fded50a29f1154488d86a64ef79dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/교실소품들/사물함복도.png using Guid(83fded50a29f1154488d86a64ef79dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb7ad4a32b7e3225341dbf913a79832c') in 0.046353 seconds 
-  Import took 0.051803 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000429 seconds.
-  path: Assets/교실소품들/컴퓨터책상.png
-  artifactKey: Guid(ad4b89d98f2c7604da8a05af647245a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/교실소품들/컴퓨터책상.png using Guid(ad4b89d98f2c7604da8a05af647245a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '821b30fd42f280dd2c42be5a78116dc7') in 0.041258 seconds 
-  Import took 0.045813 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.163974 seconds.
-  path: Assets/교실소품들/긴책상갈.png
-  artifactKey: Guid(c288b5bc3e3a34b488e5bd468dc189ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/교실소품들/긴책상갈.png using Guid(c288b5bc3e3a34b488e5bd468dc189ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6439caf339693b55f7157eba31c3ee3f') in 0.066561 seconds 
-  Import took 0.071801 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000477 seconds.
-  path: Assets/교실소품들/긴책상용흰의자.png
-  artifactKey: Guid(e2757760d4ea02347b34a47789cffdf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/교실소품들/긴책상용흰의자.png using Guid(e2757760d4ea02347b34a47789cffdf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ea7ba6a81ddf29b159e84b4b9c10ec1') in 0.059229 seconds 
-  Import took 0.065882 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000460 seconds.
-  path: Assets/교실소품들/긴책상흰.png
-  artifactKey: Guid(31b154d8d0b1534419d3b60745c61b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/교실소품들/긴책상흰.png using Guid(31b154d8d0b1534419d3b60745c61b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4dc29e2adcaf754500b78ad91b2e43b') in 0.047793 seconds 
-  Import took 0.055316 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000442 seconds.
-  path: Assets/교실소품들/긴책상용회색의자.png
-  artifactKey: Guid(449fa69179b297c4cbe2cf2da25c01f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/교실소품들/긴책상용회색의자.png using Guid(449fa69179b297c4cbe2cf2da25c01f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '168921abee46db397596b68352063ac0') in 0.047708 seconds 
-  Import took 0.053687 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000414 seconds.
-  path: Assets/교실소품들/화장실칸.png
-  artifactKey: Guid(8308b94413958fd4291bbe6e23f8852b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/교실소품들/화장실칸.png using Guid(8308b94413958fd4291bbe6e23f8852b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83b9c8500b6c9c2235d9b0f72519e6df') in 0.054940 seconds 
-  Import took 0.060415 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000299 seconds.
-  path: Assets/교실소품들/화장실칸그림자.png
-  artifactKey: Guid(5f71d6c3a6c917342a692f6bc32130fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/교실소품들/화장실칸그림자.png using Guid(5f71d6c3a6c917342a692f6bc32130fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6955b40927f598b76ac8b36f6a18ada') in 0.038766 seconds 
-  Import took 0.042650 seconds .
+  Time since last request: 22.941773 seconds.
+  path: Assets/Scenes/4F Scene.unity
+  artifactKey: Guid(d16b94329766f7e44915f3d782be48dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/4F Scene.unity using Guid(d16b94329766f7e44915f3d782be48dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d8512127a029282c08dfa6ed4c537cd') in 0.012594 seconds 
+  Import took 0.016995 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
