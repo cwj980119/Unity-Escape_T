@@ -15,11 +15,11 @@ C:/Users/82108/OneDrive/문서/GitHub/Unity-Escape_T/Escape_T
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-11755
+8962
 Successfully changed project path to: C:/Users/82108/OneDrive/문서/GitHub/Unity-Escape_T/Escape_T
 C:/Users/82108/OneDrive/문서/GitHub/Unity-Escape_T/Escape_T
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 63.29 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 66.52 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.12f1 (b3b2c6512326)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Resources/UnitySubsystems
@@ -35,37 +35,37 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56488
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56736
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006481 seconds.
+Registered in 0.007635 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 60.11 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 50.36 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.125 seconds
+- Completed reload, in  1.967 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.014279 seconds.
+Registered in 0.010344 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 58.78 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 50.63 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.746 seconds
+- Completed reload, in  1.701 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2089 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 93.0 MB.
 System memory in use after: 93.0 MB.
 
 Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2522.
-Total: 2.830300 ms (FindLiveObjects: 0.432000 ms CreateObjectMapping: 0.112400 ms MarkObjects: 2.064700 ms  DeleteObjects: 0.219800 ms)
+Total: 2.690700 ms (FindLiveObjects: 0.199200 ms CreateObjectMapping: 0.079200 ms MarkObjects: 2.062700 ms  DeleteObjects: 0.348300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -79,121 +79,9 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/야구게임이미지
-  artifactKey: Guid(a2a09453f3686f54394966e3825d12ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/야구게임이미지 using Guid(a2a09453f3686f54394966e3825d12ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92527f451fde0377fda8059d0c182615') in 0.008025 seconds 
-  Import took 0.012244 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 29.175868 seconds.
-  path: Assets/야구게임이미지/최_야구1.png
-  artifactKey: Guid(0e5ce466bd55b4945afc0df915f33e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/야구게임이미지/최_야구1.png using Guid(0e5ce466bd55b4945afc0df915f33e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44424dda56cd092243bf9ae11669f244') in 0.215539 seconds 
-  Import took 0.221085 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/야구게임이미지/최_야구2.png
-  artifactKey: Guid(26f53a76a7eb8b642846b40570b203b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/야구게임이미지/최_야구2.png using Guid(26f53a76a7eb8b642846b40570b203b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e877721bce43bb73eb38d40a46ced5f0') in 0.062187 seconds 
-  Import took 0.066761 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000310 seconds.
-  path: Assets/야구게임이미지/최_야구9.png
-  artifactKey: Guid(8ad5034b860352c4e9830a012be5564e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/야구게임이미지/최_야구9.png using Guid(8ad5034b860352c4e9830a012be5564e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4b79b504c08ab08a570ed7ea47b7b93') in 0.043368 seconds 
-  Import took 0.048525 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000329 seconds.
-  path: Assets/야구게임이미지/최_야구6.png
-  artifactKey: Guid(1c18adef332bc1548aab67bec107fc8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/야구게임이미지/최_야구6.png using Guid(1c18adef332bc1548aab67bec107fc8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aba1c6f9f46a949916dac55314d991a8') in 0.044823 seconds 
-  Import took 0.051522 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000369 seconds.
-  path: Assets/야구게임이미지/최_야구카드.png
-  artifactKey: Guid(2ce4f7870bb6d7d4d9ed159838248692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/야구게임이미지/최_야구카드.png using Guid(2ce4f7870bb6d7d4d9ed159838248692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b2d35eecb184fdb4782bce48e8758c5') in 0.052784 seconds 
-  Import took 0.057900 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000395 seconds.
-  path: Assets/야구게임이미지/최_야구5.png
-  artifactKey: Guid(5990fc5446beebb48aff68d572067c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/야구게임이미지/최_야구5.png using Guid(5990fc5446beebb48aff68d572067c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc058ba900d5b6faeafe12a05c644671') in 0.041713 seconds 
-  Import took 0.047192 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000296 seconds.
-  path: Assets/야구게임이미지/최_야구빨강.png
-  artifactKey: Guid(f8daf7cffc19a7c4283ebf7f081c8a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/야구게임이미지/최_야구빨강.png using Guid(f8daf7cffc19a7c4283ebf7f081c8a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4925c1ffdda5f73488814e92a3efa9ed') in 0.041246 seconds 
-  Import took 0.046904 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000413 seconds.
-  path: Assets/야구게임이미지/최_야구노랑.png
-  artifactKey: Guid(8eb8c36795a6acd48bf8774c93bfca48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/야구게임이미지/최_야구노랑.png using Guid(8eb8c36795a6acd48bf8774c93bfca48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1ea945175437d455a5e848be029ab61') in 0.054163 seconds 
-  Import took 0.061532 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000359 seconds.
-  path: Assets/야구게임이미지/최_야구8.png
-  artifactKey: Guid(12d3c32cd3ffa034ea68edd98226592f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/야구게임이미지/최_야구8.png using Guid(12d3c32cd3ffa034ea68edd98226592f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50ae4308c466c2aefaecfc8530b5510f') in 0.046352 seconds 
-  Import took 0.051428 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000344 seconds.
-  path: Assets/야구게임이미지/최_야구4.png
-  artifactKey: Guid(ab2de07f955dcc34e93790beb478f960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/야구게임이미지/최_야구4.png using Guid(ab2de07f955dcc34e93790beb478f960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1ff9733caa2c132923777512b9c1c07') in 0.041414 seconds 
-  Import took 0.046979 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000325 seconds.
-  path: Assets/야구게임이미지/최_야구초록.png
-  artifactKey: Guid(c135b4540276643439ccb5bae023280a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/야구게임이미지/최_야구초록.png using Guid(c135b4540276643439ccb5bae023280a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecea073b52a81e0fe1166c144cf76841') in 0.060497 seconds 
-  Import took 0.066748 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000355 seconds.
-  path: Assets/야구게임이미지/최_야구3.png
-  artifactKey: Guid(c2dfb0edf8a1f9d42b637708fdde7855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/야구게임이미지/최_야구3.png using Guid(c2dfb0edf8a1f9d42b637708fdde7855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6239b1f815d4cf6aa4bbbebf554b2c78') in 0.046717 seconds 
-  Import took 0.052520 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000324 seconds.
-  path: Assets/야구게임이미지/최_야구창.png
-  artifactKey: Guid(7affa547561e380418b1e4701b530da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/야구게임이미지/최_야구창.png using Guid(7affa547561e380418b1e4701b530da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1878edf1938b622f85d5d5434fab9412') in 0.042523 seconds 
-  Import took 0.046951 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000353 seconds.
-  path: Assets/야구게임이미지/최_야구7.png
-  artifactKey: Guid(663c7ae234a421a42bc269db08b2a442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/야구게임이미지/최_야구7.png using Guid(663c7ae234a421a42bc269db08b2a442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5600e8784b43778f56fb6f7a186e0c5') in 0.059800 seconds 
-  Import took 0.066205 seconds .
+  path: Assets/야구게임이미지/최_야구6창.png
+  artifactKey: Guid(269fd20f2deedb9438ed3c28355dcae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/야구게임이미지/최_야구6창.png using Guid(269fd20f2deedb9438ed3c28355dcae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c0c0b1c453fb2af2fb6ee7e882b2257') in 0.165953 seconds 
+  Import took 0.170267 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
