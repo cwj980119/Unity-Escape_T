@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class NumberGameController : MonoBehaviour
 {
@@ -10,16 +11,18 @@ public class NumberGameController : MonoBehaviour
     int StrikeCnt=0,BallCnt=0,OutCnt=0;
     public GameObject [] card = new GameObject[9];
     public GameObject [] slot = new GameObject[3];
-    public GameObject light;
     public GameObject [] green = new GameObject[3];
     public GameObject [] yellow = new GameObject[3];
     public GameObject [] red = new GameObject[6];
+    private Text logText;
 
     void Start()
     {
         // gameObject.SetActive(false);
         MakeNumber();
         SetCardnSlot();
+        SetLightsFalse();
+        logText = GameObject.Find("ResultLog").GetComponent<Text>();
     }
 
     // Update is called once per frame
@@ -48,6 +51,7 @@ public class NumberGameController : MonoBehaviour
 
     public void Submit(){
         if(answerA==-1||answerB==-1||answerC==-1){
+            // logText.text+="답을 입력하세요\n";
             Debug.Log("답을 입력하세요");
         }
         else{
@@ -56,15 +60,20 @@ public class NumberGameController : MonoBehaviour
             WriteLog();
             if(StrikeCnt>=3) GameClear();
             else if(OutCnt>=6) {
-                Debug.Log("실패!");
+                Debug.Log("실패!"); //실패 UI뜨게
                 ResetGame();
             }
+            else StrikeCnt=BallCnt=0;
         }
     }
 
     public void ResetGame(){
+        OutCnt=0;
         ResetAnswers();
+        ResetCard();
         MakeNumber();
+        SetLightsFalse();
+        ResetLog();
         //log clear 코드 추가
     }
 
@@ -80,12 +89,30 @@ public class NumberGameController : MonoBehaviour
         Debug.Log("답: "+numberA+","+numberB+","+numberC);
     }
 
-    public void ResetAnswers(){
+
+    private void SetLightsFalse(){
+        for(int i=0;i<3;i++){
+            green[i].GetComponent<LightController>().TurnOff();
+        }
+        for(int i=0;i<3;i++){
+            yellow[i].GetComponent<LightController>().TurnOff();
+        }
+        for(int i=0;i<6;i++){
+            red[i].GetComponent<LightController>().TurnOff();
+        }
+    }
+
+    public void ResetTable(){
+        ResetAnswers();
+        ResetCard();
+        ResetLight();
+    }
+
+    private void ResetAnswers(){
         StrikeCnt=BallCnt=0;
         answerA=-1;
         answerB=-1;
         answerC=-1;
-        ResetCard();//카드 원위치로 돌려놓는 코드 추가
     }
 
     private void ResetCard(){
@@ -95,6 +122,19 @@ public class NumberGameController : MonoBehaviour
         for(int i=0;i<3;i++){
             slot[i].GetComponent<NumberSlot>().exist=true;
         }
+    }
+
+    private void ResetLight(){
+        for(int i=0;i<3;i++){
+            green[i].GetComponent<LightController>().TurnOff();
+        }
+        for(int i=0;i<3;i++){
+            yellow[i].GetComponent<LightController>().TurnOff();
+        }
+    }
+
+    private void ResetLog(){
+        logText.text="";
     }
 
     private void Check(){
@@ -125,9 +165,11 @@ public class NumberGameController : MonoBehaviour
 
     private void WriteLog(){
         Debug.Log("결과"+answerA+answerB+answerC+":"+BallCnt+"B "+StrikeCnt+"S");
+        logText.text+=answerA.ToString()+answerB.ToString()+answerC.ToString()+":"+BallCnt+"B "+StrikeCnt+"S\n";
     }
 
     private void GameClear(){
+        logText.text+="Game Clear!!\n";
         // GameClear 코드 추가
     }
 
