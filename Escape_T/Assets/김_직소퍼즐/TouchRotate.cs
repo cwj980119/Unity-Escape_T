@@ -11,7 +11,7 @@ public class TouchRotate : MonoBehaviour
     }
 
     // Update is called once per frame
-    /*
+
     void Update()
     {
         if (Input.GetMouseButtonDown(0))
@@ -20,11 +20,6 @@ public class TouchRotate : MonoBehaviour
                 transform.Rotate(0f, 0f, 90f);
         }
     }
-    */
-    public void OnMouseDown()
-    {
-        if (!GameControl.youWin)
-            transform.Rotate(0f, 0f, 90f);
-    }
+
 
 }
