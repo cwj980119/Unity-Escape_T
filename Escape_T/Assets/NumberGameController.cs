@@ -14,7 +14,9 @@ public class NumberGameController : MonoBehaviour
     public GameObject [] green = new GameObject[3];
     public GameObject [] yellow = new GameObject[3];
     public GameObject [] red = new GameObject[6];
+    private GameObject bbgamecanvas;
     private Text logText;
+    private GameObject bbclearpanel;
 
     void Start()
     {
@@ -22,7 +24,7 @@ public class NumberGameController : MonoBehaviour
         MakeNumber();
         SetCardnSlot();
         SetLightsFalse();
-        logText = GameObject.Find("ResultLog").GetComponent<Text>();
+        SetClearPanelFalse();
     }
 
     // Update is called once per frame
@@ -47,6 +49,8 @@ public class NumberGameController : MonoBehaviour
         for(int i=0;i<6;i++){
             red[i]=GameObject.Find("Red"+(i+1).ToString());
         }
+        bbclearpanel = GameObject.Find("BBClearPanel");
+        logText = GameObject.Find("ResultLog").GetComponent<Text>();
     }
 
     public void Submit(){
@@ -100,6 +104,14 @@ public class NumberGameController : MonoBehaviour
         for(int i=0;i<6;i++){
             red[i].GetComponent<LightController>().TurnOff();
         }
+    }
+
+    private void SetClearPanelFalse(){
+        bbclearpanel.GetComponent<BBClearPanelController>().PanelOff();
+    }
+
+    private void SetClearPanleTrue(){
+        bbclearpanel.GetComponent<BBClearPanelController>().PanelOn();
     }
 
     public void ResetTable(){
@@ -171,6 +183,7 @@ public class NumberGameController : MonoBehaviour
     private void GameClear(){
         logText.text+="Game Clear!!\n";
         // GameClear 코드 추가
+        SetClearPanleTrue();
     }
 
     public void SetAnsA(int a){
@@ -185,4 +198,8 @@ public class NumberGameController : MonoBehaviour
         answerC = c;
     }
 
+    public void CloseNumberGame(){
+        bbgamecanvas = GameObject.Find("Canvas");
+        bbgamecanvas.SetActive(false);
+    }
 }
