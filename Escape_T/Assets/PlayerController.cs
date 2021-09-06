@@ -4,12 +4,14 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    static public PlayerController instance; //Ä³¸¯ÅÍ Áßº¹ »ý¼º ¹æÁö
+    static public PlayerController instance; //Ä³ï¿½ï¿½ï¿½ï¿½ ï¿½ßºï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 
-    public float move_speed;//Ä³¸¯ÅÍ ÀÌµ¿¼Óµµ
+
+    public string currentScene;
+    public float move_speed;//Ä³ï¿½ï¿½ï¿½ï¿½ ï¿½Ìµï¿½ï¿½Óµï¿½
     Vector2 movement = new Vector2();
     Animator animator;
-    Rigidbody2D rigidbody2D;
+    private Rigidbody2D rigidbody2D;
 
     // Start is called before the first frame update
     void Start()
@@ -50,7 +52,7 @@ public class PlayerController : MonoBehaviour
         animator.SetFloat("yDir", movement.y);
 
 
-        // ÇÃ·¹ÀÌ¾î ¼Óµµ¿¡ µû¶ó¼­ ¾Ö´Ï¸ÞÀÌ¼Ç ¼Óµµ º¯°æ
+        // ï¿½Ã·ï¿½ï¿½Ì¾ï¿½ ï¿½Óµï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ö´Ï¸ï¿½ï¿½Ì¼ï¿½ ï¿½Óµï¿½ ï¿½ï¿½ï¿½ï¿½
         this.animator.speed = move_speed / 1.0f;
      
     }
