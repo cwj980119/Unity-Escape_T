@@ -15,11 +15,11 @@ C:/Users/bdk06/Documents/GitHub/Unity-Escape_T/Escape_T
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60051
+49347
 Successfully changed project path to: C:/Users/bdk06/Documents/GitHub/Unity-Escape_T/Escape_T
 C:/Users/bdk06/Documents/GitHub/Unity-Escape_T/Escape_T
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 38.08 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 42.32 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.12f1 (b3b2c6512326)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Resources/UnitySubsystems
@@ -35,37 +35,37 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56072
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56744
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003859 seconds.
+Registered in 0.003809 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 49.76 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 32.91 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.598 seconds
+- Completed reload, in  1.494 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007098 seconds.
+Registered in 0.006333 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 41.68 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 41.58 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  1.042 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.36 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2099 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2100 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 93.3 MB.
 System memory in use after: 93.2 MB.
 
-Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2532.
-Total: 2.070900 ms (FindLiveObjects: 0.178800 ms CreateObjectMapping: 0.039200 ms MarkObjects: 1.714300 ms  DeleteObjects: 0.137000 ms)
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2533.
+Total: 2.047600 ms (FindLiveObjects: 0.176800 ms CreateObjectMapping: 0.047100 ms MarkObjects: 1.696100 ms  DeleteObjects: 0.126500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -80,72 +80,279 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/NewBehaviourScript.cs
-  artifactKey: Guid(a388726571a69de47a2b5bbab2f5351d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NewBehaviourScript.cs using Guid(a388726571a69de47a2b5bbab2f5351d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1d0a30b42d755d8066295494985e469') in 0.037823 seconds 
-  Import took 0.041152 seconds .
+  path: Assets/1번째 자리 퀴즈/20180524065536_menu1_4VbFpBNJteHV.jpg
+  artifactKey: Guid(7f4184e0a1c7ccf4c812f63739b50034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1번째 자리 퀴즈/20180524065536_menu1_4VbFpBNJteHV.jpg using Guid(7f4184e0a1c7ccf4c812f63739b50034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a40bdeb13be8590fad1304e90bd53ef8') in 0.175528 seconds 
+  Import took 0.178754 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.574822 seconds.
-  path: Assets/PuzzleMove.cs
+  Time since last request: 0.000347 seconds.
+  path: Assets/1번째 자리 퀴즈/다운로드1.jpg
+  artifactKey: Guid(ab996ff75389f6049b837e98ab94c303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1번째 자리 퀴즈/다운로드1.jpg using Guid(ab996ff75389f6049b837e98ab94c303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8318a3d222cc2f9e10bb3d8cd39af09f') in 0.021476 seconds 
+  Import took 0.024586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/1번째 자리 퀴즈/l_2018011701001997000162331.jpg
+  artifactKey: Guid(a3734a0ccfb67d24e9ba7d1aca730449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1번째 자리 퀴즈/l_2018011701001997000162331.jpg using Guid(a3734a0ccfb67d24e9ba7d1aca730449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6b12668f9ebf3d18c9cdf1b6fb6df9c') in 0.022218 seconds 
+  Import took 0.024929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/1번째 자리 퀴즈/다운로드 (1).jpg
+  artifactKey: Guid(00af2d9fe74cd7a4fbd92da6a08fec16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1번째 자리 퀴즈/다운로드 (1).jpg using Guid(00af2d9fe74cd7a4fbd92da6a08fec16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81cdb88c2cf814646c2c37fef90a1270') in 0.024541 seconds 
+  Import took 0.027304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/1번째 자리 퀴즈/다운로드.png
+  artifactKey: Guid(a3b782c1c22650b47be3b6f5c0270beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1번째 자리 퀴즈/다운로드.png using Guid(a3b782c1c22650b47be3b6f5c0270beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f46e5ba44498348a58b7d8f48abfa48e') in 0.023138 seconds 
+  Import took 0.026335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/1번째 자리 퀴즈/다운로드.jpg
+  artifactKey: Guid(0a264e2e972759d479f85c70ff9012c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1번째 자리 퀴즈/다운로드.jpg using Guid(0a264e2e972759d479f85c70ff9012c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b445b073e5805c399661b0fce932666b') in 0.025772 seconds 
+  Import took 0.028611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/1번째 자리 퀴즈/다운로드 1.jpg
+  artifactKey: Guid(e48400ccc9bd8d3478adc7dd5443bc9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1번째 자리 퀴즈/다운로드 1.jpg using Guid(e48400ccc9bd8d3478adc7dd5443bc9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e518d458dfbbb0570733dd26ab4870e0') in 0.016490 seconds 
+  Import took 0.019450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002608 seconds.
+  path: Assets/1번째 자리 퀴즈/다운로드 1.jpg
+  artifactKey: Guid(e48400ccc9bd8d3478adc7dd5443bc9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1번째 자리 퀴즈/다운로드 1.jpg using Guid(e48400ccc9bd8d3478adc7dd5443bc9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e518d458dfbbb0570733dd26ab4870e0') in 0.017284 seconds 
+  Import took 0.020581 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.848099 seconds.
+  path: Assets/2번째 자리 퀴즈/ad.jpg
+  artifactKey: Guid(e57e7705404f7584eae60588f4b57cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2번째 자리 퀴즈/ad.jpg using Guid(e57e7705404f7584eae60588f4b57cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10a355761125202d116ef21736421412') in 0.014608 seconds 
+  Import took 0.017666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/2번째 자리 퀴즈/cd.jpg
+  artifactKey: Guid(fc04ec6a900aad749b5d060e2cd6e796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2번째 자리 퀴즈/cd.jpg using Guid(fc04ec6a900aad749b5d060e2cd6e796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be0f20825111b50ea37fee5cc25df953') in 0.019096 seconds 
+  Import took 0.022986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/2번째 자리 퀴즈/도끼.png
+  artifactKey: Guid(4de4156b5d16e4847b140f65ad3c56c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2번째 자리 퀴즈/도끼.png using Guid(4de4156b5d16e4847b140f65ad3c56c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7455dfaf1a636b020675de9f6ef27eec') in 0.014293 seconds 
+  Import took 0.017296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/2번째 자리 퀴즈/cd.jpg
+  artifactKey: Guid(fc04ec6a900aad749b5d060e2cd6e796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2번째 자리 퀴즈/cd.jpg using Guid(fc04ec6a900aad749b5d060e2cd6e796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be0f20825111b50ea37fee5cc25df953') in 0.024342 seconds 
+  Import took 0.027840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/2번째 자리 퀴즈/ox.jpg
+  artifactKey: Guid(a9dc8820706eb2d4c86f17acef98b624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2번째 자리 퀴즈/ox.jpg using Guid(a9dc8820706eb2d4c86f17acef98b624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cea4974d8aa7bf239bf2907ca8aae4d') in 0.014016 seconds 
+  Import took 0.016941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.731311 seconds.
+  path: Assets/6층 퍼즐조각/python1.png
+  artifactKey: Guid(fd853255aa8811d4ab5ce1d4acd0af82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층 퍼즐조각/python1.png using Guid(fd853255aa8811d4ab5ce1d4acd0af82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a85c968b84b235f02a6ad3cdcb9f5583') in 0.010977 seconds 
+  Import took 0.013889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/6층 퍼즐조각/python4.png
+  artifactKey: Guid(325719bd0835a07428225ca1ef69076e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층 퍼즐조각/python4.png using Guid(325719bd0835a07428225ca1ef69076e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bba4fbc65229ec78a371b8e674367392') in 0.013787 seconds 
+  Import took 0.016997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/6층 퍼즐조각/python2.png
+  artifactKey: Guid(4b40a18e77f78404a8399a8c4ca730dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층 퍼즐조각/python2.png using Guid(4b40a18e77f78404a8399a8c4ca730dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4195b8e30db238ae3d58dbd15ff55e77') in 0.010565 seconds 
+  Import took 0.013342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/6층 퍼즐조각/python8.png
+  artifactKey: Guid(a12132e73bc563c4584663fb462e117c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층 퍼즐조각/python8.png using Guid(a12132e73bc563c4584663fb462e117c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdc0dbde79cca8ed13ea287adab8c444') in 0.014442 seconds 
+  Import took 0.017490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/6층 퍼즐조각/python14.png
+  artifactKey: Guid(810b6e2fb184f9047bd900c5d0b18f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층 퍼즐조각/python14.png using Guid(810b6e2fb184f9047bd900c5d0b18f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3fe268aad05a173c07c1501f009c7e8') in 0.009921 seconds 
+  Import took 0.012846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/6층 퍼즐조각/python11.png
+  artifactKey: Guid(bb915b5876cfdb14badd4779cbad14ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층 퍼즐조각/python11.png using Guid(bb915b5876cfdb14badd4779cbad14ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56ca2a3a63813e138ce4e997de7eb000') in 0.008768 seconds 
+  Import took 0.011617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/6층 퍼즐조각/python10.png
+  artifactKey: Guid(b3f997e5dac81554c905e1c3783584ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층 퍼즐조각/python10.png using Guid(b3f997e5dac81554c905e1c3783584ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30cf425045483b570862fb89017af6cc') in 0.007979 seconds 
+  Import took 0.010700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/6층 퍼즐조각/python9.png
+  artifactKey: Guid(6a990275aa5f3784699979d364c151a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층 퍼즐조각/python9.png using Guid(6a990275aa5f3784699979d364c151a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f71e678092495b791940b6332590c6c1') in 0.008008 seconds 
+  Import took 0.010842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/6층 퍼즐조각/python16.png
+  artifactKey: Guid(95e43a275b424d6438ea4cc000d431f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층 퍼즐조각/python16.png using Guid(95e43a275b424d6438ea4cc000d431f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78d190a92cea5add76ea6721465f5906') in 0.008760 seconds 
+  Import took 0.011671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/6층 퍼즐조각/python13.png
+  artifactKey: Guid(1878ed2a65af655459f3d0face9b6ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층 퍼즐조각/python13.png using Guid(1878ed2a65af655459f3d0face9b6ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58e1073e8efcf6b162894e8617bfc346') in 0.008710 seconds 
+  Import took 0.011842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/6층 퍼즐조각/python6.png
+  artifactKey: Guid(4b8a3304334472548bc99b19769c04ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층 퍼즐조각/python6.png using Guid(4b8a3304334472548bc99b19769c04ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7397c46c36ef4bc66fb6b4a4407bde6') in 0.008908 seconds 
+  Import took 0.012504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/6층 퍼즐조각/python7.png
+  artifactKey: Guid(1bb303d1684ba814b9dbb06542bdfe4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층 퍼즐조각/python7.png using Guid(1bb303d1684ba814b9dbb06542bdfe4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f192fb6feeb9ada79d0ab3565d1334d4') in 0.008661 seconds 
+  Import took 0.011552 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/6층 퍼즐조각/python3.png
+  artifactKey: Guid(042d57305c91f3b44b236d9a6ab1348c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층 퍼즐조각/python3.png using Guid(042d57305c91f3b44b236d9a6ab1348c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10b39d8135ac2168616e7925fb9ec3f8') in 0.009229 seconds 
+  Import took 0.012229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/6층 퍼즐조각/python5.png
+  artifactKey: Guid(412d43f45b0851249b01b568ead31f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층 퍼즐조각/python5.png using Guid(412d43f45b0851249b01b568ead31f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd1b9533f656837e819000007a377636') in 0.009055 seconds 
+  Import took 0.011901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/6층 퍼즐조각/python12.png
+  artifactKey: Guid(6c7d2bf9179d4c343b58859b70c315fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층 퍼즐조각/python12.png using Guid(6c7d2bf9179d4c343b58859b70c315fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52700b4828f36d0dea7ab3d0e2d3428d') in 0.007854 seconds 
+  Import took 0.010557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/6층 퍼즐조각/python15.png
+  artifactKey: Guid(13cb4c6a1580e094ba518ed259a1c3cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층 퍼즐조각/python15.png using Guid(13cb4c6a1580e094ba518ed259a1c3cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c999d2a73379c64ab404231d8b208df9') in 0.008146 seconds 
+  Import took 0.011165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.646159 seconds.
+  path: Assets/PuzzlePiece.cs
   artifactKey: Guid(a388726571a69de47a2b5bbab2f5351d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PuzzleMove.cs using Guid(a388726571a69de47a2b5bbab2f5351d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb2695ba31ff1b7dad84f6f12f988f97') in 0.002389 seconds 
-  Import took 0.005190 seconds .
+Start importing Assets/PuzzlePiece.cs using Guid(a388726571a69de47a2b5bbab2f5351d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95084177d7699bf21980c08c7bafdd3c') in 0.006229 seconds 
+  Import took 0.008807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017183 seconds.
+  path: Assets/PuzzlePiece.cs
+  artifactKey: Guid(a388726571a69de47a2b5bbab2f5351d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PuzzlePiece.cs using Guid(a388726571a69de47a2b5bbab2f5351d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95084177d7699bf21980c08c7bafdd3c') in 0.003425 seconds 
+  Import took 0.006409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.499043 seconds.
+  path: Assets/JigsawPuzzle.cs
+  artifactKey: Guid(fc51f2a2ba129bb4a866319712ede1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JigsawPuzzle.cs using Guid(fc51f2a2ba129bb4a866319712ede1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '702719b2f2067b544f01f7fc06a1b7aa') in 0.003553 seconds 
+  Import took 0.006519 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.008752 seconds.
+Registered in 0.007267 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.065 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2097 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 93.3 MB.
-System memory in use after: 93.2 MB.
-
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2536.
-Total: 1.981200 ms (FindLiveObjects: 0.132500 ms CreateObjectMapping: 0.036300 ms MarkObjects: 1.689600 ms  DeleteObjects: 0.121300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006216 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.36 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  0.826 seconds
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.39 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.38 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2097 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 93.3 MB.
-System memory in use after: 93.3 MB.
+Unloading 2098 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.3 MB.
+System memory in use after: 96.2 MB.
 
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2540.
-Total: 1.925600 ms (FindLiveObjects: 0.195800 ms CreateObjectMapping: 0.050200 ms MarkObjects: 1.578200 ms  DeleteObjects: 0.100400 ms)
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2573.
+Total: 1.993400 ms (FindLiveObjects: 0.126500 ms CreateObjectMapping: 0.040400 ms MarkObjects: 1.727500 ms  DeleteObjects: 0.098200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -160,259 +367,25 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 337.879647 seconds.
-  path: Assets/PuzzleMove.cs
-  artifactKey: Guid(a388726571a69de47a2b5bbab2f5351d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PuzzleMove.cs using Guid(a388726571a69de47a2b5bbab2f5351d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c68674c4b21a45a1b7b1e7ae4ca3229') in 0.005026 seconds 
-  Import took 0.017474 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.014470 seconds.
-  path: Assets/PuzzlePiece.cs
-  artifactKey: Guid(a388726571a69de47a2b5bbab2f5351d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PuzzlePiece.cs using Guid(a388726571a69de47a2b5bbab2f5351d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31b3fd1e65e738080661504969d68641') in 0.003464 seconds 
-  Import took 0.007513 seconds .
-
-========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006019 seconds.
+Registered in 0.006932 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.36 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.882 seconds
+- Completed reload, in  0.905 seconds
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.35 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2097 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 93.3 MB.
-System memory in use after: 93.3 MB.
-
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2544.
-Total: 2.018000 ms (FindLiveObjects: 0.120300 ms CreateObjectMapping: 0.039400 ms MarkObjects: 1.753300 ms  DeleteObjects: 0.104200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005513 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.870 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.38 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2097 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 93.3 MB.
-System memory in use after: 93.3 MB.
-
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2548.
-Total: 1.999700 ms (FindLiveObjects: 0.124800 ms CreateObjectMapping: 0.034500 ms MarkObjects: 1.743800 ms  DeleteObjects: 0.095700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 15.591664 seconds.
-  path: Assets/PuzzlePiece.cs
-  artifactKey: Guid(a388726571a69de47a2b5bbab2f5351d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PuzzlePiece.cs using Guid(a388726571a69de47a2b5bbab2f5351d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1686983b34296eeb14d3958fa12c6e8') in 0.005941 seconds 
-  Import took 0.009372 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2420.145996 seconds.
-  path: Assets/6층 퍼즐조각
-  artifactKey: Guid(4b3b779df6e740a408d304ba5f128626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/6층 퍼즐조각 using Guid(4b3b779df6e740a408d304ba5f128626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dbda06f8d91eed2a57ac091b9bf21b8') in 0.003791 seconds 
-  Import took 0.008059 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.028248 seconds.
-  path: Assets/6층 퍼즐조각/python1.png
-  artifactKey: Guid(fd853255aa8811d4ab5ce1d4acd0af82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/6층 퍼즐조각/python1.png using Guid(fd853255aa8811d4ab5ce1d4acd0af82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b12db9d9aee39069798fdc8ca5f617fb') in 0.063774 seconds 
-  Import took 0.067355 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000462 seconds.
-  path: Assets/6층 퍼즐조각/python4.png
-  artifactKey: Guid(325719bd0835a07428225ca1ef69076e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/6층 퍼즐조각/python4.png using Guid(325719bd0835a07428225ca1ef69076e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaaeac7b3a1ecf9d1d84506335002024') in 0.013275 seconds 
-  Import took 0.016274 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/6층 퍼즐조각/python2.png
-  artifactKey: Guid(4b40a18e77f78404a8399a8c4ca730dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/6층 퍼즐조각/python2.png using Guid(4b40a18e77f78404a8399a8c4ca730dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8834968ab834fb8326730ac8f741a17e') in 0.012140 seconds 
-  Import took 0.015168 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/6층 퍼즐조각/python8.png
-  artifactKey: Guid(a12132e73bc563c4584663fb462e117c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/6층 퍼즐조각/python8.png using Guid(a12132e73bc563c4584663fb462e117c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79a2b788d6d6a7dd3f300451b9ce645d') in 0.010287 seconds 
-  Import took 0.013524 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/6층 퍼즐조각/python14.png
-  artifactKey: Guid(810b6e2fb184f9047bd900c5d0b18f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/6층 퍼즐조각/python14.png using Guid(810b6e2fb184f9047bd900c5d0b18f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b308ebb0f414383cb089d0ca13e7a496') in 0.013499 seconds 
-  Import took 0.016540 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/6층 퍼즐조각/python11.png
-  artifactKey: Guid(bb915b5876cfdb14badd4779cbad14ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/6층 퍼즐조각/python11.png using Guid(bb915b5876cfdb14badd4779cbad14ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3b1b8d8ee205c8e724b10cc961aac49') in 0.013102 seconds 
-  Import took 0.016101 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/6층 퍼즐조각/python10.png
-  artifactKey: Guid(b3f997e5dac81554c905e1c3783584ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/6층 퍼즐조각/python10.png using Guid(b3f997e5dac81554c905e1c3783584ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d7c8c1126c758ba90a846c774332123') in 0.012881 seconds 
-  Import took 0.015524 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/6층 퍼즐조각/python9.png
-  artifactKey: Guid(6a990275aa5f3784699979d364c151a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/6층 퍼즐조각/python9.png using Guid(6a990275aa5f3784699979d364c151a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6933d3a844a76bad3cc50d184fc22f5') in 0.011889 seconds 
-  Import took 0.014805 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/6층 퍼즐조각/python16.png
-  artifactKey: Guid(95e43a275b424d6438ea4cc000d431f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/6층 퍼즐조각/python16.png using Guid(95e43a275b424d6438ea4cc000d431f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd594f5dd2f2c8d41752c2b0d96e5dbc6') in 0.012446 seconds 
-  Import took 0.015286 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/6층 퍼즐조각/python13.png
-  artifactKey: Guid(1878ed2a65af655459f3d0face9b6ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/6층 퍼즐조각/python13.png using Guid(1878ed2a65af655459f3d0face9b6ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '033104136f891029d0bf46cda62ea9fc') in 0.011950 seconds 
-  Import took 0.014894 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/6층 퍼즐조각/python6.png
-  artifactKey: Guid(4b8a3304334472548bc99b19769c04ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/6층 퍼즐조각/python6.png using Guid(4b8a3304334472548bc99b19769c04ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f861d0a27c82f2fb49706686c567985') in 0.010994 seconds 
-  Import took 0.013958 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/6층 퍼즐조각/python7.png
-  artifactKey: Guid(1bb303d1684ba814b9dbb06542bdfe4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/6층 퍼즐조각/python7.png using Guid(1bb303d1684ba814b9dbb06542bdfe4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3c6ac3d2ad49775d8f58cc30c7d0b78') in 0.011936 seconds 
-  Import took 0.014781 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/6층 퍼즐조각/python3.png
-  artifactKey: Guid(042d57305c91f3b44b236d9a6ab1348c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/6층 퍼즐조각/python3.png using Guid(042d57305c91f3b44b236d9a6ab1348c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f73bfed2d590ad4e139c122234cf9b0e') in 0.011623 seconds 
-  Import took 0.014493 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/6층 퍼즐조각/python5.png
-  artifactKey: Guid(412d43f45b0851249b01b568ead31f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/6층 퍼즐조각/python5.png using Guid(412d43f45b0851249b01b568ead31f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a92ad1f375b71caf1956c32ff43635d7') in 0.009451 seconds 
-  Import took 0.012712 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/6층 퍼즐조각/python12.png
-  artifactKey: Guid(6c7d2bf9179d4c343b58859b70c315fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/6층 퍼즐조각/python12.png using Guid(6c7d2bf9179d4c343b58859b70c315fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1431d0b29de417321f36d1dcd9eac6d') in 0.013366 seconds 
-  Import took 0.016242 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000283 seconds.
-  path: Assets/6층 퍼즐조각/python15.png
-  artifactKey: Guid(13cb4c6a1580e094ba518ed259a1c3cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/6층 퍼즐조각/python15.png using Guid(13cb4c6a1580e094ba518ed259a1c3cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02a5c0879515970f059914d18eee34ad') in 0.012175 seconds 
-  Import took 0.014905 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 169.989273 seconds.
-  path: Assets/PuzzleSnap.cs
-  artifactKey: Guid(6cf0628ff40bfda4f803a9c5bfaa01b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PuzzleSnap.cs using Guid(6cf0628ff40bfda4f803a9c5bfaa01b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '838cf55acc580054535106d5b1680ca9') in 0.003133 seconds 
-  Import took 0.007110 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.049156 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.372 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.39 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.41 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2098 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 96.3 MB.
 System memory in use after: 96.3 MB.
 
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2569.
-Total: 2.211800 ms (FindLiveObjects: 0.263000 ms CreateObjectMapping: 0.086100 ms MarkObjects: 1.751000 ms  DeleteObjects: 0.110200 ms)
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2577.
+Total: 1.779800 ms (FindLiveObjects: 0.147700 ms CreateObjectMapping: 0.037800 ms MarkObjects: 1.482800 ms  DeleteObjects: 0.110700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -427,33 +400,25 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 112.111271 seconds.
-  path: Assets/PuzzleSnap.cs
-  artifactKey: Guid(6cf0628ff40bfda4f803a9c5bfaa01b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PuzzleSnap.cs using Guid(6cf0628ff40bfda4f803a9c5bfaa01b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b258f355e488d1ab9bb7aaf762f8282d') in 0.007237 seconds 
-  Import took 0.010979 seconds .
-
-========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006540 seconds.
+Registered in 0.006918 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.37 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.835 seconds
+- Completed reload, in  0.854 seconds
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2097 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2098 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 96.3 MB.
 System memory in use after: 96.3 MB.
 
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2572.
-Total: 1.854100 ms (FindLiveObjects: 0.133300 ms CreateObjectMapping: 0.046200 ms MarkObjects: 1.571000 ms  DeleteObjects: 0.102600 ms)
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2581.
+Total: 1.831400 ms (FindLiveObjects: 0.136600 ms CreateObjectMapping: 0.041600 ms MarkObjects: 1.552900 ms  DeleteObjects: 0.099300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -470,64 +435,23 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005868 seconds.
+Registered in 0.006089 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.37 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.835 seconds
+- Completed reload, in  0.883 seconds
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
 Refreshing native plugins compatible for Editor in 0.37 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2097 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.3 MB.
-System memory in use after: 96.3 MB.
-
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2576.
-Total: 1.759400 ms (FindLiveObjects: 0.142600 ms CreateObjectMapping: 0.038300 ms MarkObjects: 1.480200 ms  DeleteObjects: 0.093900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 347.310653 seconds.
-  path: Assets/JigsawPuzzle.cs
-  artifactKey: Guid(fc51f2a2ba129bb4a866319712ede1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JigsawPuzzle.cs using Guid(fc51f2a2ba129bb4a866319712ede1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b65978ece23ec79438edd5049e51009b') in 0.005855 seconds 
-  Import took 0.009014 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005698 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.873 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2098 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 96.4 MB.
 System memory in use after: 96.3 MB.
 
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2581.
-Total: 1.869800 ms (FindLiveObjects: 0.125500 ms CreateObjectMapping: 0.034800 ms MarkObjects: 1.594300 ms  DeleteObjects: 0.114200 ms)
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2585.
+Total: 1.896800 ms (FindLiveObjects: 0.135700 ms CreateObjectMapping: 0.046300 ms MarkObjects: 1.601300 ms  DeleteObjects: 0.112400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -544,23 +468,23 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005652 seconds.
+Registered in 0.006995 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.860 seconds
+- Completed reload, in  1.123 seconds
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.37 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2098 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 96.4 MB.
 System memory in use after: 96.4 MB.
 
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2585.
-Total: 1.866500 ms (FindLiveObjects: 0.126300 ms CreateObjectMapping: 0.035900 ms MarkObjects: 1.600900 ms  DeleteObjects: 0.102500 ms)
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2589.
+Total: 1.871800 ms (FindLiveObjects: 0.140100 ms CreateObjectMapping: 0.044100 ms MarkObjects: 1.591200 ms  DeleteObjects: 0.095200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -576,10 +500,43 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 96.434137 seconds.
-  path: Assets/JigsawPuzzle.cs
-  artifactKey: Guid(fc51f2a2ba129bb4a866319712ede1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JigsawPuzzle.cs using Guid(fc51f2a2ba129bb4a866319712ede1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3bb724c2a3c006019874367c5800a0a') in 0.004717 seconds 
-  Import took 0.007389 seconds .
+  Time since last request: 34.909353 seconds.
+  path: Assets/SceneChange.cs
+  artifactKey: Guid(29648b26dc6c0354686a94657fb5c780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneChange.cs using Guid(29648b26dc6c0354686a94657fb5c780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93e501d07789817ffce8efb8cc12e668') in 0.005846 seconds 
+  Import took 0.009595 seconds .
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007183 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.831 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2098 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.4 MB.
+System memory in use after: 96.4 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2593.
+Total: 1.848900 ms (FindLiveObjects: 0.146400 ms CreateObjectMapping: 0.045500 ms MarkObjects: 1.545200 ms  DeleteObjects: 0.110400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
