@@ -25,7 +25,7 @@ public class DoorLock : MonoBehaviour
 	{
 		codeText.text = codeTextValue;
 
-		if (codeTextValue == "1234")
+		if (codeTextValue == "8941")
 		{
 			//student.isSafeOpened = true;
 			// 그냥 내가 해본거 codeTextValue = "9999";
