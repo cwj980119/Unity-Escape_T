@@ -9,7 +9,7 @@ public class PuzzlePiece : MonoBehaviour, IDragHandler, IEndDragHandler
     public JigsawPuzzle puzzle;
     public int piece_no;
 
-    public bool CheckSnapPuzzle()
+    bool CheckSnapPuzzle()
     {
         for (int i = 0; i < puzzle.PuzzlePosSet.transform.childCount; i++)
         {
@@ -25,7 +25,7 @@ public class PuzzlePiece : MonoBehaviour, IDragHandler, IEndDragHandler
                 return true;
             }
         }
-        return true;
+        return false;
     }
 
     public void OnDrag(PointerEventData eventData)
@@ -44,8 +44,6 @@ public class PuzzlePiece : MonoBehaviour, IDragHandler, IEndDragHandler
         if (puzzle.IsClear())
         {
             Debug.Log("Clear");
-            GameObject.Find("Canvas").transform.GetChild(6).gameObject.SetActive(false);
-            GameObject.Find("Canvas").transform.GetChild(7).gameObject.SetActive(true);
         }
     }
 
