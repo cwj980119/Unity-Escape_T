@@ -4,18 +4,28 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
+
+    static public CameraController instance;
     GameObject player;
     // Start is called before the first frame update
     void Start()
     {
-        DontDestroyOnLoad(this.gameObject);
-        this.player = GameObject.Find("student");//player Ã£±â
+
+        if(instance == null)
+        {
+            DontDestroyOnLoad(this.gameObject);
+            this.player = GameObject.Find("student");//player Ã£ï¿½ï¿½
+            instance = this;
+        }
+        else {
+            Destroy(this.gameObject);
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        Vector3 playerPos = this.player.transform.position; //playerpos ÀúÀå
-        transform.position = new Vector3(playerPos.x, playerPos.y, transform.position.z); //player x,y·Î Ä«¸Þ¶ó ÀÌµ¿
+        Vector3 playerPos = this.player.transform.position; //playerpos ï¿½ï¿½ï¿½ï¿½
+        transform.position = new Vector3(playerPos.x, playerPos.y, transform.position.z); //player x,yï¿½ï¿½ Ä«ï¿½Þ¶ï¿½ ï¿½Ìµï¿½
     }
 }
