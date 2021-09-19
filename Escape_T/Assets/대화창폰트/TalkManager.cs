@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class TalkManager : MonoBehaviour
 {
     public Text tx;
-    private string m_text = "박현서 늦잠 잤대여 에베베베";
+    private string m_text = "첫번째 멘트쓰는 곳 입니다.";
 
     List<string> talkText = new List<string>();
     int i = 0;
