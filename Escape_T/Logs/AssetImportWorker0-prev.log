@@ -15,11 +15,11 @@ C:/Users/bdk06/Documents/GitHub/Unity-Escape_T/Escape_T
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65279
+65329
 Successfully changed project path to: C:/Users/bdk06/Documents/GitHub/Unity-Escape_T/Escape_T
 C:/Users/bdk06/Documents/GitHub/Unity-Escape_T/Escape_T
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 46.59 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 55.93 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.12f1 (b3b2c6512326)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Resources/UnitySubsystems
@@ -35,286 +35,37 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56144
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56496
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003527 seconds.
+Registered in 0.008474 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 38.85 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 73.05 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.498 seconds
+- Completed reload, in  3.122 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006638 seconds.
+Registered in 0.013631 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 43.29 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 82.14 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.000 seconds
+- Completed reload, in  2.150 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2106 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 93.4 MB.
-System memory in use after: 93.4 MB.
-
-Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2539.
-Total: 1.984600 ms (FindLiveObjects: 0.128500 ms CreateObjectMapping: 0.047100 ms MarkObjects: 1.681300 ms  DeleteObjects: 0.126800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets/교실소품들/칠판빈거.png
-  artifactKey: Guid(ad2a1d9879a366f46a4f6998e7f19d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/교실소품들/칠판빈거.png using Guid(ad2a1d9879a366f46a4f6998e7f19d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d0c1af2b1e01dbc5ebafaffce2edb73') in 0.093834 seconds 
-  Import took 0.097397 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000453 seconds.
-  path: Assets/교실소품들/정수기.png
-  artifactKey: Guid(1e81ccfa96f35154f87190745699507d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/교실소품들/정수기.png using Guid(1e81ccfa96f35154f87190745699507d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12741c4f867c8e61e0843e2a1070dd74') in 0.067871 seconds 
-  Import took 0.070776 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000386 seconds.
-  path: Assets/교실소품들/거울.png
-  artifactKey: Guid(3a89ab2b08a25cd4fab642bbe09028f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/교실소품들/거울.png using Guid(3a89ab2b08a25cd4fab642bbe09028f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8081f810cf7af53fb659e53f1f446740') in 0.042339 seconds 
-  Import took 0.045660 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.295247 seconds.
-  path: Assets/6층/지뢰찾기
-  artifactKey: Guid(bbc9d2d8ba7207c4cafced29144eb653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/6층/지뢰찾기 using Guid(bbc9d2d8ba7207c4cafced29144eb653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc8e59f3f51d8d03583b32a9e406a6a6') in 0.002652 seconds 
-  Import took 0.005600 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.586340 seconds.
-  path: Assets/6층/지뢰찾기/Space.prefab
-  artifactKey: Guid(9dc98bfd9ef7afc489e131ecb5c195b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/6층/지뢰찾기/Space.prefab using Guid(9dc98bfd9ef7afc489e131ecb5c195b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0908aa2e668c2e59e220cccb61b49e4d') in 0.025384 seconds 
-  Import took 0.028346 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 61.036500 seconds.
-  path: Assets/6층/지뢰찾기/Space.prefab
-  artifactKey: Guid(9dc98bfd9ef7afc489e131ecb5c195b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/6층/지뢰찾기/Space.prefab using Guid(9dc98bfd9ef7afc489e131ecb5c195b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a6f6e4ccca71d1806535b072f465f6a') in 0.006656 seconds 
-  Import took 0.010682 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 42.788890 seconds.
-  path: Assets/6층/지뢰찾기/Space.prefab
-  artifactKey: Guid(9dc98bfd9ef7afc489e131ecb5c195b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/6층/지뢰찾기/Space.prefab using Guid(9dc98bfd9ef7afc489e131ecb5c195b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '831d3f85ad6b082fffb808cade5b557b') in 0.005021 seconds 
-  Import took 0.008336 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.009285 seconds.
-  path: Assets/6층/지뢰찾기/Space.prefab
-  artifactKey: Guid(9dc98bfd9ef7afc489e131ecb5c195b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/6층/지뢰찾기/Space.prefab using Guid(9dc98bfd9ef7afc489e131ecb5c195b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '831d3f85ad6b082fffb808cade5b557b') in 0.005292 seconds 
-  Import took 0.008805 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006320 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.060 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2104 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.4 MB.
-System memory in use after: 96.3 MB.
-
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2552.
-Total: 1.964000 ms (FindLiveObjects: 0.131500 ms CreateObjectMapping: 0.040600 ms MarkObjects: 1.698100 ms  DeleteObjects: 0.092900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 165.878571 seconds.
-  path: Assets/6층/지뢰찾기/Space.prefab
-  artifactKey: Guid(9dc98bfd9ef7afc489e131ecb5c195b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/6층/지뢰찾기/Space.prefab using Guid(9dc98bfd9ef7afc489e131ecb5c195b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '058f889255c7dec62811e44c4d4c5995') in 0.035256 seconds 
-  Import took 0.039632 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001318 seconds.
-  path: Assets/6층/지뢰찾기/Space.prefab
-  artifactKey: Guid(9dc98bfd9ef7afc489e131ecb5c195b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/6층/지뢰찾기/Space.prefab using Guid(9dc98bfd9ef7afc489e131ecb5c195b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '058f889255c7dec62811e44c4d4c5995') in 0.004336 seconds 
-  Import took 0.007557 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 221.421854 seconds.
-  path: Assets/6층/지뢰찾기/SettingsUI.cs
-  artifactKey: Guid(68f6552724ecdeb479c1a501a1ad261d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/6층/지뢰찾기/SettingsUI.cs using Guid(68f6552724ecdeb479c1a501a1ad261d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5f5a8b725080fa3c1cb643d1f700878') in 0.007339 seconds 
-  Import took 0.011779 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 24.636046 seconds.
-  path: Assets/6층/지뢰찾기/SettingsUI.cs
-  artifactKey: Guid(68f6552724ecdeb479c1a501a1ad261d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/6층/지뢰찾기/SettingsUI.cs using Guid(68f6552724ecdeb479c1a501a1ad261d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9df5f93fac52a880c7846fbf6a3143b3') in 0.003716 seconds 
-  Import took 0.007970 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 91.404476 seconds.
-  path: Assets/6층/지뢰찾기/AnimatedImage.cs
-  artifactKey: Guid(76ee341f3d89bab4db1268d1f80e6bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/6층/지뢰찾기/AnimatedImage.cs using Guid(76ee341f3d89bab4db1268d1f80e6bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '407974c9e61825dac1c78b2b23834243') in 0.004398 seconds 
-  Import took 0.008700 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.922706 seconds.
-  path: Assets/6층/지뢰찾기/MineCountUI.cs
-  artifactKey: Guid(af627fe416b81fe4797a5096b87abb51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/6층/지뢰찾기/MineCountUI.cs using Guid(af627fe416b81fe4797a5096b87abb51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7697513ac75526b8ed416e933295f43b') in 0.002961 seconds 
-  Import took 0.005795 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001556 seconds.
-  path: Assets/6층/지뢰찾기/MineCountUI.cs
-  artifactKey: Guid(af627fe416b81fe4797a5096b87abb51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/6층/지뢰찾기/MineCountUI.cs using Guid(af627fe416b81fe4797a5096b87abb51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7697513ac75526b8ed416e933295f43b') in 0.002999 seconds 
-  Import took 0.006474 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008886 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.640 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2104 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.4 MB.
-System memory in use after: 96.4 MB.
-
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2556.
-Total: 2.517600 ms (FindLiveObjects: 0.167200 ms CreateObjectMapping: 0.061600 ms MarkObjects: 2.164400 ms  DeleteObjects: 0.122800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 35.374932 seconds.
-  path: Assets/6층/지뢰찾기/Space.cs
-  artifactKey: Guid(35ca4b5fd9ab1f548a74d66129a83944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/6층/지뢰찾기/Space.cs using Guid(35ca4b5fd9ab1f548a74d66129a83944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef6643869d78ddd41509710cc253700e') in 0.006207 seconds 
-  Import took 0.011975 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.025913 seconds.
-  path: Assets/6층/지뢰찾기/Space.cs
-  artifactKey: Guid(35ca4b5fd9ab1f548a74d66129a83944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/6층/지뢰찾기/Space.cs using Guid(35ca4b5fd9ab1f548a74d66129a83944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef6643869d78ddd41509710cc253700e') in 0.004242 seconds 
-  Import took 0.009055 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 189.321061 seconds.
-  path: Assets/6층/지뢰찾기/TimerUI.cs
-  artifactKey: Guid(066af8750878b09458cd1a9cdc5fdd8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/6층/지뢰찾기/TimerUI.cs using Guid(066af8750878b09458cd1a9cdc5fdd8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '695492164a13bbb1725ae94c2c961062') in 0.003476 seconds 
-  Import took 0.007582 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.218014 seconds.
-  path: Assets/6층/지뢰찾기/Timer.cs
-  artifactKey: Guid(fceec6b98d457fd4a80d6b92f597bf9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/6층/지뢰찾기/Timer.cs using Guid(fceec6b98d457fd4a80d6b92f597bf9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05322cfc32ab357803da49a809818083') in 0.002757 seconds 
-  Import took 0.006001 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007601 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.651 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
 Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2104 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.4 MB.
-System memory in use after: 96.4 MB.
+Unloading 2107 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.0 MB.
+System memory in use after: 96.0 MB.
 
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2560.
-Total: 2.427400 ms (FindLiveObjects: 0.152300 ms CreateObjectMapping: 0.051500 ms MarkObjects: 2.103300 ms  DeleteObjects: 0.119400 ms)
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2540.
+Total: 2.886800 ms (FindLiveObjects: 0.219900 ms CreateObjectMapping: 0.063300 ms MarkObjects: 2.457500 ms  DeleteObjects: 0.144500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -325,78 +76,35 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.752089 seconds.
-  path: Assets/6층/지뢰찾기/Space.prefab
-  artifactKey: Guid(9dc98bfd9ef7afc489e131ecb5c195b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/6층/지뢰찾기/Space.prefab using Guid(9dc98bfd9ef7afc489e131ecb5c195b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6809355d4d899969762d805376930eab') in 0.036114 seconds 
-  Import took 0.039820 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 65.911547 seconds.
   path: Assets/6층/지뢰찾기/Game.cs
   artifactKey: Guid(c285734bb3d353c42a239f75e3080c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/6층/지뢰찾기/Game.cs using Guid(c285734bb3d353c42a239f75e3080c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a0da1c7a078c90a64a03261890997b1') in 0.004104 seconds 
-  Import took 0.008267 seconds .
+Start importing Assets/6층/지뢰찾기/Game.cs using Guid(c285734bb3d353c42a239f75e3080c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20324807e05f10f3c9266f1831566db0') in 0.041056 seconds 
+  Import took 0.046013 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.008482 seconds.
+Registered in 0.009481 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.371 seconds
+- Completed reload, in  1.129 seconds
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2105 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.5 MB.
-System memory in use after: 96.5 MB.
-
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2565.
-Total: 2.250900 ms (FindLiveObjects: 0.161500 ms CreateObjectMapping: 0.059200 ms MarkObjects: 1.912000 ms  DeleteObjects: 0.116800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008179 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.230 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2105 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.5 MB.
-System memory in use after: 96.5 MB.
+System memory in use before: 96.0 MB.
+System memory in use after: 96.0 MB.
 
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2569.
-Total: 2.141900 ms (FindLiveObjects: 0.181800 ms CreateObjectMapping: 0.047200 ms MarkObjects: 1.810600 ms  DeleteObjects: 0.101000 ms)
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2544.
+Total: 2.324400 ms (FindLiveObjects: 0.154600 ms CreateObjectMapping: 0.052400 ms MarkObjects: 1.999900 ms  DeleteObjects: 0.116100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -412,40 +120,131 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 940.256625 seconds.
-  path: Assets/6층/지뢰찾기/Game.cs
-  artifactKey: Guid(c285734bb3d353c42a239f75e3080c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/6층/지뢰찾기/Game.cs using Guid(c285734bb3d353c42a239f75e3080c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be80ffecb94a453473ef9cf1c60cb750') in 0.005490 seconds 
-  Import took 0.008616 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 192.341730 seconds.
-  path: Assets/6층/지뢰찾기/Game.cs
-  artifactKey: Guid(c285734bb3d353c42a239f75e3080c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/6층/지뢰찾기/Game.cs using Guid(c285734bb3d353c42a239f75e3080c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4de03d7ffb79bb289f0245034483264') in 0.004559 seconds 
-  Import took 0.008846 seconds .
+  Time since last request: 350.577895 seconds.
+  path: Assets/Scenes/6F MineSweeper.unity
+  artifactKey: Guid(8ce8df530f7647d4a8f282e9e8b01e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/6F MineSweeper.unity using Guid(8ce8df530f7647d4a8f282e9e8b01e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ea54784b4d19062c79b9735667117bc') in 0.014714 seconds 
+  Import took 0.019133 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.009847 seconds.
+Registered in 0.008547 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.220 seconds
+- Completed reload, in  1.367 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2105 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.1 MB.
+System memory in use after: 96.1 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2548.
+Total: 1.956200 ms (FindLiveObjects: 0.142800 ms CreateObjectMapping: 0.050600 ms MarkObjects: 1.661900 ms  DeleteObjects: 0.099800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007117 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.394 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2105 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.1 MB.
+System memory in use after: 96.1 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2552.
+Total: 2.336700 ms (FindLiveObjects: 0.163000 ms CreateObjectMapping: 0.061500 ms MarkObjects: 1.992500 ms  DeleteObjects: 0.118300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007318 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.467 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2105 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.1 MB.
+System memory in use after: 96.1 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2556.
+Total: 2.276300 ms (FindLiveObjects: 0.143300 ms CreateObjectMapping: 0.048900 ms MarkObjects: 1.978000 ms  DeleteObjects: 0.104700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007979 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.258 seconds
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
 Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2105 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.5 MB.
-System memory in use after: 96.5 MB.
+System memory in use before: 96.1 MB.
+System memory in use after: 96.1 MB.
 
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2573.
-Total: 2.070800 ms (FindLiveObjects: 0.140400 ms CreateObjectMapping: 0.043900 ms MarkObjects: 1.784000 ms  DeleteObjects: 0.101500 ms)
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2560.
+Total: 2.038400 ms (FindLiveObjects: 0.133700 ms CreateObjectMapping: 0.042600 ms MarkObjects: 1.767900 ms  DeleteObjects: 0.093000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -462,23 +261,2051 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.011640 seconds.
+Registered in 0.007861 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.364 seconds
+- Completed reload, in  1.354 seconds
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2105 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.5 MB.
-System memory in use after: 96.5 MB.
+System memory in use before: 96.1 MB.
+System memory in use after: 96.1 MB.
 
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2577.
-Total: 1.991800 ms (FindLiveObjects: 0.164300 ms CreateObjectMapping: 0.078900 ms MarkObjects: 1.648100 ms  DeleteObjects: 0.099600 ms)
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2564.
+Total: 2.496700 ms (FindLiveObjects: 0.167500 ms CreateObjectMapping: 0.067000 ms MarkObjects: 2.130500 ms  DeleteObjects: 0.130100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 171.462803 seconds.
+  path: Assets/6층/지뢰찾기/Resources
+  artifactKey: Guid(d0fa282add647bb4faeb068c3f18166f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources using Guid(d0fa282add647bb4faeb068c3f18166f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecd0c589f87b126e65a54182e7e00335') in 0.010781 seconds 
+  Import took 0.015733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.403417 seconds.
+  path: Assets/6층/지뢰찾기/Resources/Prefab
+  artifactKey: Guid(4c89016fe45ac3941bcc5f325419a50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/Prefab using Guid(4c89016fe45ac3941bcc5f325419a50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '112a5976c763c514fbe4e02ee25167ce') in 0.005481 seconds 
+  Import took 0.026163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 817.397216 seconds.
+  path: Assets/6층/지뢰찾기/Resources/1.png
+  artifactKey: Guid(fda82799dd525a04aa3730362df2343f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/1.png using Guid(fda82799dd525a04aa3730362df2343f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59318542027a4aa01639657c5161e434') in 0.097608 seconds 
+  Import took 0.102008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000442 seconds.
+  path: Assets/6층/지뢰찾기/Resources/8.png
+  artifactKey: Guid(9ae7bb6c24e171d49b0a07580a0d645d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/8.png using Guid(9ae7bb6c24e171d49b0a07580a0d645d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51ee8d177c2ee49afe58a5f66ad2b069') in 0.012670 seconds 
+  Import took 0.016071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/6층/지뢰찾기/Resources/6.png
+  artifactKey: Guid(f0a0a93c5d91ff1429a98de1a7378ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/6.png using Guid(f0a0a93c5d91ff1429a98de1a7378ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b16bda39f54a16f670c2565a625ea0b4') in 0.012424 seconds 
+  Import took 0.016117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/6층/지뢰찾기/Resources/5.png
+  artifactKey: Guid(eee9ae61c5e45464f9d6adb29b06ae22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/5.png using Guid(eee9ae61c5e45464f9d6adb29b06ae22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48d4fd93f3bbf40f4198165135164aff') in 0.011599 seconds 
+  Import took 0.015067 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/6층/지뢰찾기/Resources/2.png
+  artifactKey: Guid(9c97dc044cb8146449dbbbfdf347bf77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/2.png using Guid(9c97dc044cb8146449dbbbfdf347bf77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '083592e7e62d2fb24f4331c6e95d33ce') in 0.013905 seconds 
+  Import took 0.017992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000425 seconds.
+  path: Assets/6층/지뢰찾기/Resources/7.png
+  artifactKey: Guid(17f5a197f14154d4898c65b26c8ffc3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/7.png using Guid(17f5a197f14154d4898c65b26c8ffc3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39f91f33b893ccccf301c445024d34c8') in 0.012383 seconds 
+  Import took 0.016376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000401 seconds.
+  path: Assets/6층/지뢰찾기/Resources/3.png
+  artifactKey: Guid(6fbd9d69cc457b4469abe0dae62ba55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/3.png using Guid(6fbd9d69cc457b4469abe0dae62ba55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24640dde9736f8376627b758752f9875') in 0.013699 seconds 
+  Import took 0.018495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000464 seconds.
+  path: Assets/6층/지뢰찾기/Resources/4.png
+  artifactKey: Guid(dd19c842a3d70cb478be48caa4e23f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/4.png using Guid(dd19c842a3d70cb478be48caa4e23f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51d5d0052b277fb92012937e621d8785') in 0.014167 seconds 
+  Import took 0.017687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 507.496363 seconds.
+  path: Assets/6층/지뢰찾기/Resources/bomb.png
+  artifactKey: Guid(b849351da4e4bac44979aad1989a03f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/bomb.png using Guid(b849351da4e4bac44979aad1989a03f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b30df11b60940e18def08fe3c344c5dc') in 0.014442 seconds 
+  Import took 0.020336 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003599 seconds.
+  path: Assets/6층/지뢰찾기/Resources/bomb.png
+  artifactKey: Guid(b849351da4e4bac44979aad1989a03f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/bomb.png using Guid(b849351da4e4bac44979aad1989a03f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b30df11b60940e18def08fe3c344c5dc') in 0.011955 seconds 
+  Import took 0.015955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 242.089871 seconds.
+  path: Assets/6층/지뢰찾기/Resources/flag.png
+  artifactKey: Guid(2dd52a0d1ccc97c4ba9ec1786bb3fbbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/flag.png using Guid(2dd52a0d1ccc97c4ba9ec1786bb3fbbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cfe82ad593623c0c6fabb606cb90add') in 0.015813 seconds 
+  Import took 0.020026 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004204 seconds.
+  path: Assets/6층/지뢰찾기/Resources/flag.png
+  artifactKey: Guid(2dd52a0d1ccc97c4ba9ec1786bb3fbbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/flag.png using Guid(2dd52a0d1ccc97c4ba9ec1786bb3fbbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cfe82ad593623c0c6fabb606cb90add') in 0.013026 seconds 
+  Import took 0.016288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.822284 seconds.
+  path: Assets/6층/지뢰찾기/Resources/notbomb.png
+  artifactKey: Guid(92468b772c9810d4ebd8de95a04f23e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/notbomb.png using Guid(92468b772c9810d4ebd8de95a04f23e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbead1390e83259b4ba56260044f929a') in 0.020609 seconds 
+  Import took 0.024324 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002735 seconds.
+  path: Assets/6층/지뢰찾기/Resources/notbomb.png
+  artifactKey: Guid(92468b772c9810d4ebd8de95a04f23e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/notbomb.png using Guid(92468b772c9810d4ebd8de95a04f23e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbead1390e83259b4ba56260044f929a') in 0.012597 seconds 
+  Import took 0.016895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.464074 seconds.
+  path: Assets/6층/지뢰찾기/Resources/deletebomb.png
+  artifactKey: Guid(fed0285dcde83744ebf88500f610858d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/deletebomb.png using Guid(fed0285dcde83744ebf88500f610858d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c907b1f5dbd3e3ebc144803d9f6cf510') in 0.012843 seconds 
+  Import took 0.016598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004410 seconds.
+  path: Assets/6층/지뢰찾기/Resources/deletebomb.png
+  artifactKey: Guid(fed0285dcde83744ebf88500f610858d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/deletebomb.png using Guid(fed0285dcde83744ebf88500f610858d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c907b1f5dbd3e3ebc144803d9f6cf510') in 0.011096 seconds 
+  Import took 0.014411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 96.231036 seconds.
+  path: Assets/6층/지뢰찾기/Resources/empty.png
+  artifactKey: Guid(4f14234674b758e41b0c3010cdbef050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/empty.png using Guid(4f14234674b758e41b0c3010cdbef050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb747c52a0133df421bc12dba54e5620') in 0.021122 seconds 
+  Import took 0.024885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 273.381181 seconds.
+  path: Assets/6층/지뢰찾기/Resources/flag.png
+  artifactKey: Guid(2dd52a0d1ccc97c4ba9ec1786bb3fbbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/flag.png using Guid(2dd52a0d1ccc97c4ba9ec1786bb3fbbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac975efbc0a5cf2c11ff6d0e1d416939') in 0.019300 seconds 
+  Import took 0.024539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.388842 seconds.
+  path: Assets/6층/지뢰찾기/Resources/notempty.png
+  artifactKey: Guid(83bcb980d6db7574e8ec29a20848a348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/notempty.png using Guid(83bcb980d6db7574e8ec29a20848a348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37dc20c97c8eb344ee370120f88789a0') in 0.014074 seconds 
+  Import took 0.017667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003359 seconds.
+  path: Assets/6층/지뢰찾기/Resources/notempty.png
+  artifactKey: Guid(83bcb980d6db7574e8ec29a20848a348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/notempty.png using Guid(83bcb980d6db7574e8ec29a20848a348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37dc20c97c8eb344ee370120f88789a0') in 0.011389 seconds 
+  Import took 0.015546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.419668 seconds.
+  path: Assets/6층/지뢰찾기/Resources/1.png
+  artifactKey: Guid(fda82799dd525a04aa3730362df2343f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/1.png using Guid(fda82799dd525a04aa3730362df2343f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3023c854a9567519832cc7c6723706bd') in 0.023004 seconds 
+  Import took 0.026892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/6층/지뢰찾기/Resources/deletebomb.png
+  artifactKey: Guid(fed0285dcde83744ebf88500f610858d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/deletebomb.png using Guid(fed0285dcde83744ebf88500f610858d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aa15e5ace93289365d1b83f4b907c7f') in 0.010026 seconds 
+  Import took 0.014545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/6층/지뢰찾기/Resources/empty.png
+  artifactKey: Guid(4f14234674b758e41b0c3010cdbef050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/empty.png using Guid(4f14234674b758e41b0c3010cdbef050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '305ffb555bc82b9a5c2b0b0c1ec5035c') in 0.010248 seconds 
+  Import took 0.013864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/6층/지뢰찾기/Resources/8.png
+  artifactKey: Guid(9ae7bb6c24e171d49b0a07580a0d645d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/8.png using Guid(9ae7bb6c24e171d49b0a07580a0d645d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bed14816331c44e7df2a66337ef27b5b') in 0.012436 seconds 
+  Import took 0.016913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000473 seconds.
+  path: Assets/6층/지뢰찾기/Resources/6.png
+  artifactKey: Guid(f0a0a93c5d91ff1429a98de1a7378ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/6.png using Guid(f0a0a93c5d91ff1429a98de1a7378ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '626c849b8920646afaa654f96d4d8fea') in 0.011305 seconds 
+  Import took 0.015159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/6층/지뢰찾기/Resources/5.png
+  artifactKey: Guid(eee9ae61c5e45464f9d6adb29b06ae22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/5.png using Guid(eee9ae61c5e45464f9d6adb29b06ae22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb41f4a13062b506819901305298755a') in 0.010944 seconds 
+  Import took 0.015610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/6층/지뢰찾기/Resources/2.png
+  artifactKey: Guid(9c97dc044cb8146449dbbbfdf347bf77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/2.png using Guid(9c97dc044cb8146449dbbbfdf347bf77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac8c2274d2135b4cc0dc75a9aa282cc7') in 0.009461 seconds 
+  Import took 0.013014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/6층/지뢰찾기/Resources/flag.png
+  artifactKey: Guid(2dd52a0d1ccc97c4ba9ec1786bb3fbbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/flag.png using Guid(2dd52a0d1ccc97c4ba9ec1786bb3fbbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0439311f7dbea869de0d87a0c484c67') in 0.010861 seconds 
+  Import took 0.014562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/6층/지뢰찾기/Resources/notempty.png
+  artifactKey: Guid(83bcb980d6db7574e8ec29a20848a348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/notempty.png using Guid(83bcb980d6db7574e8ec29a20848a348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06631114ecadcbb967883880195626c8') in 0.011470 seconds 
+  Import took 0.016601 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/6층/지뢰찾기/Resources/7.png
+  artifactKey: Guid(17f5a197f14154d4898c65b26c8ffc3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/7.png using Guid(17f5a197f14154d4898c65b26c8ffc3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de7cc0c2dcfafc075c6d5c0118757fdc') in 0.010271 seconds 
+  Import took 0.014293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/6층/지뢰찾기/Resources/3.png
+  artifactKey: Guid(6fbd9d69cc457b4469abe0dae62ba55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/3.png using Guid(6fbd9d69cc457b4469abe0dae62ba55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a29699c01c05ec3a86b3d3e93b7db02') in 0.009892 seconds 
+  Import took 0.014234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/6층/지뢰찾기/Resources/4.png
+  artifactKey: Guid(dd19c842a3d70cb478be48caa4e23f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/4.png using Guid(dd19c842a3d70cb478be48caa4e23f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33253a2e9ad1ffbbbe1031a00a04ca88') in 0.011217 seconds 
+  Import took 0.014929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000506 seconds.
+  path: Assets/6층/지뢰찾기/Resources/notbomb.png
+  artifactKey: Guid(92468b772c9810d4ebd8de95a04f23e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/notbomb.png using Guid(92468b772c9810d4ebd8de95a04f23e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a3cdbc52e2d454127c3d45ecd2de106') in 0.011723 seconds 
+  Import took 0.016657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/6층/지뢰찾기/Resources/bomb.png
+  artifactKey: Guid(b849351da4e4bac44979aad1989a03f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/bomb.png using Guid(b849351da4e4bac44979aad1989a03f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0d15cad3824e5aa63e9c82ce55dd215') in 0.012246 seconds 
+  Import took 0.017258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.210484 seconds.
+  path: Assets/6층/지뢰찾기/Resources/Mine.png
+  artifactKey: Guid(92468b772c9810d4ebd8de95a04f23e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/Mine.png using Guid(92468b772c9810d4ebd8de95a04f23e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ba898316f405a30fa17910d07406ec5') in 0.010555 seconds 
+  Import took 0.013958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.472161 seconds.
+  path: Assets/6층/지뢰찾기/Resources/Prefab/Mine.prefab
+  artifactKey: Guid(5de92f8ecb2e126448e4b560d640b0e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/Prefab/Mine.prefab using Guid(5de92f8ecb2e126448e4b560d640b0e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '226fe7dc92eb2aa4b51bbb63627304df') in 0.034315 seconds 
+  Import took 0.038291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004632 seconds.
+  path: Assets/6층/지뢰찾기/Resources/Prefab/Mine.prefab
+  artifactKey: Guid(5de92f8ecb2e126448e4b560d640b0e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/Prefab/Mine.prefab using Guid(5de92f8ecb2e126448e4b560d640b0e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '226fe7dc92eb2aa4b51bbb63627304df') in 0.011452 seconds 
+  Import took 0.015513 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009970 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.232 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2105 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.2 MB.
+System memory in use after: 99.1 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2588.
+Total: 2.073000 ms (FindLiveObjects: 0.141800 ms CreateObjectMapping: 0.046600 ms MarkObjects: 1.780100 ms  DeleteObjects: 0.103100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011123 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.301 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2105 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.2 MB.
+System memory in use after: 99.1 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2592.
+Total: 2.022100 ms (FindLiveObjects: 0.147900 ms CreateObjectMapping: 0.057000 ms MarkObjects: 1.714700 ms  DeleteObjects: 0.101500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007672 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.458 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2105 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.2 MB.
+System memory in use after: 99.2 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2596.
+Total: 2.266100 ms (FindLiveObjects: 0.155500 ms CreateObjectMapping: 0.054400 ms MarkObjects: 1.946900 ms  DeleteObjects: 0.108000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006951 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.230 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2105 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.2 MB.
+System memory in use after: 99.2 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2600.
+Total: 2.022400 ms (FindLiveObjects: 0.139500 ms CreateObjectMapping: 0.048900 ms MarkObjects: 1.723600 ms  DeleteObjects: 0.109300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008712 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.272 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2105 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.2 MB.
+System memory in use after: 99.2 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2604.
+Total: 2.081500 ms (FindLiveObjects: 0.134500 ms CreateObjectMapping: 0.043500 ms MarkObjects: 1.802900 ms  DeleteObjects: 0.099500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008266 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.281 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2105 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.2 MB.
+System memory in use after: 99.2 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2608.
+Total: 2.142300 ms (FindLiveObjects: 0.142400 ms CreateObjectMapping: 0.051900 ms MarkObjects: 1.852700 ms  DeleteObjects: 0.094500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006613 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.575 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2105 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.2 MB.
+System memory in use after: 99.2 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2612.
+Total: 2.514900 ms (FindLiveObjects: 0.170300 ms CreateObjectMapping: 0.062900 ms MarkObjects: 2.154600 ms  DeleteObjects: 0.126100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008051 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.324 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2105 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.2 MB.
+System memory in use after: 99.2 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2616.
+Total: 2.061400 ms (FindLiveObjects: 0.146600 ms CreateObjectMapping: 0.046600 ms MarkObjects: 1.757000 ms  DeleteObjects: 0.110000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 414.262756 seconds.
+  path: Assets/6층/지뢰찾기/Resources/Blank.png
+  artifactKey: Guid(83bcb980d6db7574e8ec29a20848a348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/Blank.png using Guid(83bcb980d6db7574e8ec29a20848a348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '920dd44862506348e71912852e0a247a') in 0.049821 seconds 
+  Import took 0.054053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.371774 seconds.
+  path: Assets/6층/지뢰찾기/Resources/MineX.png
+  artifactKey: Guid(fed0285dcde83744ebf88500f610858d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/MineX.png using Guid(fed0285dcde83744ebf88500f610858d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5483bea34ab0888bdd4bdb6a92a64ab6') in 0.010576 seconds 
+  Import took 0.013733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.309926 seconds.
+  path: Assets/6층/지뢰찾기/Resources/MineClick.png
+  artifactKey: Guid(b849351da4e4bac44979aad1989a03f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/MineClick.png using Guid(b849351da4e4bac44979aad1989a03f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0dc36664ddfed35754d4998adeb96b0') in 0.010606 seconds 
+  Import took 0.013695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.433049 seconds.
+  path: Assets/6층/지뢰찾기/Resources/BlankCover.png
+  artifactKey: Guid(83bcb980d6db7574e8ec29a20848a348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/BlankCover.png using Guid(83bcb980d6db7574e8ec29a20848a348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d8bd2f2839d4a3ee380d44390440aa4') in 0.012976 seconds 
+  Import took 0.017769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.320369 seconds.
+  path: Assets/6층/지뢰찾기/Resources/Blank.png
+  artifactKey: Guid(4f14234674b758e41b0c3010cdbef050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/Blank.png using Guid(4f14234674b758e41b0c3010cdbef050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3ad6dfac4ac5b48f7555a12e6d308e5') in 0.010984 seconds 
+  Import took 0.013935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.638875 seconds.
+  path: Assets/6층/지뢰찾기/Resources/Flag.png
+  artifactKey: Guid(2dd52a0d1ccc97c4ba9ec1786bb3fbbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/Flag.png using Guid(2dd52a0d1ccc97c4ba9ec1786bb3fbbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a214fce2015ce352d3f40c9d2bbbfd5') in 0.014400 seconds 
+  Import took 0.017428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.745148 seconds.
+  path: Assets/6층/지뢰찾기/Resources/1.png
+  artifactKey: Guid(fda82799dd525a04aa3730362df2343f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/1.png using Guid(fda82799dd525a04aa3730362df2343f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7914dcf5aae0b3ded7b1ddc31c8b4e76') in 0.022891 seconds 
+  Import took 0.027526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/6층/지뢰찾기/Resources/MineX.png
+  artifactKey: Guid(fed0285dcde83744ebf88500f610858d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/MineX.png using Guid(fed0285dcde83744ebf88500f610858d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed8a7145854c341c13d59d9dbbbd22f9') in 0.010399 seconds 
+  Import took 0.014487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000413 seconds.
+  path: Assets/6층/지뢰찾기/Resources/Blank.png
+  artifactKey: Guid(4f14234674b758e41b0c3010cdbef050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/Blank.png using Guid(4f14234674b758e41b0c3010cdbef050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e057c7a60cd3f6063c84199ddaa7d047') in 0.010079 seconds 
+  Import took 0.014180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/6층/지뢰찾기/Resources/8.png
+  artifactKey: Guid(9ae7bb6c24e171d49b0a07580a0d645d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/8.png using Guid(9ae7bb6c24e171d49b0a07580a0d645d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbb5068d206fc1093637bc89fa66751d') in 0.011078 seconds 
+  Import took 0.014610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/6층/지뢰찾기/Resources/6.png
+  artifactKey: Guid(f0a0a93c5d91ff1429a98de1a7378ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/6.png using Guid(f0a0a93c5d91ff1429a98de1a7378ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '478e2b5b690cce99964ef7ef0bca1828') in 0.010346 seconds 
+  Import took 0.014537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/6층/지뢰찾기/Resources/5.png
+  artifactKey: Guid(eee9ae61c5e45464f9d6adb29b06ae22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/5.png using Guid(eee9ae61c5e45464f9d6adb29b06ae22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c06ed6a63e684d8214158b1059673861') in 0.011026 seconds 
+  Import took 0.015918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/6층/지뢰찾기/Resources/2.png
+  artifactKey: Guid(9c97dc044cb8146449dbbbfdf347bf77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/2.png using Guid(9c97dc044cb8146449dbbbfdf347bf77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0316441b7cc1317ffe3e5cf0f695d932') in 0.010532 seconds 
+  Import took 0.015519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000440 seconds.
+  path: Assets/6층/지뢰찾기/Resources/Flag.png
+  artifactKey: Guid(2dd52a0d1ccc97c4ba9ec1786bb3fbbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/Flag.png using Guid(2dd52a0d1ccc97c4ba9ec1786bb3fbbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bf0619990a7c62b08de74f98dfcfab3') in 0.010051 seconds 
+  Import took 0.013945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/6층/지뢰찾기/Resources/BlankCover.png
+  artifactKey: Guid(83bcb980d6db7574e8ec29a20848a348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/BlankCover.png using Guid(83bcb980d6db7574e8ec29a20848a348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fa4105707d3d7ce631608a28b0e71d7') in 0.010281 seconds 
+  Import took 0.013542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/6층/지뢰찾기/Resources/7.png
+  artifactKey: Guid(17f5a197f14154d4898c65b26c8ffc3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/7.png using Guid(17f5a197f14154d4898c65b26c8ffc3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33e7221518cf20f7a9c7408713cddf3d') in 0.010882 seconds 
+  Import took 0.015961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/6층/지뢰찾기/Resources/3.png
+  artifactKey: Guid(6fbd9d69cc457b4469abe0dae62ba55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/3.png using Guid(6fbd9d69cc457b4469abe0dae62ba55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd640d03f8ec9bf611ec2b7fe1d26630') in 0.010292 seconds 
+  Import took 0.014300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/6층/지뢰찾기/Resources/4.png
+  artifactKey: Guid(dd19c842a3d70cb478be48caa4e23f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/4.png using Guid(dd19c842a3d70cb478be48caa4e23f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '574468099bb2f597083281a24a8f1d05') in 0.010039 seconds 
+  Import took 0.013711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/6층/지뢰찾기/Resources/Mine.png
+  artifactKey: Guid(92468b772c9810d4ebd8de95a04f23e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/Mine.png using Guid(92468b772c9810d4ebd8de95a04f23e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8affb62f3cdd9d4ef280e5c0ab7f0c4a') in 0.010489 seconds 
+  Import took 0.014770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000487 seconds.
+  path: Assets/6층/지뢰찾기/Resources/MineClick.png
+  artifactKey: Guid(b849351da4e4bac44979aad1989a03f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/MineClick.png using Guid(b849351da4e4bac44979aad1989a03f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '327e7b85b17afe50b1d20d3651cf5d3f') in 0.009074 seconds 
+  Import took 0.012640 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009346 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.231 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2105 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.2 MB.
+System memory in use after: 99.2 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2621.
+Total: 2.218900 ms (FindLiveObjects: 0.153500 ms CreateObjectMapping: 0.126500 ms MarkObjects: 1.839400 ms  DeleteObjects: 0.098200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 28.316958 seconds.
+  path: Assets/6층/지뢰찾기/Resources/1.png
+  artifactKey: Guid(fda82799dd525a04aa3730362df2343f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/1.png using Guid(fda82799dd525a04aa3730362df2343f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c3640866f85b0445b0c731abb8e04bf') in 0.052027 seconds 
+  Import took 0.056122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/6층/지뢰찾기/Resources/MineX.png
+  artifactKey: Guid(fed0285dcde83744ebf88500f610858d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/MineX.png using Guid(fed0285dcde83744ebf88500f610858d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f988a70bd771dfc0d4335cdad9cafabc') in 0.010206 seconds 
+  Import took 0.014453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000464 seconds.
+  path: Assets/6층/지뢰찾기/Resources/Blank.png
+  artifactKey: Guid(4f14234674b758e41b0c3010cdbef050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/Blank.png using Guid(4f14234674b758e41b0c3010cdbef050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0511a9953a429959f2a850a962783193') in 0.020233 seconds 
+  Import took 0.023620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/6층/지뢰찾기/Resources/8.png
+  artifactKey: Guid(9ae7bb6c24e171d49b0a07580a0d645d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/8.png using Guid(9ae7bb6c24e171d49b0a07580a0d645d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '825118c81e7bc175d4202f2e38752124') in 0.011337 seconds 
+  Import took 0.015225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000438 seconds.
+  path: Assets/6층/지뢰찾기/Resources/6.png
+  artifactKey: Guid(f0a0a93c5d91ff1429a98de1a7378ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/6.png using Guid(f0a0a93c5d91ff1429a98de1a7378ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '082ff277584dd82d95660a7b18c08c00') in 0.011239 seconds 
+  Import took 0.014593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000446 seconds.
+  path: Assets/6층/지뢰찾기/Resources/5.png
+  artifactKey: Guid(eee9ae61c5e45464f9d6adb29b06ae22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/5.png using Guid(eee9ae61c5e45464f9d6adb29b06ae22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '733f151062afa047062ff636d2db7823') in 0.009722 seconds 
+  Import took 0.013986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000422 seconds.
+  path: Assets/6층/지뢰찾기/Resources/2.png
+  artifactKey: Guid(9c97dc044cb8146449dbbbfdf347bf77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/2.png using Guid(9c97dc044cb8146449dbbbfdf347bf77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ba53970f3fb90e1d05f5c686269573e') in 0.011926 seconds 
+  Import took 0.015262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/6층/지뢰찾기/Resources/Flag.png
+  artifactKey: Guid(2dd52a0d1ccc97c4ba9ec1786bb3fbbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/Flag.png using Guid(2dd52a0d1ccc97c4ba9ec1786bb3fbbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41ea2cb25024cf6f4d8213a92467201f') in 0.012337 seconds 
+  Import took 0.015752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/6층/지뢰찾기/Resources/BlankCover.png
+  artifactKey: Guid(83bcb980d6db7574e8ec29a20848a348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/BlankCover.png using Guid(83bcb980d6db7574e8ec29a20848a348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb54ffce8e96e90249f878a8e2ccff1a') in 0.011275 seconds 
+  Import took 0.015458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000484 seconds.
+  path: Assets/6층/지뢰찾기/Resources/7.png
+  artifactKey: Guid(17f5a197f14154d4898c65b26c8ffc3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/7.png using Guid(17f5a197f14154d4898c65b26c8ffc3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95e02d57e105c0b7c4fcf6d622539189') in 0.011017 seconds 
+  Import took 0.015379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/6층/지뢰찾기/Resources/3.png
+  artifactKey: Guid(6fbd9d69cc457b4469abe0dae62ba55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/3.png using Guid(6fbd9d69cc457b4469abe0dae62ba55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '112ebc3b0ba73a84dce7bf21253adadb') in 0.010536 seconds 
+  Import took 0.014923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000514 seconds.
+  path: Assets/6층/지뢰찾기/Resources/4.png
+  artifactKey: Guid(dd19c842a3d70cb478be48caa4e23f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/4.png using Guid(dd19c842a3d70cb478be48caa4e23f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54d551abf4d07b948f8e6b1de887dc1c') in 0.010437 seconds 
+  Import took 0.013893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/6층/지뢰찾기/Resources/Mine.png
+  artifactKey: Guid(92468b772c9810d4ebd8de95a04f23e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/Mine.png using Guid(92468b772c9810d4ebd8de95a04f23e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec793b3683b5d879ed7747300f47197e') in 0.011085 seconds 
+  Import took 0.015510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000493 seconds.
+  path: Assets/6층/지뢰찾기/Resources/MineClick.png
+  artifactKey: Guid(b849351da4e4bac44979aad1989a03f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/MineClick.png using Guid(b849351da4e4bac44979aad1989a03f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b007529985bf41ad69ad3c754fe029d3') in 0.012173 seconds 
+  Import took 0.017083 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010598 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.380 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2105 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.3 MB.
+System memory in use after: 99.2 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2626.
+Total: 2.284800 ms (FindLiveObjects: 0.156000 ms CreateObjectMapping: 0.054600 ms MarkObjects: 1.966000 ms  DeleteObjects: 0.107100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 23.802589 seconds.
+  path: Assets/6층/지뢰찾기/Resources/1.png
+  artifactKey: Guid(fda82799dd525a04aa3730362df2343f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/1.png using Guid(fda82799dd525a04aa3730362df2343f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '713f656538a9ca66e944af01f06c60e2') in 0.046486 seconds 
+  Import took 0.049691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000397 seconds.
+  path: Assets/6층/지뢰찾기/Resources/MineX.png
+  artifactKey: Guid(fed0285dcde83744ebf88500f610858d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/MineX.png using Guid(fed0285dcde83744ebf88500f610858d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07c2e220b94fdfa789edb111dac73626') in 0.009644 seconds 
+  Import took 0.012613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000409 seconds.
+  path: Assets/6층/지뢰찾기/Resources/Blank.png
+  artifactKey: Guid(4f14234674b758e41b0c3010cdbef050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/Blank.png using Guid(4f14234674b758e41b0c3010cdbef050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '874a3f1686f3587fd7754e04ce9d2a51') in 0.018361 seconds 
+  Import took 0.021363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000441 seconds.
+  path: Assets/6층/지뢰찾기/Resources/8.png
+  artifactKey: Guid(9ae7bb6c24e171d49b0a07580a0d645d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/8.png using Guid(9ae7bb6c24e171d49b0a07580a0d645d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f139f9a4579f9bfc0cca760cc5941b4') in 0.010934 seconds 
+  Import took 0.014473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/6층/지뢰찾기/Resources/6.png
+  artifactKey: Guid(f0a0a93c5d91ff1429a98de1a7378ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/6.png using Guid(f0a0a93c5d91ff1429a98de1a7378ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18738f65b6893f01455417b64858d87d') in 0.012199 seconds 
+  Import took 0.015902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/6층/지뢰찾기/Resources/5.png
+  artifactKey: Guid(eee9ae61c5e45464f9d6adb29b06ae22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/5.png using Guid(eee9ae61c5e45464f9d6adb29b06ae22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4b3b4784456d862575d24e4e21de840') in 0.010493 seconds 
+  Import took 0.014058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/6층/지뢰찾기/Resources/2.png
+  artifactKey: Guid(9c97dc044cb8146449dbbbfdf347bf77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/2.png using Guid(9c97dc044cb8146449dbbbfdf347bf77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '391e62627578cda52f4a598ab1924b98') in 0.009309 seconds 
+  Import took 0.012957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/6층/지뢰찾기/Resources/Flag.png
+  artifactKey: Guid(2dd52a0d1ccc97c4ba9ec1786bb3fbbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/Flag.png using Guid(2dd52a0d1ccc97c4ba9ec1786bb3fbbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f02a3ef9fbf24eddaad2a4588d7584c2') in 0.010113 seconds 
+  Import took 0.013287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/6층/지뢰찾기/Resources/BlankCover.png
+  artifactKey: Guid(83bcb980d6db7574e8ec29a20848a348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/BlankCover.png using Guid(83bcb980d6db7574e8ec29a20848a348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '164aea15b003d0206984fb0bf0659593') in 0.010913 seconds 
+  Import took 0.015015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000410 seconds.
+  path: Assets/6층/지뢰찾기/Resources/7.png
+  artifactKey: Guid(17f5a197f14154d4898c65b26c8ffc3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/7.png using Guid(17f5a197f14154d4898c65b26c8ffc3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ea614421211cce66b91715f64364b9c') in 0.010256 seconds 
+  Import took 0.013622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/6층/지뢰찾기/Resources/3.png
+  artifactKey: Guid(6fbd9d69cc457b4469abe0dae62ba55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/3.png using Guid(6fbd9d69cc457b4469abe0dae62ba55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23b6b1ce2ad451b707a088d7e55e3bda') in 0.010067 seconds 
+  Import took 0.013138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/6층/지뢰찾기/Resources/4.png
+  artifactKey: Guid(dd19c842a3d70cb478be48caa4e23f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/4.png using Guid(dd19c842a3d70cb478be48caa4e23f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8164d21afd9c3140e235ce35069cc533') in 0.010159 seconds 
+  Import took 0.013552 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/6층/지뢰찾기/Resources/Mine.png
+  artifactKey: Guid(92468b772c9810d4ebd8de95a04f23e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/Mine.png using Guid(92468b772c9810d4ebd8de95a04f23e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f877224b6843604750a6953dd94aa0c') in 0.009914 seconds 
+  Import took 0.013064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/6층/지뢰찾기/Resources/MineClick.png
+  artifactKey: Guid(b849351da4e4bac44979aad1989a03f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/MineClick.png using Guid(b849351da4e4bac44979aad1989a03f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '424fecefaf1c1b7df098ee55a647272f') in 0.009599 seconds 
+  Import took 0.013132 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007845 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.515 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2105 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.3 MB.
+System memory in use after: 99.3 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2631.
+Total: 2.289500 ms (FindLiveObjects: 0.164400 ms CreateObjectMapping: 0.056200 ms MarkObjects: 1.954400 ms  DeleteObjects: 0.113300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 36.648863 seconds.
+  path: Assets/6층/지뢰찾기/Resources/1.png
+  artifactKey: Guid(fda82799dd525a04aa3730362df2343f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/1.png using Guid(fda82799dd525a04aa3730362df2343f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0dc2d229af94d65879af1bc20a00e06') in 0.058309 seconds 
+  Import took 0.062136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/6층/지뢰찾기/Resources/MineX.png
+  artifactKey: Guid(fed0285dcde83744ebf88500f610858d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/MineX.png using Guid(fed0285dcde83744ebf88500f610858d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12acfd3805773d396c217f2162c94cf8') in 0.011063 seconds 
+  Import took 0.015859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000410 seconds.
+  path: Assets/6층/지뢰찾기/Resources/Blank.png
+  artifactKey: Guid(4f14234674b758e41b0c3010cdbef050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/Blank.png using Guid(4f14234674b758e41b0c3010cdbef050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e92b8f7d620049337b4ae7946bab703a') in 0.012581 seconds 
+  Import took 0.016687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/6층/지뢰찾기/Resources/8.png
+  artifactKey: Guid(9ae7bb6c24e171d49b0a07580a0d645d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/8.png using Guid(9ae7bb6c24e171d49b0a07580a0d645d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e961ef0b4525489c666e36090d0d9be') in 0.011558 seconds 
+  Import took 0.017058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/6층/지뢰찾기/Resources/6.png
+  artifactKey: Guid(f0a0a93c5d91ff1429a98de1a7378ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/6.png using Guid(f0a0a93c5d91ff1429a98de1a7378ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f3cb402575c3c20be8414ff00aa1616') in 0.012699 seconds 
+  Import took 0.017385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/6층/지뢰찾기/Resources/5.png
+  artifactKey: Guid(eee9ae61c5e45464f9d6adb29b06ae22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/5.png using Guid(eee9ae61c5e45464f9d6adb29b06ae22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af8d987f9187bf7a6fe51d208eb0ae3a') in 0.010306 seconds 
+  Import took 0.014499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/6층/지뢰찾기/Resources/2.png
+  artifactKey: Guid(9c97dc044cb8146449dbbbfdf347bf77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/2.png using Guid(9c97dc044cb8146449dbbbfdf347bf77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '452d8dd63ef501d363ee85143540ec91') in 0.012024 seconds 
+  Import took 0.015900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/6층/지뢰찾기/Resources/Flag.png
+  artifactKey: Guid(2dd52a0d1ccc97c4ba9ec1786bb3fbbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/Flag.png using Guid(2dd52a0d1ccc97c4ba9ec1786bb3fbbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4d52dd76c1e1d95e849ecc1af5f2ea7') in 0.011705 seconds 
+  Import took 0.016399 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/6층/지뢰찾기/Resources/BlankCover.png
+  artifactKey: Guid(83bcb980d6db7574e8ec29a20848a348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/BlankCover.png using Guid(83bcb980d6db7574e8ec29a20848a348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '665e67b93a1f465de60107c8d4509113') in 0.009736 seconds 
+  Import took 0.013847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/6층/지뢰찾기/Resources/7.png
+  artifactKey: Guid(17f5a197f14154d4898c65b26c8ffc3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/7.png using Guid(17f5a197f14154d4898c65b26c8ffc3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd047daf7da716ba4f0d0c1f9c4f2583a') in 0.011953 seconds 
+  Import took 0.015787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/6층/지뢰찾기/Resources/3.png
+  artifactKey: Guid(6fbd9d69cc457b4469abe0dae62ba55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/3.png using Guid(6fbd9d69cc457b4469abe0dae62ba55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf32d0f19f2a1f0c9bb9d9104c83efcf') in 0.012205 seconds 
+  Import took 0.016048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/6층/지뢰찾기/Resources/4.png
+  artifactKey: Guid(dd19c842a3d70cb478be48caa4e23f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/4.png using Guid(dd19c842a3d70cb478be48caa4e23f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd8b1fbc794e0498b20fad8a102e76c7') in 0.011883 seconds 
+  Import took 0.015950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/6층/지뢰찾기/Resources/Mine.png
+  artifactKey: Guid(92468b772c9810d4ebd8de95a04f23e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/Mine.png using Guid(92468b772c9810d4ebd8de95a04f23e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '125ca51fe983f126c50c1c5ef089b1ca') in 0.010163 seconds 
+  Import took 0.015510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/6층/지뢰찾기/Resources/MineClick.png
+  artifactKey: Guid(b849351da4e4bac44979aad1989a03f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/MineClick.png using Guid(b849351da4e4bac44979aad1989a03f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29d09f0996592f3e48fce578ff34a410') in 0.010921 seconds 
+  Import took 0.015470 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010168 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.384 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2105 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.3 MB.
+System memory in use after: 99.3 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2636.
+Total: 2.287500 ms (FindLiveObjects: 0.146500 ms CreateObjectMapping: 0.051400 ms MarkObjects: 1.903700 ms  DeleteObjects: 0.184800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 20.855095 seconds.
+  path: Assets/6층/지뢰찾기/Resources/1.png
+  artifactKey: Guid(fda82799dd525a04aa3730362df2343f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/1.png using Guid(fda82799dd525a04aa3730362df2343f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dd1b5141f817138669b129e81cfb005') in 0.051154 seconds 
+  Import took 0.054994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/6층/지뢰찾기/Resources/MineX.png
+  artifactKey: Guid(fed0285dcde83744ebf88500f610858d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/MineX.png using Guid(fed0285dcde83744ebf88500f610858d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feae59683ac689fab21f45677412ca9e') in 0.012134 seconds 
+  Import took 0.016333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000496 seconds.
+  path: Assets/6층/지뢰찾기/Resources/Blank.png
+  artifactKey: Guid(4f14234674b758e41b0c3010cdbef050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/Blank.png using Guid(4f14234674b758e41b0c3010cdbef050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e27281b8dd053d56dc8ae0ff9ef6167') in 0.021013 seconds 
+  Import took 0.024813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/6층/지뢰찾기/Resources/8.png
+  artifactKey: Guid(9ae7bb6c24e171d49b0a07580a0d645d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/8.png using Guid(9ae7bb6c24e171d49b0a07580a0d645d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4470ca9d056a2e4350c7b80ed8816e0b') in 0.010876 seconds 
+  Import took 0.014934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/6층/지뢰찾기/Resources/6.png
+  artifactKey: Guid(f0a0a93c5d91ff1429a98de1a7378ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/6.png using Guid(f0a0a93c5d91ff1429a98de1a7378ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4707d01c778710ff644a82558df29395') in 0.010300 seconds 
+  Import took 0.015498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000476 seconds.
+  path: Assets/6층/지뢰찾기/Resources/5.png
+  artifactKey: Guid(eee9ae61c5e45464f9d6adb29b06ae22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/5.png using Guid(eee9ae61c5e45464f9d6adb29b06ae22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '928a792d45db464ab495c02a0273295b') in 0.011215 seconds 
+  Import took 0.014930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/6층/지뢰찾기/Resources/2.png
+  artifactKey: Guid(9c97dc044cb8146449dbbbfdf347bf77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/2.png using Guid(9c97dc044cb8146449dbbbfdf347bf77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0818da84affda0dd4d133313b0f3bf8f') in 0.011519 seconds 
+  Import took 0.015083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/6층/지뢰찾기/Resources/Flag.png
+  artifactKey: Guid(2dd52a0d1ccc97c4ba9ec1786bb3fbbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/Flag.png using Guid(2dd52a0d1ccc97c4ba9ec1786bb3fbbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c95101581457e6174aab93285bb4aa6') in 0.010743 seconds 
+  Import took 0.013959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/6층/지뢰찾기/Resources/BlankCover.png
+  artifactKey: Guid(83bcb980d6db7574e8ec29a20848a348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/BlankCover.png using Guid(83bcb980d6db7574e8ec29a20848a348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e62ccca4501294739cfa359af43d3c5b') in 0.011619 seconds 
+  Import took 0.015614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/6층/지뢰찾기/Resources/7.png
+  artifactKey: Guid(17f5a197f14154d4898c65b26c8ffc3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/7.png using Guid(17f5a197f14154d4898c65b26c8ffc3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d5ec955b9609d7038a61498d6a6c0b7') in 0.011275 seconds 
+  Import took 0.015146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/6층/지뢰찾기/Resources/3.png
+  artifactKey: Guid(6fbd9d69cc457b4469abe0dae62ba55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/3.png using Guid(6fbd9d69cc457b4469abe0dae62ba55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '915a6cf96020037b2f261a6f3ff53522') in 0.010633 seconds 
+  Import took 0.013818 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/6층/지뢰찾기/Resources/4.png
+  artifactKey: Guid(dd19c842a3d70cb478be48caa4e23f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/4.png using Guid(dd19c842a3d70cb478be48caa4e23f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8837fc72e69a240e4ab4761d5182c123') in 0.012862 seconds 
+  Import took 0.017700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/6층/지뢰찾기/Resources/Mine.png
+  artifactKey: Guid(92468b772c9810d4ebd8de95a04f23e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/Mine.png using Guid(92468b772c9810d4ebd8de95a04f23e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12c3fefd911942dbdc1f6b28fb14759d') in 0.010956 seconds 
+  Import took 0.014248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/6층/지뢰찾기/Resources/MineClick.png
+  artifactKey: Guid(b849351da4e4bac44979aad1989a03f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/MineClick.png using Guid(b849351da4e4bac44979aad1989a03f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13344cb2853892dfa9b140022305af99') in 0.012400 seconds 
+  Import took 0.016746 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010356 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.450 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2105 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.3 MB.
+System memory in use after: 99.3 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2641.
+Total: 2.152800 ms (FindLiveObjects: 0.140500 ms CreateObjectMapping: 0.044500 ms MarkObjects: 1.866400 ms  DeleteObjects: 0.100400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009416 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.416 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2105 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.3 MB.
+System memory in use after: 99.3 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2645.
+Total: 2.123100 ms (FindLiveObjects: 0.141900 ms CreateObjectMapping: 0.048500 ms MarkObjects: 1.833700 ms  DeleteObjects: 0.098100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007375 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.591 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2105 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.4 MB.
+System memory in use after: 99.3 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2649.
+Total: 2.496800 ms (FindLiveObjects: 0.155500 ms CreateObjectMapping: 0.052600 ms MarkObjects: 2.166400 ms  DeleteObjects: 0.121400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007731 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.486 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2105 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.4 MB.
+System memory in use after: 99.3 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2653.
+Total: 2.259200 ms (FindLiveObjects: 0.156700 ms CreateObjectMapping: 0.052400 ms MarkObjects: 1.922200 ms  DeleteObjects: 0.126500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 302.231367 seconds.
+  path: Assets/6층/지뢰찾기/Resources/1.png
+  artifactKey: Guid(fda82799dd525a04aa3730362df2343f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/1.png using Guid(fda82799dd525a04aa3730362df2343f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13896a6f501f223ed4d2985d2562ac41') in 0.061551 seconds 
+  Import took 0.065403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000486 seconds.
+  path: Assets/6층/지뢰찾기/Resources/MineX.png
+  artifactKey: Guid(fed0285dcde83744ebf88500f610858d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/MineX.png using Guid(fed0285dcde83744ebf88500f610858d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f94e9912196717810e94b2707b1c32c2') in 0.010484 seconds 
+  Import took 0.014396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/6층/지뢰찾기/Resources/Blank.png
+  artifactKey: Guid(4f14234674b758e41b0c3010cdbef050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/Blank.png using Guid(4f14234674b758e41b0c3010cdbef050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9793c185ab57800025401a244b78fe0') in 0.012523 seconds 
+  Import took 0.016213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/6층/지뢰찾기/Resources/8.png
+  artifactKey: Guid(9ae7bb6c24e171d49b0a07580a0d645d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/8.png using Guid(9ae7bb6c24e171d49b0a07580a0d645d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce8a319f78973199d5087ae6bcc0ef0b') in 0.010813 seconds 
+  Import took 0.015622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/6층/지뢰찾기/Resources/6.png
+  artifactKey: Guid(f0a0a93c5d91ff1429a98de1a7378ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/6.png using Guid(f0a0a93c5d91ff1429a98de1a7378ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b3a3f1a8134b2351c96abc433b9da23') in 0.009889 seconds 
+  Import took 0.014110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/6층/지뢰찾기/Resources/5.png
+  artifactKey: Guid(eee9ae61c5e45464f9d6adb29b06ae22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/5.png using Guid(eee9ae61c5e45464f9d6adb29b06ae22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70a47207237502f544b7ec9d4c6bad79') in 0.011557 seconds 
+  Import took 0.016302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/6층/지뢰찾기/Resources/2.png
+  artifactKey: Guid(9c97dc044cb8146449dbbbfdf347bf77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/2.png using Guid(9c97dc044cb8146449dbbbfdf347bf77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8b3d49e214024367b2eb2b60734937d') in 0.011603 seconds 
+  Import took 0.016517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/6층/지뢰찾기/Resources/Flag.png
+  artifactKey: Guid(2dd52a0d1ccc97c4ba9ec1786bb3fbbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/Flag.png using Guid(2dd52a0d1ccc97c4ba9ec1786bb3fbbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70c8b70f63ab1e0e76242c35cf5768d2') in 0.012449 seconds 
+  Import took 0.017106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/6층/지뢰찾기/Resources/BlankCover.png
+  artifactKey: Guid(83bcb980d6db7574e8ec29a20848a348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/BlankCover.png using Guid(83bcb980d6db7574e8ec29a20848a348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5dfa42eb8aa85644b195d82501ef4ab') in 0.011406 seconds 
+  Import took 0.015437 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/6층/지뢰찾기/Resources/7.png
+  artifactKey: Guid(17f5a197f14154d4898c65b26c8ffc3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/7.png using Guid(17f5a197f14154d4898c65b26c8ffc3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '194f870626a0fbf9a8511ca5aff95879') in 0.010956 seconds 
+  Import took 0.015501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/6층/지뢰찾기/Resources/3.png
+  artifactKey: Guid(6fbd9d69cc457b4469abe0dae62ba55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/3.png using Guid(6fbd9d69cc457b4469abe0dae62ba55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5a7c66693b0db406fa65f8dcf9e5e93') in 0.010537 seconds 
+  Import took 0.014941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/6층/지뢰찾기/Resources/4.png
+  artifactKey: Guid(dd19c842a3d70cb478be48caa4e23f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/4.png using Guid(dd19c842a3d70cb478be48caa4e23f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6d8f972da6e4f122d137a1a5b4c1cd5') in 0.011772 seconds 
+  Import took 0.016340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/6층/지뢰찾기/Resources/Mine.png
+  artifactKey: Guid(92468b772c9810d4ebd8de95a04f23e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/Mine.png using Guid(92468b772c9810d4ebd8de95a04f23e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4f2bb9ddefb3595b205006772946506') in 0.012211 seconds 
+  Import took 0.016378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/6층/지뢰찾기/Resources/MineClick.png
+  artifactKey: Guid(b849351da4e4bac44979aad1989a03f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/MineClick.png using Guid(b849351da4e4bac44979aad1989a03f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '081c3469026a860ef7a196912ba3d5ae') in 0.012026 seconds 
+  Import took 0.016530 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008427 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.487 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2105 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.4 MB.
+System memory in use after: 99.4 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2658.
+Total: 2.235000 ms (FindLiveObjects: 0.158500 ms CreateObjectMapping: 0.057800 ms MarkObjects: 1.914700 ms  DeleteObjects: 0.102900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 15.785786 seconds.
+  path: Assets/6층/지뢰찾기/Resources/1.png
+  artifactKey: Guid(fda82799dd525a04aa3730362df2343f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/1.png using Guid(fda82799dd525a04aa3730362df2343f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca14844d74c71fb0d8e626c25265bfcd') in 0.055868 seconds 
+  Import took 0.059768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/6층/지뢰찾기/Resources/MineX.png
+  artifactKey: Guid(fed0285dcde83744ebf88500f610858d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/MineX.png using Guid(fed0285dcde83744ebf88500f610858d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5c3fb804dfa21bfe58091a3998611cd') in 0.012700 seconds 
+  Import took 0.016267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/6층/지뢰찾기/Resources/Blank.png
+  artifactKey: Guid(4f14234674b758e41b0c3010cdbef050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/Blank.png using Guid(4f14234674b758e41b0c3010cdbef050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '405bb252e9f44b7392997c20885871fa') in 0.012303 seconds 
+  Import took 0.015645 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000432 seconds.
+  path: Assets/6층/지뢰찾기/Resources/8.png
+  artifactKey: Guid(9ae7bb6c24e171d49b0a07580a0d645d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/8.png using Guid(9ae7bb6c24e171d49b0a07580a0d645d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62bca2a19f30f7351e18e10b24af6951') in 0.011773 seconds 
+  Import took 0.015243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/6층/지뢰찾기/Resources/6.png
+  artifactKey: Guid(f0a0a93c5d91ff1429a98de1a7378ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/6.png using Guid(f0a0a93c5d91ff1429a98de1a7378ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59c0736e499448025261c3c5ddc62d36') in 0.014559 seconds 
+  Import took 0.018617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/6층/지뢰찾기/Resources/5.png
+  artifactKey: Guid(eee9ae61c5e45464f9d6adb29b06ae22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/5.png using Guid(eee9ae61c5e45464f9d6adb29b06ae22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb573f3ebeb105bd3219ad4522cbce75') in 0.010632 seconds 
+  Import took 0.014572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/6층/지뢰찾기/Resources/2.png
+  artifactKey: Guid(9c97dc044cb8146449dbbbfdf347bf77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/2.png using Guid(9c97dc044cb8146449dbbbfdf347bf77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffdaf4c708103fe595d051f10d97c805') in 0.009943 seconds 
+  Import took 0.013606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/6층/지뢰찾기/Resources/Flag.png
+  artifactKey: Guid(2dd52a0d1ccc97c4ba9ec1786bb3fbbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/Flag.png using Guid(2dd52a0d1ccc97c4ba9ec1786bb3fbbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb75c925d93ced20e172552b39aab2b4') in 0.010593 seconds 
+  Import took 0.013948 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000415 seconds.
+  path: Assets/6층/지뢰찾기/Resources/BlankCover.png
+  artifactKey: Guid(83bcb980d6db7574e8ec29a20848a348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/BlankCover.png using Guid(83bcb980d6db7574e8ec29a20848a348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ba2b047ce4e62a6a54f73dbfbbb08b1') in 0.011201 seconds 
+  Import took 0.015579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/6층/지뢰찾기/Resources/7.png
+  artifactKey: Guid(17f5a197f14154d4898c65b26c8ffc3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/7.png using Guid(17f5a197f14154d4898c65b26c8ffc3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6df84c6cbacb7998a292359a6afd392e') in 0.010539 seconds 
+  Import took 0.015501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/6층/지뢰찾기/Resources/3.png
+  artifactKey: Guid(6fbd9d69cc457b4469abe0dae62ba55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/3.png using Guid(6fbd9d69cc457b4469abe0dae62ba55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76847b7f8bf86ae6bedb7837dbc501e8') in 0.010392 seconds 
+  Import took 0.014155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000421 seconds.
+  path: Assets/6층/지뢰찾기/Resources/4.png
+  artifactKey: Guid(dd19c842a3d70cb478be48caa4e23f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/4.png using Guid(dd19c842a3d70cb478be48caa4e23f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa539ca59c67bc467059a31ec7969268') in 0.010337 seconds 
+  Import took 0.014501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/6층/지뢰찾기/Resources/Mine.png
+  artifactKey: Guid(92468b772c9810d4ebd8de95a04f23e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/Mine.png using Guid(92468b772c9810d4ebd8de95a04f23e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '419d6a6915afa3569252242eb1b6fcdf') in 0.010532 seconds 
+  Import took 0.014357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/6층/지뢰찾기/Resources/MineClick.png
+  artifactKey: Guid(b849351da4e4bac44979aad1989a03f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/MineClick.png using Guid(b849351da4e4bac44979aad1989a03f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '547d0b5fe0a33ff29bcb6683c2000f90') in 0.010296 seconds 
+  Import took 0.014197 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008473 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.443 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2105 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.4 MB.
+System memory in use after: 99.4 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2663.
+Total: 2.182200 ms (FindLiveObjects: 0.259900 ms CreateObjectMapping: 0.065500 ms MarkObjects: 1.739700 ms  DeleteObjects: 0.114600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 20.980496 seconds.
+  path: Assets/6층/지뢰찾기/Resources/1.png
+  artifactKey: Guid(fda82799dd525a04aa3730362df2343f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/1.png using Guid(fda82799dd525a04aa3730362df2343f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca97c90066069b7728afc00cb34373e7') in 0.054747 seconds 
+  Import took 0.058273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/6층/지뢰찾기/Resources/MineX.png
+  artifactKey: Guid(fed0285dcde83744ebf88500f610858d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/MineX.png using Guid(fed0285dcde83744ebf88500f610858d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e46cfc07dc734157cff264ea33e7c08d') in 0.011320 seconds 
+  Import took 0.014990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/6층/지뢰찾기/Resources/Blank.png
+  artifactKey: Guid(4f14234674b758e41b0c3010cdbef050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/Blank.png using Guid(4f14234674b758e41b0c3010cdbef050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c3bab0af5543bed93809a5924f73e80') in 0.025350 seconds 
+  Import took 0.029832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/6층/지뢰찾기/Resources/8.png
+  artifactKey: Guid(9ae7bb6c24e171d49b0a07580a0d645d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/8.png using Guid(9ae7bb6c24e171d49b0a07580a0d645d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09fd8928a9e533cff4f5bbe63451100b') in 0.012489 seconds 
+  Import took 0.016378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/6층/지뢰찾기/Resources/6.png
+  artifactKey: Guid(f0a0a93c5d91ff1429a98de1a7378ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/6.png using Guid(f0a0a93c5d91ff1429a98de1a7378ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '771ea22af8098c2c67fb632f646bb4e6') in 0.011987 seconds 
+  Import took 0.016426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/6층/지뢰찾기/Resources/5.png
+  artifactKey: Guid(eee9ae61c5e45464f9d6adb29b06ae22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/5.png using Guid(eee9ae61c5e45464f9d6adb29b06ae22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10fa3f65b8f4ece243b17c0ad7d46c6b') in 0.011299 seconds 
+  Import took 0.015887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/6층/지뢰찾기/Resources/2.png
+  artifactKey: Guid(9c97dc044cb8146449dbbbfdf347bf77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/2.png using Guid(9c97dc044cb8146449dbbbfdf347bf77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81d4f381243a74a1f30f00f3860ae7da') in 0.013077 seconds 
+  Import took 0.018336 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000436 seconds.
+  path: Assets/6층/지뢰찾기/Resources/Flag.png
+  artifactKey: Guid(2dd52a0d1ccc97c4ba9ec1786bb3fbbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/Flag.png using Guid(2dd52a0d1ccc97c4ba9ec1786bb3fbbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dab77e5c0de3278c9fee028d897c02be') in 0.012466 seconds 
+  Import took 0.016663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/6층/지뢰찾기/Resources/BlankCover.png
+  artifactKey: Guid(83bcb980d6db7574e8ec29a20848a348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/BlankCover.png using Guid(83bcb980d6db7574e8ec29a20848a348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce19e96c290efd291b8b94e76d25e276') in 0.012168 seconds 
+  Import took 0.016914 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/6층/지뢰찾기/Resources/7.png
+  artifactKey: Guid(17f5a197f14154d4898c65b26c8ffc3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/7.png using Guid(17f5a197f14154d4898c65b26c8ffc3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f27709fc7f6c9f9c9f16cc3f4a1862d') in 0.011125 seconds 
+  Import took 0.014706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/6층/지뢰찾기/Resources/3.png
+  artifactKey: Guid(6fbd9d69cc457b4469abe0dae62ba55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/3.png using Guid(6fbd9d69cc457b4469abe0dae62ba55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '895897ee5a610f956082128c3e0df440') in 0.011579 seconds 
+  Import took 0.016139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000401 seconds.
+  path: Assets/6층/지뢰찾기/Resources/4.png
+  artifactKey: Guid(dd19c842a3d70cb478be48caa4e23f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/4.png using Guid(dd19c842a3d70cb478be48caa4e23f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '783d24df42bb6fd62b9cb7cac4a460ed') in 0.011240 seconds 
+  Import took 0.015515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/6층/지뢰찾기/Resources/Mine.png
+  artifactKey: Guid(92468b772c9810d4ebd8de95a04f23e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/Mine.png using Guid(92468b772c9810d4ebd8de95a04f23e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '623bd6b23d15d230ef7076a239d55abb') in 0.010604 seconds 
+  Import took 0.013952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/6층/지뢰찾기/Resources/MineClick.png
+  artifactKey: Guid(b849351da4e4bac44979aad1989a03f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/MineClick.png using Guid(b849351da4e4bac44979aad1989a03f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b1e7820ae10d187ea215d5b21c4cecb') in 0.012864 seconds 
+  Import took 0.017607 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008796 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.433 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2105 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.5 MB.
+System memory in use after: 99.5 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2668.
+Total: 2.314800 ms (FindLiveObjects: 0.143200 ms CreateObjectMapping: 0.044300 ms MarkObjects: 2.024700 ms  DeleteObjects: 0.101500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 12.976184 seconds.
+  path: Assets/6층/지뢰찾기/Resources/1.png
+  artifactKey: Guid(fda82799dd525a04aa3730362df2343f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/1.png using Guid(fda82799dd525a04aa3730362df2343f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd4da40e997c94814f4dea0f5452885b') in 0.055199 seconds 
+  Import took 0.058868 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000423 seconds.
+  path: Assets/6층/지뢰찾기/Resources/MineX.png
+  artifactKey: Guid(fed0285dcde83744ebf88500f610858d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/MineX.png using Guid(fed0285dcde83744ebf88500f610858d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4c96f69705478c8fe7717dfceca5658') in 0.012667 seconds 
+  Import took 0.016468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/6층/지뢰찾기/Resources/Blank.png
+  artifactKey: Guid(4f14234674b758e41b0c3010cdbef050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/Blank.png using Guid(4f14234674b758e41b0c3010cdbef050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82f670f242f8148665527042fe1dcf54') in 0.023697 seconds 
+  Import took 0.027232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000461 seconds.
+  path: Assets/6층/지뢰찾기/Resources/8.png
+  artifactKey: Guid(9ae7bb6c24e171d49b0a07580a0d645d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/8.png using Guid(9ae7bb6c24e171d49b0a07580a0d645d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec5fb485fbbd597f7efcf9da54517509') in 0.011902 seconds 
+  Import took 0.015931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/6층/지뢰찾기/Resources/6.png
+  artifactKey: Guid(f0a0a93c5d91ff1429a98de1a7378ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/6.png using Guid(f0a0a93c5d91ff1429a98de1a7378ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '056d4810543d98cc48fcaba98377bae9') in 0.012351 seconds 
+  Import took 0.015725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/6층/지뢰찾기/Resources/5.png
+  artifactKey: Guid(eee9ae61c5e45464f9d6adb29b06ae22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/5.png using Guid(eee9ae61c5e45464f9d6adb29b06ae22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c9a283bc2e2b3eae948ac4364fc6f26') in 0.015277 seconds 
+  Import took 0.020172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/6층/지뢰찾기/Resources/2.png
+  artifactKey: Guid(9c97dc044cb8146449dbbbfdf347bf77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/2.png using Guid(9c97dc044cb8146449dbbbfdf347bf77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c60fea5040a74bbaef554975dbac9f5') in 0.011251 seconds 
+  Import took 0.015198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/6층/지뢰찾기/Resources/Flag.png
+  artifactKey: Guid(2dd52a0d1ccc97c4ba9ec1786bb3fbbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/Flag.png using Guid(2dd52a0d1ccc97c4ba9ec1786bb3fbbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f82999469ac3bae2618168850a5f39f') in 0.011871 seconds 
+  Import took 0.015401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/6층/지뢰찾기/Resources/BlankCover.png
+  artifactKey: Guid(83bcb980d6db7574e8ec29a20848a348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/BlankCover.png using Guid(83bcb980d6db7574e8ec29a20848a348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34452ad4941e682436f00468b694d11e') in 0.010514 seconds 
+  Import took 0.015051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000379 seconds.
+  path: Assets/6층/지뢰찾기/Resources/7.png
+  artifactKey: Guid(17f5a197f14154d4898c65b26c8ffc3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/7.png using Guid(17f5a197f14154d4898c65b26c8ffc3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e2bf820574c1f4d0c955fb4879242c5') in 0.011045 seconds 
+  Import took 0.015164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/6층/지뢰찾기/Resources/3.png
+  artifactKey: Guid(6fbd9d69cc457b4469abe0dae62ba55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/3.png using Guid(6fbd9d69cc457b4469abe0dae62ba55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76085147570aedb6e66abe31fd9c394e') in 0.011878 seconds 
+  Import took 0.015519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/6층/지뢰찾기/Resources/4.png
+  artifactKey: Guid(dd19c842a3d70cb478be48caa4e23f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/4.png using Guid(dd19c842a3d70cb478be48caa4e23f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8fba05ad87aae2bdc07285bfca8e7a6') in 0.011546 seconds 
+  Import took 0.015187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/6층/지뢰찾기/Resources/Mine.png
+  artifactKey: Guid(92468b772c9810d4ebd8de95a04f23e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/Mine.png using Guid(92468b772c9810d4ebd8de95a04f23e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71f0187dfc6029bfa4a65fab296c0d88') in 0.011015 seconds 
+  Import took 0.014645 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/6층/지뢰찾기/Resources/MineClick.png
+  artifactKey: Guid(b849351da4e4bac44979aad1989a03f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6층/지뢰찾기/Resources/MineClick.png using Guid(b849351da4e4bac44979aad1989a03f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3b36b5ebd71498210ebe8317948fded') in 0.011118 seconds 
+  Import took 0.014829 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006465 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.549 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2105 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.5 MB.
+System memory in use after: 99.5 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2673.
+Total: 2.230800 ms (FindLiveObjects: 0.156400 ms CreateObjectMapping: 0.052300 ms MarkObjects: 1.909800 ms  DeleteObjects: 0.111000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
