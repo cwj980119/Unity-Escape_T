@@ -45,6 +45,8 @@ public class Game : MonoBehaviour
                     if(tile.tileKind==Tile.TileKind.Mine)
                     {
                         GameOver(tile);
+                        GameObject.Find("Canvas").transform.GetChild(0).gameObject.SetActive(false);
+                        GameObject.Find("Canvas").transform.GetChild(1).gameObject.SetActive(true);
                     }
 
                     else
