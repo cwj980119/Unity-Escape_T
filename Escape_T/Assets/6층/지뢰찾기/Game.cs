@@ -36,6 +36,8 @@ public class Game : MonoBehaviour
             int x = Mathf.RoundToInt(mousePosition.x);
             int y = Mathf.RoundToInt(mousePosition.y);
 
+            int MineCount = 10;
+
             Tile tile = grid[x, y];
 
             if(tile.tileState==Tile.TileState.Normal)
@@ -44,9 +46,23 @@ public class Game : MonoBehaviour
                 {
                     if(tile.tileKind==Tile.TileKind.Mine)
                     {
-                        GameOver(tile);
-                        GameObject.Find("Canvas").transform.GetChild(0).gameObject.SetActive(false);
-                        GameObject.Find("Canvas").transform.GetChild(1).gameObject.SetActive(true);
+                        if (tile.tileState == Tile.TileState.Flag)
+                        {
+                            MineCount--;
+
+                            if (MineCount==0)
+                            {
+                                GameObject.Find("Canvas").transform.GetChild(0).gameObject.SetActive(false);
+                                GameObject.Find("Canvas").transform.GetChild(2).gameObject.SetActive(true);
+                            }
+                        }
+
+                        else
+                        {
+                            GameOver(tile);
+                            GameObject.Find("Canvas").transform.GetChild(0).gameObject.SetActive(false);
+                            GameObject.Find("Canvas").transform.GetChild(1).gameObject.SetActive(true);
+                        }                      
                     }
 
                     else
@@ -92,7 +108,6 @@ public class Game : MonoBehaviour
                 {
                     if(t.tileKind!=Tile.TileKind.Mine)
                     {
-
                         t.SetNotAMineFlag();
                     }
                 }
@@ -109,7 +124,6 @@ public class Game : MonoBehaviour
         {
             Tile mineTile = Instantiate(Resources.Load("Prefab/Mine", typeof(Tile)), new Vector3(x, y, 0), Quaternion.identity) as Tile;
             grid[x, y] = mineTile;
-            Debug.Log("(" + x + "," + y + ")");
 ;        }
 
         else
