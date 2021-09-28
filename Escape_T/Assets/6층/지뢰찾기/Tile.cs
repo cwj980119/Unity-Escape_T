@@ -11,11 +11,23 @@ public class Tile : MonoBehaviour
         Clue
     }
 
+    public enum TileState
+    {
+        Normal,
+        Flag
+    }
+
     public bool isCovered = true;
+    public bool didCheck = false;
 
     public Sprite coveredSprite;
+    public Sprite flagSprite;
+    public Sprite mineClicked;
+    public Sprite flagNotAMineSprite;
 
     public TileKind tileKind = TileKind.Blank;
+
+    public TileState tileState = TileState.Normal;
 
     private Sprite defaultSprite;
 
@@ -30,5 +42,36 @@ public class Tile : MonoBehaviour
     {
         isCovered = false;
         GetComponent<SpriteRenderer>().sprite = defaultSprite;
+    }
+
+    public void SetClickedMine()
+    {
+        GetComponent<SpriteRenderer>().sprite = mineClicked;
+    }
+
+    public void SetNotAMineFlag()
+    {
+        GetComponent<SpriteRenderer>().sprite = flagNotAMineSprite;
+    }
+
+    private void OnMouseOver()
+    {
+
+        if(isCovered)
+        {
+            if (Input.GetMouseButtonUp(1))
+            {
+                if (tileState == TileState.Normal)
+                {
+                    tileState = TileState.Flag;
+                    GetComponent<SpriteRenderer>().sprite = flagSprite;
+                }
+                else
+                {
+                    tileState = TileState.Normal;
+                    GetComponent<SpriteRenderer>().sprite = coveredSprite;
+                }
+            }
+        }
     }
 }

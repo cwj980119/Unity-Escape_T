@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 5073161530373649085}
   - component: {fileID: 9191054976874362070}
   - component: {fileID: -2710408981171206865}
+  - component: {fileID: 7244292081218047442}
   m_Layer: 0
   m_Name: Mine
-  m_TagString: Untagged
+  m_TagString: Mine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -96,5 +97,35 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isCovered: 1
+  didCheck: 0
   coveredSprite: {fileID: 21300000, guid: 48a95f29ca120584d879d4abf5e15ba0, type: 3}
+  flagSprite: {fileID: 21300000, guid: 129b82d48f569b24293a674f6d8f1e21, type: 3}
+  mineClicked: {fileID: 21300000, guid: b5bb7ac372dcf82409dd087c42e9eedd, type: 3}
   tileKind: 1
+  tileState: 0
+--- !u!61 &7244292081218047442
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4740209251446568878}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.0192307, y: 1.0384616}
+    newSize: {x: 0.53, y: 0.54}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.0192307, y: 1.0384616}
+  m_EdgeRadius: 0
