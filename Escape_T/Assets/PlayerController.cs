@@ -31,9 +31,19 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        movement.x = Input.GetAxisRaw("Horizontal");
-        movement.y = Input.GetAxisRaw("Vertical");
 
+        // movement.x = Input.GetAxisRaw("Horizontal");
+        // Debug.Log(movement.x);
+        // movement.y = Input.GetAxisRaw("Vertical");
+        // Debug.Log(movement.y);
+
+        // Move(movement);
+     
+    }
+
+    public void Move(Vector2 move){
+        movement.x = move.x;
+        movement.y = move.y;
         movement.Normalize();
 
         rigidbody2D.velocity = movement * move_speed;
@@ -54,6 +64,5 @@ public class PlayerController : MonoBehaviour
 
         // �÷��̾� �ӵ��� ���� �ִϸ��̼� �ӵ� ����
         this.animator.speed = move_speed / 1.0f;
-     
     }
 }
