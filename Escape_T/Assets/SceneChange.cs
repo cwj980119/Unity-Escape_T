@@ -5,10 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class SceneChange : MonoBehaviour
 {
-    public string SceneName;
+    public string nextScene;
+    private PlayerController student;
     // Start is called before the first frame update
     void Start()
     {
+        student = FindObjectOfType<PlayerController>();
         
     }
     // Update is called once per frame
@@ -16,7 +18,8 @@ public class SceneChange : MonoBehaviour
     {
         if(collision.gameObject.name == "student")
         {
-            SceneManager.LoadScene(SceneName);
+            student.currentScene = nextScene;
+            SceneManager.LoadScene(nextScene);
         }
     }
 }
