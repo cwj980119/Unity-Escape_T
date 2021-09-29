@@ -25600,7 +25600,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &925444424
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26212,7 +26212,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2093499960}
-        m_TargetAssemblyTypeName: Mnesweeper, Assembly-CSharp
+        m_TargetAssemblyTypeName: SceneClickChange, Assembly-CSharp
         m_MethodName: SceneChange
         m_Mode: 1
         m_Arguments:
@@ -33994,7 +33994,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1288740381
 RectTransform:
   m_ObjectHideFlags: 0
@@ -38225,7 +38225,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 10
+  orthographic size: 30
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -43174,7 +43174,7 @@ SpriteRenderer:
   m_Size: {x: 12.8, y: 12.8}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1694772461
@@ -45132,6 +45132,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 329a08307d152944580dee511e08bc55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  currentScene: 
   move_speed: 10
 --- !u!61 &1796623023
 BoxCollider2D:
@@ -51903,9 +51904,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2093499959}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1efa1157f87aaad4c8190a75277810b2, type: 3}
+  m_Script: {fileID: 11500000, guid: 9550d77d5844a1b4e93975f34e3e6b56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nextScene: 6F MineSweeper
 --- !u!4 &2093499961
 Transform:
   m_ObjectHideFlags: 0
