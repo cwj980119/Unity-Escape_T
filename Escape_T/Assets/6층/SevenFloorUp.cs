@@ -9,7 +9,7 @@ public class SevenFloorUp : MonoBehaviour
     {
         if (collision.gameObject.name == "student")
         {
-            SceneManager.LoadScene(6);
+            SceneManager.LoadScene(7);
         }
     }
 }

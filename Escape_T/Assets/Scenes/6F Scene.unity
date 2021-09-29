@@ -2482,7 +2482,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b68730a42308a3f439fa0b5660cf7558, type: 3}
+  m_Sprite: {fileID: 7126430909644926860, guid: 9350b6a6584ebe14aa8f754456ec90bf, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -9108,7 +9108,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b68730a42308a3f439fa0b5660cf7558, type: 3}
+  m_Sprite: {fileID: 7126430909644926860, guid: 9350b6a6584ebe14aa8f754456ec90bf, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -13065,7 +13065,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b68730a42308a3f439fa0b5660cf7558, type: 3}
+  m_Sprite: {fileID: 7126430909644926860, guid: 9350b6a6584ebe14aa8f754456ec90bf, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -14895,7 +14895,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b68730a42308a3f439fa0b5660cf7558, type: 3}
+  m_Sprite: {fileID: 7126430909644926860, guid: 9350b6a6584ebe14aa8f754456ec90bf, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -16591,7 +16591,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b68730a42308a3f439fa0b5660cf7558, type: 3}
+  m_Sprite: {fileID: 7126430909644926860, guid: 9350b6a6584ebe14aa8f754456ec90bf, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -26185,6 +26185,7 @@ GameObject:
   - component: {fileID: 937382122}
   - component: {fileID: 937382121}
   - component: {fileID: 937382120}
+  - component: {fileID: 937382123}
   m_Layer: 5
   m_Name: "\uC790\uD310\uAE30"
   m_TagString: Untagged
@@ -26305,6 +26306,32 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 937382118}
   m_CullTransparentMesh: 1
+--- !u!61 &937382123
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 937382118}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.8556, y: 6.2647}
+  m_EdgeRadius: 0
 --- !u!1 &941250818
 GameObject:
   m_ObjectHideFlags: 0
@@ -38517,7 +38544,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 30
+  orthographic size: 10
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -43828,7 +43855,7 @@ SpriteRenderer:
   m_Size: {x: 12.8, y: 12.8}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1718839525
@@ -48640,7 +48667,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b68730a42308a3f439fa0b5660cf7558, type: 3}
+  m_Sprite: {fileID: 7126430909644926860, guid: 9350b6a6584ebe14aa8f754456ec90bf, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -48881,7 +48908,7 @@ SpriteRenderer:
   m_Size: {x: 12.8, y: 12.8}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1917132554
@@ -52199,7 +52226,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9550d77d5844a1b4e93975f34e3e6b56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextScene: 6F MineSweeper
+  nextScene: 6F QuizRoom
 --- !u!4 &2093499961
 Transform:
   m_ObjectHideFlags: 0
