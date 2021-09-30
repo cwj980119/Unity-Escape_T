@@ -33,12 +33,12 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
 
-        movement.x = Input.GetAxisRaw("Horizontal");
-        Debug.Log(movement.x);
-        movement.y = Input.GetAxisRaw("Vertical");
-        Debug.Log(movement.y);
+        // movement.x = Input.GetAxisRaw("Horizontal");
+        // Debug.Log(movement.x);
+        // movement.y = Input.GetAxisRaw("Vertical");
+        // Debug.Log(movement.y);
 
-        Move(movement);
+        // Move(movement);
      
     }
 

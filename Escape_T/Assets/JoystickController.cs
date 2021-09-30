@@ -19,23 +19,23 @@ public class JoystickController : MonoBehaviour,IBeginDragHandler,IDragHandler,I
 
     void Start()
     {
-        joystickcanvas = GameObject.Find("JoystickCanvas");
-        if(joystickcanvas){
-            Debug.Log("load succesed");
-        }
-        Debug.Log("??");
-        if(instance == null)
-        {
-            DontDestroyOnLoad(joystickcanvas);
-            instance = this;
-            Debug.Log("work");
-        }
-        else {
-            Destroy(this.gameObject);
-            Debug.Log("not work");
-        }
+        // joystickcanvas = GameObject.Find("JoystickCanvas");
+        // if(joystickcanvas){
+        //     Debug.Log("load succesed");
+        // }
+        // Debug.Log("??");
+        // if(instance == null)
+        // {
+        //     DontDestroyOnLoad(joystickcanvas);
+        //     instance = this;
+        //     Debug.Log("work");
+        // }
+        // else {
+        //     Destroy(this.gameObject);
+        //     Debug.Log("not work");
+        // }
     }
-
+    
     private void Update() {
         if(!isInput){
             inputVector = Vector2.zero;
