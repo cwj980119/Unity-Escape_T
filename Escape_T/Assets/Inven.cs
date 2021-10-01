@@ -18,6 +18,9 @@ public class Inven : MonoBehaviour
     public List<Item> items = new List<Item>();
     public delegate void OnChangeItem();
     public OnChangeItem onChangeItem;
+    public GameObject clickButton;
+    private FieldItem fielditems;
+    private bool chk_field;
     
 
     public void AddItem(Item _item){
@@ -29,7 +32,22 @@ public class Inven : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other) {
         if(other.CompareTag("Item")){
-            FieldItem fielditems = other.GetComponent<FieldItem>();
+            fielditems = other.GetComponent<FieldItem>();
+            clickButton.SetActive(true);
+            chk_field = true;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D other) {
+        if(other.CompareTag("Item")){
+            fielditems = null;
+            chk_field = false;
+        }
+            clickButton.SetActive(false);
+    }
+
+    public void Get(){
+        if(chk_field){
             AddItem(fielditems.GetItem());
             fielditems.DestoryItem();
         }
