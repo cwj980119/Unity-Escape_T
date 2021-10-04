@@ -52,4 +52,11 @@ public class Inven : MonoBehaviour
             fielditems.DestoryItem();
         }
     }
+
+    public bool ItemChk(string name){
+        for(int i=0;i<items.Count;i++){
+            if(items[i].itemName==name) return true;
+        }
+        return false;
+    }
 }

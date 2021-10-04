@@ -21,7 +21,7 @@ public class Inventory : MonoBehaviour
         }
         inventoryPanel.SetActive(active);
     }
-
+    
     public void ShowInventory(){
         active = !active;
         inventoryPanel.SetActive(active);
