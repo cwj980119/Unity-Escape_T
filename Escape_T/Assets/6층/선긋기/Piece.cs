@@ -5,7 +5,7 @@ using UnityEngine.EventSystems;
 
 public class Piece : MonoBehaviour, IDragHandler, IEndDragHandler
 {
-    public int snapOffset = 30;
+    public int snapOffset = 20;
     public Judge line;
     public int piece_no;
 
