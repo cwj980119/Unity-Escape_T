@@ -342,7 +342,7 @@ RectTransform:
   m_GameObject: {fileID: 426703984}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 55, y: 55, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 874782894}
   m_Father: {fileID: 1874932840}
@@ -350,7 +350,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -80.3, y: 29.2}
+  m_AnchoredPosition: {x: -532.49304, y: -268.96872}
   m_SizeDelta: {x: 1.6418, y: 1.6257}
   m_Pivot: {x: 0.50000143, y: 0.47777852}
 --- !u!114 &426703986
@@ -731,8 +731,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -448.6, y: -221.8}
-  m_SizeDelta: {x: 84.5092, y: 30}
+  m_AnchoredPosition: {x: -539.71, y: -273.73}
+  m_SizeDelta: {x: 1.2233, y: 0.7692}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1859794102
 MonoBehaviour:
@@ -898,7 +898,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
+  m_PresetInfoIsWorld: 1
 --- !u!223 &1874932839
 Canvas:
   m_ObjectHideFlags: 0
@@ -908,7 +908,7 @@ Canvas:
   m_GameObject: {fileID: 1874932836}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
+  m_RenderMode: 2
   m_Camera: {fileID: 0}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
@@ -929,7 +929,7 @@ RectTransform:
   m_GameObject: {fileID: 1874932836}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 426703985}
   - {fileID: 1859794101}
@@ -938,6 +938,6 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 531, y: 269.5}
+  m_SizeDelta: {x: 1062, y: 539}
+  m_Pivot: {x: 0.5, y: 0.5}
