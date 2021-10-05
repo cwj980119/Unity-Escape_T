@@ -25,42 +25,7 @@ public class Judge : MonoBehaviour
         return true;
     }
 
-    public bool LineAppear()
-    {
-        if (Bottom.transform.GetChild(0).GetChild(0).GetComponent<Piece>().piece_no == 0)
-        {
-            if (Bottom.transform.GetChild(4).GetChild(0).GetComponent<Piece>().piece_no == 6)
-            {
-                GameObject.Find("Line").transform.GetChild(0).gameObject.SetActive(true);
-            }
-        }
-
-        if (Bottom.transform.GetChild(1).GetChild(0).GetComponent<Piece>().piece_no == 1)
-        {
-            if (Bottom.transform.GetChild(5).GetChild(0).GetComponent<Piece>().piece_no == 5)
-            {
-                GameObject.Find("Line").transform.GetChild(1).gameObject.SetActive(true);
-            }
-        }
-
-        if (Bottom.transform.GetChild(2).GetChild(0).GetComponent<Piece>().piece_no == 2)
-        {
-            if (Bottom.transform.GetChild(6).GetChild(0).GetComponent<Piece>().piece_no == 7)
-            {
-                GameObject.Find("Line").transform.GetChild(2).gameObject.SetActive(true);
-            }
-        }
-
-        if (Bottom.transform.GetChild(3).GetChild(0).GetComponent<Piece>().piece_no == 3)
-        {
-            if (Bottom.transform.GetChild(7).GetChild(0).GetComponent<Piece>().piece_no == 4)
-            {
-                GameObject.Find("Line").transform.GetChild(3).gameObject.SetActive(true);
-            }
-        }
-        return true;
-    }
-
+   
     // Start is called before the first frame update
     void Start()
     {
@@ -70,8 +35,6 @@ public class Judge : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        LineAppear();
-
         if (IsClear())
         {
             Debug.Log("Clear");
