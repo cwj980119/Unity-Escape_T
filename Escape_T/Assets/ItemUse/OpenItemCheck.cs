@@ -19,6 +19,10 @@ public class OpenItemCheck : MonoBehaviour
             }
             
         }
+        else if(collision.CompareTag("OpenPanel")){
+            usingItemObject = collision;
+            clickButton.SetActive(true);
+        }
     }
 
     private void OnTriggerExit2D(Collider2D collision) {
@@ -30,8 +34,12 @@ public class OpenItemCheck : MonoBehaviour
 
     public void UseItem(){
         clickButton.SetActive(false);
-        if(usingItemObject!=null){
+        if(usingItemObject.CompareTag("UseItem")){
             Destroy(usingItemObject.gameObject);
         }
+        else if(usingItemObject.CompareTag("OpenPanel")){
+            usingItemObject.gameObject.GetComponent<OpenItemPanel>().OpenPanel();
+        }
     }
+
 }

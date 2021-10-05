@@ -176,8 +176,13 @@ public class NumberGameController : MonoBehaviour
     }
 
     private void WriteLog(){
-        Debug.Log("결과"+answerA+answerB+answerC+":"+BallCnt+"B "+StrikeCnt+"S");
+        if(BallCnt==0&&StrikeCnt==0){
+            logText.text+="OUT!\n";
+        }
+        else{
         logText.text+=answerA.ToString()+answerB.ToString()+answerC.ToString()+":"+BallCnt+"B "+StrikeCnt+"S\n";
+        }
+        Debug.Log("결과"+answerA+answerB+answerC+":"+BallCnt+"B "+StrikeCnt+"S");
     }
 
     private void GameClear(){

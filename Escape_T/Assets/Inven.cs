@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class Inven : MonoBehaviour
 {
@@ -51,6 +52,12 @@ public class Inven : MonoBehaviour
             AddItem(fielditems.GetItem());
             fielditems.DestoryItem();
         }
+    }
+
+    public void GetUiItem(){
+        fielditems = EventSystem.current.currentSelectedGameObject.GetComponent<FieldItem>();
+        AddItem(fielditems.GetItem());
+        fielditems.DestoryItem();
     }
 
     public bool ItemChk(string name){
