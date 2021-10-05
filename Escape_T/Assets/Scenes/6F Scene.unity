@@ -27475,8 +27475,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2093499960}
-        m_TargetAssemblyTypeName: EnterQuizRoom, Assembly-CSharp
-        m_MethodName: call
+        m_TargetAssemblyTypeName: SceneClickChange, Assembly-CSharp
+        m_MethodName: SceneChange
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -54820,12 +54820,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2093499959}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d3b6d2a1cc1713a49a5b09877f026d0f, type: 3}
+  m_Script: {fileID: 11500000, guid: 9550d77d5844a1b4e93975f34e3e6b56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   nextScene: 6F QuizRoom
-  stageNumObject1: {fileID: 1796623019}
-  stageNumObject2: {fileID: 1041229764}
 --- !u!4 &2093499961
 Transform:
   m_ObjectHideFlags: 0

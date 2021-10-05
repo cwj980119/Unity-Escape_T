@@ -11,8 +11,8 @@ public class EnterQuizRoom : MonoBehaviour
 
     public void call()
     {
-        SceneManager.LoadScene(nextScene);
         DontDestroyOnLoad(stageNumObject1);
         DontDestroyOnLoad(stageNumObject2);
+        SceneManager.LoadScene(nextScene);
     }
 }
