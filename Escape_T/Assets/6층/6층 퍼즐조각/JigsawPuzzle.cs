@@ -6,6 +6,8 @@ public class JigsawPuzzle : MonoBehaviour
 {
     public GameObject PuzzlePosSet;
     public GameObject PuzzlePieceSet;
+    public int number1;
+    public int number2;
 
     public bool IsClear()
     {

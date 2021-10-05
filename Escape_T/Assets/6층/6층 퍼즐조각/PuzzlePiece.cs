@@ -58,8 +58,8 @@ public class PuzzlePiece : MonoBehaviour, IDragHandler, IEndDragHandler
         if (puzzle.IsClear())
         {
             Debug.Log("Clear");
-            GameObject.Find("Canvas").transform.GetChild(6).gameObject.SetActive(false);
-            GameObject.Find("Canvas").transform.GetChild(7).gameObject.SetActive(true);
+            GameObject.Find("Canvas").transform.GetChild(puzzle.number1).gameObject.SetActive(false);
+            GameObject.Find("Canvas").transform.GetChild(puzzle.number2).gameObject.SetActive(true);
         }
     }
 }
