@@ -19,6 +19,7 @@ public class SceneChange : MonoBehaviour
         if(collision.gameObject.name == "student")
         {
             student.currentScene = nextScene;
+            student.StopMove();
             SceneManager.LoadScene(nextScene);
         }
     }

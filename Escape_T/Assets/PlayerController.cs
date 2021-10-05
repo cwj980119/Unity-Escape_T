@@ -13,6 +13,7 @@ public class PlayerController : MonoBehaviour
     Vector2 movement = new Vector2();
     Animator animator;
     private Rigidbody2D rigidbody2D;
+    public JoystickController joystick;
 
     // Start is called before the first frame update
     void Start()
@@ -40,6 +41,10 @@ public class PlayerController : MonoBehaviour
 
         // Move(movement);
      
+    }
+
+    public void StopMove(){
+        joystick.CancelDrag();
     }
 
     public void Move(Vector2 move){

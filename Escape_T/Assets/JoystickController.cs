@@ -19,6 +19,7 @@ public class JoystickController : MonoBehaviour,IBeginDragHandler,IDragHandler,I
 
     void Start()
     {
+        inputVector = Vector2.zero;
         // joystickcanvas = GameObject.Find("JoystickCanvas");
         // if(joystickcanvas){
         //     Debug.Log("load succesed");
@@ -54,6 +55,13 @@ public class JoystickController : MonoBehaviour,IBeginDragHandler,IDragHandler,I
         ControlJoystick(eventData);
     }
 
+     public void CancelDrag ()
+    {
+        inputVector = Vector2.zero;
+        SetAnchorZero();
+        Debug.Log("hi");
+    }
+
     public void ControlJoystick(PointerEventData eventData){
         var inputDir = eventData.position - rectTransform.anchoredPosition;
         var clampedDir = inputDir.magnitude< stickRange ? inputDir : inputDir.normalized * stickRange;
@@ -62,12 +70,16 @@ public class JoystickController : MonoBehaviour,IBeginDragHandler,IDragHandler,I
     }
 
     public void OnEndDrag(PointerEventData eventData){
-        stick.anchoredPosition = Vector2.zero;
+        SetAnchorZero();
         isInput = false;
     }
 
+    public void SetAnchorZero(){
+        stick.anchoredPosition = Vector2.zero;
+    }
+
     private void InputControlVector(){
-        // Debug.Log(inputVector.x+ "/ " + inputVector.y);
+        //Debug.Log(inputVector.x+ "/ " + inputVector.y);
         if(playerController){
             playerController.Move(inputVector);
         }
