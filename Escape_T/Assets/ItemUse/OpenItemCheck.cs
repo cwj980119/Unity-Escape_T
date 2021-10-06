@@ -35,7 +35,8 @@ public class OpenItemCheck : MonoBehaviour
     public void UseItem(){
         clickButton.SetActive(false);
         if(usingItemObject.CompareTag("UseItem")){
-            Destroy(usingItemObject.gameObject);
+            //Destroy(usingItemObject.gameObject);
+            usingItemObject.gameObject.SetActive(false);
         }
         else if(usingItemObject.CompareTag("OpenPanel")){
             usingItemObject.gameObject.GetComponent<OpenItemPanel>().OpenPanel();
