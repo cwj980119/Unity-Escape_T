@@ -13,6 +13,7 @@ public class PlayerController : MonoBehaviour
     Vector2 movement = new Vector2();
     Animator animator;
     private Rigidbody2D rigidbody2D;
+    public JoystickController joystick;
 
     // Start is called before the first frame update
     void Start()
@@ -33,13 +34,17 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
 
-        movement.x = Input.GetAxisRaw("Horizontal");
-        Debug.Log(movement.x);
-        movement.y = Input.GetAxisRaw("Vertical");
-        Debug.Log(movement.y);
+        // movement.x = Input.GetAxisRaw("Horizontal");
+        // Debug.Log(movement.x);
+        // movement.y = Input.GetAxisRaw("Vertical");
+        // Debug.Log(movement.y);
 
-        Move(movement);
+        // Move(movement);
      
+    }
+
+    public void StopMove(){
+        joystick.CancelDrag();
     }
 
     public void Move(Vector2 move){

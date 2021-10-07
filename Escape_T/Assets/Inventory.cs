@@ -4,47 +4,36 @@ using UnityEngine;
 
 public class Inventory : MonoBehaviour
 {
-    public List<Item> items;
+    Inven inven;
 
-    [SerializeField]
-    private Transform slotParent;
-    [SerializeField]
-    private Slot[] slots;
-
-    private void OnValidate()
-    {
-        slots = slotParent.GetComponentsInChildren<Slot>();
+    public GameObject inventoryPanel;
+    bool active = false;
+    
+    public Slot[] slots;
+    public Transform slotHolder;
+    
+    private void Start() {
+        inven = Inven.instance;
+        slots = slotHolder.GetComponentsInChildren<Slot>();
+        inven.onChangeItem += RedrawSlotUI;
+        for(int i=0;i<slots.Length;i++){
+            slots[i].RemoveSlot();
+        }
+        inventoryPanel.SetActive(active);
+    }
+    
+    public void ShowInventory(){
+        active = !active;
+        inventoryPanel.SetActive(active);
     }
 
-    void Awake()
-    {
-        FreshSlot();
-    }
-
-    public void FreshSlot()
-    {
-        int i = 0;
-        for(; i<items.Count && i<slots.Length; i++)
-        {
-            slots[i].item = items[i];
+    void RedrawSlotUI(){
+        for(int i=0;i<slots.Length;i++){
+            slots[i].RemoveSlot();
         }
-        for(; i<slots.Length; i++)
-        {
-            slots[i].item = null;
-        }
-    }
-
-    public void AddItem(Item _item)
-    {
-        if(items.Count<slots.Length)
-        {
-            items.Add(_item);
-            FreshSlot();
-        }
-
-        else
-        {
-            print("½½·ÔÀÌ °¡µæ Â÷ ÀÖ½À´Ï´Ù.");
+        for(int i=0;i<inven.items.Count;i++){
+            slots[i].item = inven.items[i];
+            slots[i].UpdateSlot();
         }
     }
 }
