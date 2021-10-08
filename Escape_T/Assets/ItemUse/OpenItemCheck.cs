@@ -6,7 +6,7 @@ public class OpenItemCheck : MonoBehaviour
 {
     [SerializeField]
     public GameObject clickButton;
-    private Collider2D usingItemObject;
+    public Collider2D usingItemObject;
     private bool haveItem;
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -39,17 +39,19 @@ public class OpenItemCheck : MonoBehaviour
 
     public void UseItem(){
         clickButton.SetActive(false);
-        if(usingItemObject.CompareTag("UseItem")){
-            //Destroy(usingItemObject.gameObject);
-            if(haveItem){
-                usingItemObject.gameObject.SetActive(false);
+        if(usingItemObject!=null){
+            if(usingItemObject.CompareTag("UseItem")){
+                //Destroy(usingItemObject.gameObject);
+                if(haveItem){
+                    usingItemObject.gameObject.SetActive(false);
+                }
+                else{
+                    usingItemObject.gameObject.GetComponent<UsingItems>().panel.SetActive(true);
+                }
             }
-            else{
-                usingItemObject.gameObject.GetComponent<UsingItems>().panel.SetActive(true);
+            else if(usingItemObject.CompareTag("OpenPanel")){
+                usingItemObject.gameObject.GetComponent<OpenItemPanel>().OpenPanel();
             }
-        }
-        else if(usingItemObject.CompareTag("OpenPanel")){
-            usingItemObject.gameObject.GetComponent<OpenItemPanel>().OpenPanel();
         }
     }
 
