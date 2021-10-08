@@ -1538,6 +1538,7 @@ GameObject:
   - component: {fileID: 52717287}
   - component: {fileID: 52717290}
   - component: {fileID: 52717291}
+  - component: {fileID: 52717292}
   m_Layer: 5
   m_Name: "\uCF64\uD4E8\uD0C0"
   m_TagString: OpenPanel
@@ -1710,6 +1711,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4, y: 5}
   m_EdgeRadius: 0
+--- !u!114 &52717292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 52717285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2060c1c4636820145a1a510a2a5aed49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  panel: {fileID: 1071953461}
 --- !u!1 &55841478
 GameObject:
   m_ObjectHideFlags: 0
@@ -10949,6 +10963,7 @@ GameObject:
   - component: {fileID: 489267430}
   - component: {fileID: 489267429}
   - component: {fileID: 489267428}
+  - component: {fileID: 489267432}
   - component: {fileID: 489267431}
   m_Layer: 5
   m_Name: "\uD559\uC0DD\uD68C\uC2E4\uCE60\uD310"
@@ -11019,19 +11034,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 489267429}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 478693872}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &489267429
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11096,6 +11099,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 6, y: 5}
   m_EdgeRadius: 0
+--- !u!114 &489267432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 489267426}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2060c1c4636820145a1a510a2a5aed49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  panel: {fileID: 478693872}
 --- !u!1001 &490273329
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11281,6 +11297,7 @@ GameObject:
   - component: {fileID: 509520395}
   - component: {fileID: 509520394}
   - component: {fileID: 509520398}
+  - component: {fileID: 509520397}
   m_Layer: 5
   m_Name: "\uB17C\uB9AC\uD68C\uB85C\uC2E4\uD5D8\uC2E4\uCE60\uD310"
   m_TagString: OpenPanel
@@ -11350,19 +11367,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 509520395}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1280521686}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &509520395
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11401,6 +11406,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 509520392}
   m_CullTransparentMesh: 1
+--- !u!114 &509520397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 509520392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2060c1c4636820145a1a510a2a5aed49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  panel: {fileID: 1280521686}
 --- !u!61 &509520398
 BoxCollider2D:
   m_ObjectHideFlags: 0
