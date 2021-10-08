@@ -30,7 +30,7 @@ public class DoorLock : MonoBehaviour
 			//student.isSafeOpened = true;
 			// 그냥 내가 해본거 codeTextValue = "9999";
 			GameObject.Find("Canvas").transform.GetChild(2).gameObject.SetActive(false);
-			GameObject.Find("Canvas").transform.GetChild(3).gameObject.SetActive(true);
+			GameObject.Find("Canvas").transform.GetChild(4).gameObject.SetActive(true);
 		}
 
 		if (codeTextValue.Length >= 4)

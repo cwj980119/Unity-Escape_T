@@ -38,8 +38,8 @@ public class Judge : MonoBehaviour
         if (IsClear())
         {
             Debug.Log("Clear");
+            GameObject.Find("Canvas").transform.GetChild(5).gameObject.SetActive(false);
             GameObject.Find("Canvas").transform.GetChild(8).gameObject.SetActive(true);
-            GameObject.Find("Canvas").transform.GetChild(9).gameObject.SetActive(false);
         }
     }
 }
