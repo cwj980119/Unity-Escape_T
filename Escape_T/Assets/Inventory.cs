@@ -8,6 +8,7 @@ public class Inventory : MonoBehaviour
 
     public GameObject inventoryPanel;
     bool active = false;
+    public bool expand = false;
     
     public Slot[] slots;
     public Transform slotHolder;
