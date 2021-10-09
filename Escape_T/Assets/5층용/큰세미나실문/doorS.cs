@@ -31,7 +31,7 @@ public class doorS : MonoBehaviour
 			// 그냥 내가 해본거 codeTextValue = "9999";
 			//Openlock.enabled = true;
 			//GameObject(prefab).SetActive(false);
-			GameObject.Find("Canvas_world").transform.GetChild(0).gameObject.SetActive(false);
+			GameObject.Find("Canvas_world큰세미나실문").transform.GetChild(0).gameObject.SetActive(false);
 			Openlock.enabled = true;
 		}
 
