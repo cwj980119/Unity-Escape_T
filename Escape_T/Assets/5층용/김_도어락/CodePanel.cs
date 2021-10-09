@@ -15,7 +15,7 @@ public class CodePanel : MonoBehaviour {
 	void Start()
     {
 		Openlock.enabled = false;
-		GameObject.Find("Canvas_도어락").transform.GetChild(1).gameObject.SetActive(false);
+		//GameObject.Find("Canvas_도어락").transform.GetChild(1).gameObject.SetActive(false);
 
 	}
 
