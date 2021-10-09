@@ -6,8 +6,10 @@ public class UsingItems : MonoBehaviour
 {
     [SerializeField]
     string NeedItem;
+    public GameObject panel;
 
     public string getItemName(){
         return NeedItem;
     }
 }
+
