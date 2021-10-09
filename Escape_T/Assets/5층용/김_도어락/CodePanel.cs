@@ -15,7 +15,9 @@ public class CodePanel : MonoBehaviour {
 	void Start()
     {
 		Openlock.enabled = false;
-    }
+		GameObject.Find("Canvas_도어락").transform.GetChild(1).gameObject.SetActive(false);
+
+	}
 
 	//테스트
 
@@ -23,13 +25,15 @@ public class CodePanel : MonoBehaviour {
 	void Update () {
 		codeText.text = codeTextValue;
 
-		if (codeTextValue == "1234") {
+		if (codeTextValue == "32112") {
 			//student.isSafeOpened = true;
 			// 그냥 내가 해본거 codeTextValue = "9999";
 			Openlock.enabled = true;
+			GameObject.Find("Canvas_도어락").transform.GetChild(1).gameObject.SetActive(true);
+
 		}
 
-		if (codeTextValue.Length >= 4)
+		if (codeTextValue.Length >= 5)
 			codeTextValue = "";
 	}
 
