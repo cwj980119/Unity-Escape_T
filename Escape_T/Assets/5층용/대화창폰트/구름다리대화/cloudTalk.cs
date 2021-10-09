@@ -20,9 +20,9 @@ public class cloudTalk : MonoBehaviour
     {
         // 대화창에 쓸 대화는 이 아래에만 쓰세요 
 
-        talkText.Add("밖으로 나가게 해죠!");
-        talkText.Add("두번 째 문장입니다!");
-        talkText.Add("세번 째 문장입니다!\n화면 클릭시 대화창 꺼집니다~");
+        talkText.Add("구름다리로 이어지는 출구다!\n나가서 도움을 청해야겠어.");
+        talkText.Add("......이런, 잠겨있다.");
+        //talkText.Add("세번 째 문장입니다!\n화면 클릭시 대화창 꺼집니다~");
 
         // 대화창에 쓸 대화는 이 위에만 쓰세요 텍스트 더 쓰고 싶으면 talkText.Add("어쩌구저쩌구"); 위에 더 추가하삼
         // 멘트 추가하고 싶은 만큼 하되 하나당 3줄까지만 가능함

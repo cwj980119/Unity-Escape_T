@@ -8,7 +8,7 @@ public class hello : MonoBehaviour
 
 	[SerializeField]
 	Text codeText;
-	string codeTextValue = "";
+	string codeTextValue;//= "";
 
 	// 테스트
 	public Image Openlock;
@@ -16,19 +16,19 @@ public class hello : MonoBehaviour
 	// 수정
 	[SerializeField]
 	Text Htext;
-	string HtextValue = "";
+	string HtextValue;// = "";
 
 	[SerializeField]
 	Text Stext;
-	string StextValue = "";
+	string StextValue;// = "";
 
 	[SerializeField]
 	Text Ttext;
-	string TtextValue = "";
+	string TtextValue;// = "";
 
 	[SerializeField]
 	Text Ftext;
-	string FtextValue = "";
+	string FtextValue;// = "";
 	//
 
 	void Start()
@@ -74,8 +74,8 @@ public class hello : MonoBehaviour
 				break;
 		}
 
-		string abc = "";
-		// 배열의 요소를 역순으로 출력
+		string abc= "";
+				   // 배열의 요소를 역순으로 출력
 		for (int i = position - 1; i >= 0; i--)
 		{
 			abc += binary[i];
@@ -128,8 +128,8 @@ public class hello : MonoBehaviour
 				break;
 		}
 
-		string abc = "";
-		// 배열의 요소를 역순으로 출력
+		string abc= "";
+				   // 배열의 요소를 역순으로 출력
 		for (int i = position - 1; i >= 0; i--)
 		{
 			abc += binary[i];

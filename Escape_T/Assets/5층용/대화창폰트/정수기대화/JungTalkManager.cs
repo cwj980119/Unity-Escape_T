@@ -20,9 +20,9 @@ public class JungTalkManager : MonoBehaviour
     {
         // 대화창에 쓸 대화는 이 아래에만 쓰세요 
 
-        talkText.Add("첫번 째 문장입니다!");
-        talkText.Add("두번 째 문장입니다!");
-        talkText.Add("세번 째 문장입니다!\n화면 클릭시 대화창 꺼집니다~");
+        talkText.Add("4층을 이리저리 돌아다녔더니 목이 마르다.\n(벌컥벌컥)");
+        talkText.Add("혹시 모르니 물을 챙겨야 겠다. [아이템] 물");
+       // talkText.Add("세번 째 문장입니다!\n화면 클릭시 대화창 꺼집니다~");
 
         // 대화창에 쓸 대화는 이 위에만 쓰세요 텍스트 더 쓰고 싶으면 talkText.Add("어쩌구저쩌구"); 위에 더 추가하삼
         // 멘트 추가하고 싶은 만큼 하되 하나당 3줄까지만 가능함

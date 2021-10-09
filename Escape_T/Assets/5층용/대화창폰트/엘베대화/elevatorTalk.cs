@@ -20,9 +20,9 @@ public class elevatorTalk : MonoBehaviour
     {
         // 대화창에 쓸 대화는 이 아래에만 쓰세요 
 
-        talkText.Add("엘리베이터가 작동을 안하네요!");
-        talkText.Add("두번 째 문장입니다!");
-        talkText.Add("세번 째 문장입니다!\n화면 클릭시 대화창 꺼집니다~");
+        talkText.Add("역시나 엘리베이터는 작동을 안하나보다.");
+        //talkText.Add("두번 째 문장입니다!");
+        //talkText.Add("세번 째 문장입니다!\n화면 클릭시 대화창 꺼집니다~");
 
         // 대화창에 쓸 대화는 이 위에만 쓰세요 텍스트 더 쓰고 싶으면 talkText.Add("어쩌구저쩌구"); 위에 더 추가하삼
         // 멘트 추가하고 싶은 만큼 하되 하나당 3줄까지만 가능함
