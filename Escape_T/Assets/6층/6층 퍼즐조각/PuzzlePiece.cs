@@ -60,6 +60,7 @@ public class PuzzlePiece : MonoBehaviour, IDragHandler, IEndDragHandler
             Debug.Log("Clear");
             GameObject.Find("Canvas").transform.GetChild(puzzle.number1).gameObject.SetActive(false);
             GameObject.Find("Canvas").transform.GetChild(puzzle.number2).gameObject.SetActive(true);
+            GameObject.Find(puzzle.ItemsName).transform.GetChild(puzzle.number3).gameObject.SetActive(true);
         }
     }
 }

@@ -8,6 +8,8 @@ public class JigsawPuzzle : MonoBehaviour
     public GameObject PuzzlePieceSet;
     public int number1;
     public int number2;
+    public int number3;
+    public string ItemsName;
 
     public bool IsClear()
     {
