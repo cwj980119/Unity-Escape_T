@@ -8,7 +8,6 @@ public class ComputerQuiz : MonoBehaviour
 
 	[SerializeField]
 	Text codeText;
-	Text codeText2;
 	string codeTextValue = "";
 
 	// Å×½ºÆ®
