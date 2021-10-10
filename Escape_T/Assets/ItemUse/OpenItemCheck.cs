@@ -43,6 +43,8 @@ public class OpenItemCheck : MonoBehaviour
             if(usingItemObject.CompareTag("UseItem")){
                 //Destroy(usingItemObject.gameObject);
                 if(haveItem){
+                    gameObject.GetComponent<Inven>().RemoveItem(usingItemObject.GetComponent<UsingItems>().getItemName());
+                    Debug.Log(usingItemObject.GetComponent<UsingItems>().getItemName());
                     usingItemObject.gameObject.SetActive(false);
                 }
                 else{

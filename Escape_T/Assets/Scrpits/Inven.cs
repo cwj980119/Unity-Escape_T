@@ -31,6 +31,15 @@ public class Inven : MonoBehaviour
         }
     }
 
+    public void RemoveItem(string usingitem){
+        for(int i = items.Count - 1; i >= 0; i--) {
+            if(items[i].itemName==usingitem){
+                items.Remove(items[i]);
+                return;
+            }
+        }
+    }
+
     private void OnTriggerEnter2D(Collider2D other) {
         if(other.CompareTag("Item")){
             fielditems = other.GetComponent<FieldItem>();

@@ -6,7 +6,7 @@ public class OpenItemPanel : MonoBehaviour
 {
     [SerializeField]
     GameObject panel;
-    public Collider2D player;
+    private Collider2D player;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
