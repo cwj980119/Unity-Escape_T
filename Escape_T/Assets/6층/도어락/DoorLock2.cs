@@ -29,7 +29,7 @@ public class DoorLock2 : MonoBehaviour
 			//student.isSafeOpened = true;
 			// 그냥 내가 해본거 codeTextValue = "9999";
 			GameObject.Find("Canvas").transform.GetChild(12).gameObject.SetActive(false);
-			GameObject.Find("Canvas-world").transform.GetChild(8).gameObject.SetActive(false);
+			GameObject.Find("ComputerRoom").transform.GetChild(0).gameObject.SetActive(false);
 		}
 
 		if (codeTextValue.Length >= 2)
