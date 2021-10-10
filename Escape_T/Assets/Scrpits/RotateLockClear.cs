@@ -8,6 +8,7 @@ public class RotateLockClear : MonoBehaviour
     [SerializeField]
     GameObject clear;
     public GameObject door;
+    public GameObject panel;
 
     private void Update() {
         if(Check()){
@@ -25,6 +26,7 @@ public class RotateLockClear : MonoBehaviour
     }
 
     private void Correct(){
+        panel.SetActive(true);
         clear.SetActive(false);
         door.SetActive(false);
         gameObject.SetActive(false);
