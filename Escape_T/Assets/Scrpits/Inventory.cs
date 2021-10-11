@@ -37,4 +37,8 @@ public class Inventory : MonoBehaviour
             slots[i].UpdateSlot();
         }
     }
+
+    private void Update() {
+        RedrawSlotUI();
+    }
 }
