@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/release' branch; Version is '2020.3.12f1 (b3b2c6512326) revision 11776710'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19042.1237; Version 2009; 64bit' Language: 'ko' Physical Memory: 7865 MB
+OS: 'Windows 10 Home; OS build 19042.1237; Version 2009; 64bit' Language: 'ko' Physical Memory: 16178 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,127 +11,87 @@ C:\Program Files\Unity\Hub\Editor\2020.3.12f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/jungy/OneDrive/문서/GitHub/Unity-Escape_T/Escape_T
+C:/Users/82108/OneDrive/문서/GitHub/Unity-Escape_T/Escape_T
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60682
-Successfully changed project path to: C:/Users/jungy/OneDrive/문서/GitHub/Unity-Escape_T/Escape_T
-C:/Users/jungy/OneDrive/문서/GitHub/Unity-Escape_T/Escape_T
+14075
+Successfully changed project path to: C:/Users/82108/OneDrive/문서/GitHub/Unity-Escape_T/Escape_T
+C:/Users/82108/OneDrive/문서/GitHub/Unity-Escape_T/Escape_T
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 122.28 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 159.00 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.12f1 (b3b2c6512326)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/jungy/OneDrive/문서/GitHub/Unity-Escape_T/Escape_T/Assets
+[Subsystems] Discovering subsystems at path C:/Users/82108/OneDrive/문서/GitHub/Unity-Escape_T/Escape_T/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce MX450 (ID=0x1f97)
+    Renderer: Intel(R) UHD Graphics 620 (ID=0x3ea0)
     Vendor:   
-    VRAM:     1928 MB
-    Driver:   27.21.14.5256
+    VRAM:     8089 MB
+    Driver:   25.20.100.6577
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56428
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56924
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005048 seconds.
+Registered in 0.019316 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 118.41 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 123.34 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.951 seconds
+- Completed reload, in  5.412 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.012219 seconds.
+Registered in 0.036604 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000027920875020 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file data-000001D4A5F33960 doesn't match image C:\Users\82108\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027AFC09D1C0 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file data-000001D4AB3DCB60 doesn't match image C:\Users\82108\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002792202A3E0 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001D4AB65E070 doesn't match image C:\Users\82108\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027AFBD69A60 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file data-000001D4A99F0FA0 doesn't match image C:\Users\82108\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279219B7040 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file data-000001D4A9198910 doesn't match image C:\Users\82108\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\PsdPlugin.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279219CA250 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file data-000001D4AB860020 doesn't match image C:\Users\82108\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027921E15030 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000001D4A97C0240 doesn't match image C:\Users\82108\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027AFC3A6C20 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001D4A9A041B0 doesn't match image C:\Users\82108\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279219CA250 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000001D4A9E5A020 doesn't match image C:\Users\82108\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027920A3D430 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000001D4A9126BE0 doesn't match image C:\Users\82108\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279209CA020 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000001D4AB7BB710 doesn't match image C:\Users\82108\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279209F7A30 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000001D4A99A5C20 doesn't match image C:\Users\82108\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002792202A3E0 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279209F7A30 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027AFBBB8450 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279219CA250 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027AFBCE7010 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027AFBBB8450 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027920A72020 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027AFC4A34F0 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027920A83C30 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027AFC555050 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002792202A3E0 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027920AC6020 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027920795040 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027AFBC91030 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027920AC6020 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279208AC230 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027AFBD818B0 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027921A7F080 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027AFBBB8450 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027920AB1840 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027920A51E40 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file data-000001D4A9B31010 doesn't match image C:\Users\82108\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 127.50 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 96.10 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.791 seconds
+- Completed reload, in  3.978 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
-Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 1.41 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2145 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 94.6 MB.
-System memory in use after: 94.5 MB.
+System memory in use before: 94.5 MB.
+System memory in use after: 94.4 MB.
 
 Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 2581.
-Total: 3.249200 ms (FindLiveObjects: 0.182700 ms CreateObjectMapping: 0.050600 ms MarkObjects: 2.824200 ms  DeleteObjects: 0.190300 ms)
+Total: 3.758600 ms (FindLiveObjects: 0.310000 ms CreateObjectMapping: 0.165500 ms MarkObjects: 3.079000 ms  DeleteObjects: 0.202200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -140,414 +100,46 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 12.38 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 52.4 MB.
-System memory in use after: 52.4 MB.
-
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2581.
-Total: 6.138600 ms (FindLiveObjects: 0.385500 ms CreateObjectMapping: 0.173200 ms MarkObjects: 5.386700 ms  DeleteObjects: 0.190900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/7F Scene.unity
-  artifactKey: Guid(fe1aa9ad4426abd4b905461cf99215b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/7F Scene.unity using Guid(fe1aa9ad4426abd4b905461cf99215b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3f61f923a95116a6cd29779a30d5db9') in 0.059362 seconds 
-  Import took 0.067244 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010763 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000002792275E020 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279208CDDF0 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027933772B40 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027925F38340 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027921D96010 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027AFBEB9A60 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002792235E010 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027AFBBB8450 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027921D96010 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027921D96010 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027AFBEC4670 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027AFBD2C900 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027AFBD9C5F0 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027AFC4EA010 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027AFBD1FD50 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027AFC2B5010 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027AFBD8C830 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027AFC728D30 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027AFBE00030 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027920EDAC20 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279219B7040 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027AFC555050 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027933772B40 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279219B7040 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027921F51420 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027920F64010 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027AFC164D70 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027920A44230 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002792584D700 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027933770950 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027AFBD1FD50 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027AFBD84090 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027920A44230 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.468 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2143 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 94.5 MB.
-System memory in use after: 94.5 MB.
-
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2585.
-Total: 4.246800 ms (FindLiveObjects: 0.322400 ms CreateObjectMapping: 0.094800 ms MarkObjects: 3.646400 ms  DeleteObjects: 0.180800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.012731 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000027926375020 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027925FD50A0 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027933772B40 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027925F3B780 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027921F48010 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027AFBEB9A60 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002792235E010 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027AFBBB8450 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002792078D010 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027921F48010 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027AFBEC4670 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027AFC2C8860 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027AFBD9C5F0 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002792235E010 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027AFBD1FD50 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027AFC083F40 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027AFC11A3D0 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027AFBD1FD50 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279262F1030 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027AFBBCAC20 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279219B7040 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027AFC555050 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027933772B40 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279219B7040 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027AFBD7C010 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027930F286C0 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027AFC164D70 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279250B0220 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002792584D700 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027933770EC0 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027AFBD1FD50 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027AFBD84090 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279254B2010 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.481 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.39 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2143 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 94.6 MB.
-System memory in use after: 94.6 MB.
-
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2589.
-Total: 3.775900 ms (FindLiveObjects: 0.220400 ms CreateObjectMapping: 0.152600 ms MarkObjects: 3.163400 ms  DeleteObjects: 0.207100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 195.937880 seconds.
-  path: Assets/Scenes/4F Scene.unity
-  artifactKey: Guid(d16b94329766f7e44915f3d782be48dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/4F Scene.unity using Guid(d16b94329766f7e44915f3d782be48dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25726e53b7e021e13c0609f9db7fb191') in 0.058355 seconds 
-  Import took 0.067928 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011477 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000027AFBE00030 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027926082500 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027925E0F070 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027925F3C490 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027921F48010 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027925FB2C10 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279262B1010 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000279214FB010 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002792155D020 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027921F48010 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027AFBEC4670 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027AFBD2C900 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027925E0F070 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027AFC00DE20 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027AFBBB8450 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002792273A020 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027AFBD8C830 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027AFC728D30 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027AFBE00030 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027AFBBCAC20 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027925464020 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027AFC555050 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027925E0F070 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027925464020 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027924966020 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027925446050 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027AFC5F8010 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002792155D020 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027926154630 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027933751F30 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027AFBBB8450 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027925E0F070 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027921F48010 doesn't match image C:\Users\jungy\OneDrive\문서\GitHub\Unity-Escape_T\Escape_T\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.35 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.498 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2143 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 94.6 MB.
-System memory in use after: 94.6 MB.
-
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2593.
-Total: 4.623900 ms (FindLiveObjects: 0.413800 ms CreateObjectMapping: 0.169700 ms MarkObjects: 3.889600 ms  DeleteObjects: 0.149100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 263.244493 seconds.
-  path: Assets/Scenes/4F Scene.unity
-  artifactKey: Guid(d16b94329766f7e44915f3d782be48dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/4F Scene.unity using Guid(d16b94329766f7e44915f3d782be48dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1d9defe8fb54a67eafb18cdd4322804') in 0.041757 seconds 
-  Import took 0.051102 seconds .
+  path: Assets/Thunderstorms SFX Pack/03 - Thunderstorm (with dark sound + frogs).wav
+  artifactKey: Guid(7b94b8d190b7b4440954ee27d6a814f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thunderstorms SFX Pack/03 - Thunderstorm (with dark sound + frogs).wav using Guid(7b94b8d190b7b4440954ee27d6a814f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aee6c92e89ee9ea876e53e282cdfe99d') in 0.239137 seconds 
+  Import took 0.246505 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 188.987678 seconds.
-  path: Assets/7층/ㅇㅎ.png
-  artifactKey: Guid(ee7e06d8151de1d4999d2a2de177f7fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/7층/ㅇㅎ.png using Guid(ee7e06d8151de1d4999d2a2de177f7fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd13d06490ca55b28442c3e313fe97e23') in 0.346095 seconds 
-  Import took 0.355764 seconds .
+  Time since last request: 0.000642 seconds.
+  path: Assets/Thunderstorms SFX Pack
+  artifactKey: Guid(5d468733da6c87d469e05077e6e3c2fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thunderstorms SFX Pack using Guid(5d468733da6c87d469e05077e6e3c2fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c67b8a6860f22bc3b2da84f71cb3870') in 0.008127 seconds 
+  Import took 0.015539 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000313 seconds.
-  path: Assets/7층/퀴즈.png
-  artifactKey: Guid(056b6910c42bff44396aa1d5220ba832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/7층/퀴즈.png using Guid(056b6910c42bff44396aa1d5220ba832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cde46d8e2dd5825ffa61dd744f371f34') in 0.183956 seconds 
-  Import took 0.192676 seconds .
+  Time since last request: 0.000642 seconds.
+  path: Assets/Thunderstorms SFX Pack/04 - Thunderstorm - From Inside House With Grandfather Clock.wav
+  artifactKey: Guid(a231074ca6c8bb940935cac889706ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thunderstorms SFX Pack/04 - Thunderstorm - From Inside House With Grandfather Clock.wav using Guid(a231074ca6c8bb940935cac889706ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5fcab13f37146fd79c29d32fb011de9') in 0.023401 seconds 
+  Import took 0.031230 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000274 seconds.
-  path: Assets/7층/퀴즈1.png
-  artifactKey: Guid(aef9692d9d505a24ca56a2e629a2f3e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/7층/퀴즈1.png using Guid(aef9692d9d505a24ca56a2e629a2f3e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65d959aa0cc6009cab1ef79381e097e8') in 0.089541 seconds 
-  Import took 0.098675 seconds .
+  Time since last request: 0.000619 seconds.
+  path: Assets/Thunderstorms SFX Pack/06 - Skeleton Cave Near The Shore (without steps).wav
+  artifactKey: Guid(d6ee9b42072c6a848bf7dcda0ddbcb7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thunderstorms SFX Pack/06 - Skeleton Cave Near The Shore (without steps).wav using Guid(d6ee9b42072c6a848bf7dcda0ddbcb7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0415f552eca00e3650f5cd652ee7112') in 0.023657 seconds 
+  Import took 0.031966 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000454 seconds.
-  path: Assets/7층/책.png
-  artifactKey: Guid(9e13de6758d30834aa5207d53595fe92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/7층/책.png using Guid(9e13de6758d30834aa5207d53595fe92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61c40ee44bbf083302eab14d4ab2b732') in 0.157199 seconds 
-  Import took 0.165244 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000377 seconds.
-  path: Assets/7층/컴퓨터 퀴즈.png
-  artifactKey: Guid(48fa50fe56e4afe40b2993edd056e252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/7층/컴퓨터 퀴즈.png using Guid(48fa50fe56e4afe40b2993edd056e252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77e38752f7b28f0e814f564a64eca6f9') in 0.071940 seconds 
-  Import took 0.083850 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000328 seconds.
-  path: Assets/7층/ㅇㅎ.png
-  artifactKey: Guid(ee7e06d8151de1d4999d2a2de177f7fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/7층/ㅇㅎ.png using Guid(ee7e06d8151de1d4999d2a2de177f7fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd13d06490ca55b28442c3e313fe97e23') in 0.076826 seconds 
-  Import took 0.086102 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 305.553100 seconds.
-  path: Assets/교실소품들/열쇠.png
-  artifactKey: Guid(079639a8fc3ae25458c5640f4e85c275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/교실소품들/열쇠.png using Guid(079639a8fc3ae25458c5640f4e85c275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68ab10b88ace84c9c69353178678aa9d') in 0.151689 seconds 
-  Import took 0.160332 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.008568 seconds.
-  path: Assets/교실소품들/열쇠.png
-  artifactKey: Guid(079639a8fc3ae25458c5640f4e85c275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/교실소품들/열쇠.png using Guid(079639a8fc3ae25458c5640f4e85c275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68ab10b88ace84c9c69353178678aa9d') in 0.144061 seconds 
-  Import took 0.151171 seconds .
+  Time since last request: 2.006318 seconds.
+  path: Assets/Thunderstorms SFX Pack/03 - Thunderstorm (with dark sound + frogs).wav
+  artifactKey: Guid(7b94b8d190b7b4440954ee27d6a814f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thunderstorms SFX Pack/03 - Thunderstorm (with dark sound + frogs).wav using Guid(7b94b8d190b7b4440954ee27d6a814f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aee6c92e89ee9ea876e53e282cdfe99d') in 0.018118 seconds 
+  Import took 0.024986 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
