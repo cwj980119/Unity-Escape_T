@@ -1,8 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
-using System.Reflection;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DataController : MonoBehaviour
 {
@@ -98,18 +98,32 @@ public class DataController : MonoBehaviour
         SaveGameData(); 
     } 
 
-    public string val = "test";
-
-    public void call()
-    {
-        FieldInfo fld = typeof(DataController).GetField("val");
-        Debug.Log(fld.ToString());
-        val = "hi";
-        Debug.Log("HI");
-        Debug.Log(fld);
+    public void Check4F(){
+        if(gameData.isClear4){
+            SceneManager.LoadScene("4F Scene");
+            Time.timeScale = 1;
+        }
     }
 
-    // public bool CheckClear(string sceneNumber){
-    //     return gameData. + sceneNumber;
-    // }
+    public void Check5F(){
+        if(gameData.isClear5){
+            SceneManager.LoadScene("5F Scene");
+            Time.timeScale = 1;
+        }
+    }
+
+    public void Check6F(){
+        if(gameData.isClear6){
+            SceneManager.LoadScene("6F Scene");
+            Time.timeScale = 1;
+        }
+    }
+
+    public void Check7F(){
+        if(gameData.isClear7){
+            SceneManager.LoadScene("7F Scene");
+            Time.timeScale = 1;
+        }
+    }
+
 } 
