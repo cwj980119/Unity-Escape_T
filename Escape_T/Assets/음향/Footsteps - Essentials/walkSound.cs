@@ -2,9 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// 사용하지 않는 스크립트
+
+/*
 public class walkSound : MonoBehaviour
 {
-    /*
+    
     [SerializeField] float speed = 5f;
     float moveX:
     Rigidbody2D rb:
@@ -44,5 +47,6 @@ public class walkSound : MonoBehaviour
         else 
             audioSrc.Stop();
     }
-    */
+    
 }
+*/

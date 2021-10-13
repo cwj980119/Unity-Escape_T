@@ -7,13 +7,17 @@ public class PlayerController : MonoBehaviour
 {
     static public PlayerController instance; //ĳ���� �ߺ� ���� ����
 
-
     public string currentScene;
     public float move_speed;//ĳ���� �̵��ӵ�
     Vector2 movement = new Vector2();
     Animator animator;
     private Rigidbody2D rigidbody2D;
     public JoystickController joystick;
+
+    // 예원 걸을 때 소리 삽입 하려고 수정
+    [SerializeField]
+    AudioSource audioSrc;
+    // 예원 걸을 때 소리 삽입 하려고 수정
 
     // Start is called before the first frame update
     void Start()
@@ -57,11 +61,19 @@ public class PlayerController : MonoBehaviour
         if (Mathf.Approximately(movement.x, 0) && Mathf.Approximately(movement.y, 0))
         {
             animator.SetBool("isMove", false);
+
+            // 예원 걸을 때 소리 삽입 하려고 수정
+            audioSrc.Stop();
+            // 예원 걸을 때 소리 삽입 하려고 수정
         }
 
         else
         {
             animator.SetBool("isMove", true);
+            // 예원 걸을 때 소리 삽입 하려고 수정
+            if (!audioSrc.isPlaying)
+                audioSrc.Play();
+            // 예원 걸을 때 소리 삽입 하려고 수정
         }
 
         animator.SetFloat("xDir", movement.x);
