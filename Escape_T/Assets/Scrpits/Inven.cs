@@ -22,11 +22,19 @@ public class Inven : MonoBehaviour
     public GameObject clickButton;
     private FieldItem fielditems;
     private bool chk_field;
-    
+
+    // 예원 아이템 획득 때 소리 삽입 하려고 수정
+    [SerializeField]
+    AudioSource audioSrc;
+    // 예원 아이템 획득 때 소리 삽입 하려고 수정
 
     public void AddItem(Item _item){
         items.Add(_item);
-        if(onChangeItem!=null){
+        // 예원 아이템 획득 소리 삽입 하려고 수정
+        if (!audioSrc.isPlaying)
+            audioSrc.Play();
+        // 예원 아이템 획득 소리 삽입 하려고 수정
+        if (onChangeItem!=null){
             onChangeItem.Invoke();
         }
     }
