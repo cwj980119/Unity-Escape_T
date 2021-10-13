@@ -100,28 +100,28 @@ public class DataController : MonoBehaviour
 
     public void Check4F(){
         if(gameData.isClear4){
-            SceneManager.LoadScene("4F Scene");
+            LoadingScene.LoadScene("4F Scene");
             Time.timeScale = 1;
         }
     }
 
     public void Check5F(){
         if(gameData.isClear5){
-            SceneManager.LoadScene("5F Scene");
+            LoadingScene.LoadScene("5F Scene");
             Time.timeScale = 1;
         }
     }
 
     public void Check6F(){
         if(gameData.isClear6){
-            SceneManager.LoadScene("6F Scene");
+            LoadingScene.LoadScene("6F Scene");
             Time.timeScale = 1;
         }
     }
 
     public void Check7F(){
         if(gameData.isClear7){
-            SceneManager.LoadScene("7F Scene");
+            LoadingScene.LoadScene("7F Scene");
             Time.timeScale = 1;
         }
     }

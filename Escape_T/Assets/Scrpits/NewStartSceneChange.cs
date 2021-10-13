@@ -8,7 +8,7 @@ public class NewStartSceneChange : MonoBehaviour
     public string SceneName;
     public void LoadNewGame()
     {
-        SceneManager.LoadScene(SceneName);
+        LoadingScene.LoadScene(SceneName);
         //GameObject.Find("student").gameObject.SetActive(true);
     }
     // Start is called before the first frame update
