@@ -23,6 +23,19 @@ public class AudioController : MonoBehaviour
             Effect[i].mute =! Effect[i].mute;
         }
     }
+
+    public void EffectSoundOn(int i)
+    {
+        Effect[i].Play();
+    }
+
+    public void EffectSoundOff(int i)
+    {
+        Effect[i].Stop();
+    }
+
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -36,6 +49,8 @@ public class AudioController : MonoBehaviour
             Destroy(this.gameObject);
         }
     }
+
+
 
     // Update is called once per frame
     void Update()

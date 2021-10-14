@@ -16,7 +16,7 @@ public class PlayerController : MonoBehaviour
 
     // 예원 걸을 때 소리 삽입 하려고 수정
     [SerializeField]
-    AudioSource audioSrc;
+    AudioController audio;
     // 예원 걸을 때 소리 삽입 하려고 수정
 
     // Start is called before the first frame update
@@ -32,6 +32,8 @@ public class PlayerController : MonoBehaviour
         else {
             Destroy(this.gameObject);
         }
+
+        audio = GameObject.Find("Music").GetComponent<AudioController>();
     }
 
     // Update is called once per frame
@@ -63,7 +65,7 @@ public class PlayerController : MonoBehaviour
             animator.SetBool("isMove", false);
 
             // 예원 걸을 때 소리 삽입 하려고 수정
-            audioSrc.Stop();
+            audio.EffectSoundOff(0);
             // 예원 걸을 때 소리 삽입 하려고 수정
         }
 
@@ -71,8 +73,8 @@ public class PlayerController : MonoBehaviour
         {
             animator.SetBool("isMove", true);
             // 예원 걸을 때 소리 삽입 하려고 수정
-            if (!audioSrc.isPlaying)
-                audioSrc.Play();
+            if (!audio.Effect[0].isPlaying)
+                audio.EffectSoundOn(0);
             // 예원 걸을 때 소리 삽입 하려고 수정
         }
 

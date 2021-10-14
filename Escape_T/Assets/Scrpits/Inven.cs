@@ -25,14 +25,13 @@ public class Inven : MonoBehaviour
 
     // 예원 아이템 획득 때 소리 삽입 하려고 수정
     [SerializeField]
-    AudioSource audioSrc;
+    AudioController audio;
     // 예원 아이템 획득 때 소리 삽입 하려고 수정
 
     public void AddItem(Item _item){
         items.Add(_item);
         // 예원 아이템 획득 소리 삽입 하려고 수정
-        if (!audioSrc.isPlaying)
-            audioSrc.Play();
+        audio.EffectSoundOn(1);
         // 예원 아이템 획득 소리 삽입 하려고 수정
         if (onChangeItem!=null){
             onChangeItem.Invoke();
@@ -82,5 +81,10 @@ public class Inven : MonoBehaviour
             if(items[i].itemName==name) return true;
         }
         return false;
+    }
+
+    private void Start()
+    {
+        audio = GameObject.Find("Music").GetComponent<AudioController>();
     }
 }
