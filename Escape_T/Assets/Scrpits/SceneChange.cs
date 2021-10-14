@@ -20,7 +20,8 @@ public class SceneChange : MonoBehaviour
         {
             student.currentScene = nextScene;
             student.StopMove();
-            SceneManager.LoadScene(nextScene);
+            //SceneManager.LoadScene(nextScene);
+            LoadingScene.LoadScene(nextScene);
         }
     }
 }

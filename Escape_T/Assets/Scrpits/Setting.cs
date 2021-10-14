@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class Setting : MonoBehaviour
 {
+    private void Update() {
+        BackButton();
+    }
+
     public void OpenSetting()
     {
         Time.timeScale = 0;
@@ -16,4 +20,9 @@ public class Setting : MonoBehaviour
         GameObject.Find("student").transform.Find("SettingCanvas").transform.GetChild(0).gameObject.SetActive(false);
     }
 
+    private void BackButton(){
+        if(Input.GetKey(KeyCode.Escape)){
+            OpenSetting();
+        }
+    }
 }
