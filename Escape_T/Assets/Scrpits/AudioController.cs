@@ -11,29 +11,16 @@ public class AudioController : MonoBehaviour
    // public AudioSource Effect[] = new AudioSource;
     public List<AudioSource> Effect = new List<AudioSource>();
 
-    public void TurnOffMusic()
+    public void ToggleMusic()
     {
-        BackGround.Pause();
+        BackGround.mute = !BackGround.mute;
     }
 
-    public void TurnOnMusic()
-    {
-        BackGround.Play();
-    }
-
-    public void TurnEffectOnMusic()
-    {
-        for (int i=0; i<Effect.Count; i++)
-        {
-            Effect[i].Play();
-        }
-    }
-
-    public void TurnEffectOffMusic()
+    public void EffectMusic()
     {
         for (int i = 0; i < Effect.Count; i++)
         {
-            Effect[i].Pause();
+            Effect[i].mute =! Effect[i].mute;
         }
     }
     // Start is called before the first frame update
