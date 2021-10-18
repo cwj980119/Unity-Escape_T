@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System;
 using UnityEngine;
 
-[Serializable] // ����ȭ
+[Serializable]
 
 public class GameData
 { 
-    // �� é���� ��ݿ���
+    // data
     public bool isClear4; 
     public bool isClear5; 
     public bool isClear6; 

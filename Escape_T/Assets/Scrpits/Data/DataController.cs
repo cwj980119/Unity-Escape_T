@@ -59,7 +59,7 @@ public class DataController : MonoBehaviour
     {
         string filePath = Application.persistentDataPath + GameDataFileName;
         
-        // ����� ������ �ִٸ�
+        // if saveFile exists
         if (File.Exists(filePath))
         { 
             print("Load Success"); 
@@ -67,7 +67,7 @@ public class DataController : MonoBehaviour
             _gameData = JsonUtility.FromJson<GameData>(FromJsonData);
         }
         
-        // ����� ������ ���ٸ�
+        // create newFile
         else 
         { 
             print("Create New File");            
