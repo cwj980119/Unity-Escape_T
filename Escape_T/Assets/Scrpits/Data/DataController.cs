@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class DataController : MonoBehaviour
 {
+    public static DataController datacontrol;
     // ---Singleton--- 
     static GameObject _container;
     static GameObject Container
@@ -50,6 +51,15 @@ public class DataController : MonoBehaviour
     
     private void Start() 
     {
+        if (datacontrol == null)
+        {
+            DontDestroyOnLoad(this.gameObject);
+            datacontrol = this;
+        }
+        else
+        {
+            Destroy(this.gameObject);
+        }
         LoadGameData(); 
         SaveGameData();
     } 

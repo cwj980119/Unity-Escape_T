@@ -4,11 +4,16 @@ using UnityEngine;
 
 public class RotateLockClear : MonoBehaviour
 {
+    public GameObject datacontrol;
     public List<RotateLock> list;
     [SerializeField]
     GameObject clear;
     public GameObject door;
     public GameObject panel;
+    
+    private void Start() {
+        datacontrol = GameObject.Find("Data");
+    }
 
     private void Update() {
         if(Check()){
@@ -30,5 +35,7 @@ public class RotateLockClear : MonoBehaviour
         clear.SetActive(false);
         door.SetActive(false);
         gameObject.SetActive(false);
+        datacontrol.GetComponent<DataController>().gameData.isClear4 = true;
+        datacontrol.GetComponent<DataController>().SaveGameData();
     }
 }
