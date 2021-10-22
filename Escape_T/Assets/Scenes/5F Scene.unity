@@ -22611,14 +22611,14 @@ PrefabInstance:
     - target: {fileID: 3340254238450821378, guid: 1160f8f7d3e9c3946a17d21134d3dc8d, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1919574352}
     - target: {fileID: 3340254238450821378, guid: 1160f8f7d3e9c3946a17d21134d3dc8d, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: GetUiItem
       objectReference: {fileID: 0}
     - target: {fileID: 3340254238450821378, guid: 1160f8f7d3e9c3946a17d21134d3dc8d, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: Inven, Assembly-CSharp
+      value: OpenItemPanel, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3340254238450821381, guid: 1160f8f7d3e9c3946a17d21134d3dc8d, type: 3}
       propertyPath: m_Sprite
@@ -31133,10 +31133,14 @@ PrefabInstance:
     - target: {fileID: 3340254238450821378, guid: 1160f8f7d3e9c3946a17d21134d3dc8d, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1764930413}
     - target: {fileID: 3340254238450821378, guid: 1160f8f7d3e9c3946a17d21134d3dc8d, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: GetUiItem
+      objectReference: {fileID: 0}
+    - target: {fileID: 3340254238450821378, guid: 1160f8f7d3e9c3946a17d21134d3dc8d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OpenItemPanel, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3340254238450821381, guid: 1160f8f7d3e9c3946a17d21134d3dc8d, type: 3}
       propertyPath: m_Sprite
@@ -39830,6 +39834,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clickButton: {fileID: 399890824}
+  instance: {fileID: 0}
   usingItemObject: {fileID: 0}
 --- !u!114 &1426688145
 MonoBehaviour:
@@ -39845,7 +39850,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   items: []
   clickButton: {fileID: 399890824}
-  audio: {fileID: 0}
+  audio_controller: {fileID: 0}
 --- !u!50 &1426688146
 Rigidbody2D:
   serializedVersion: 4
@@ -39901,7 +39906,7 @@ MonoBehaviour:
   currentScene: 
   move_speed: 10
   joystick: {fileID: 1322290511}
-  audio: {fileID: 0}
+  audio_controller: {fileID: 0}
 --- !u!61 &1426688149
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -49273,6 +49278,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 758826153465488152, guid: 7fdaefd9aaf515c4eb57d96f86c462ec, type: 3}
   m_PrefabInstance: {fileID: 1764930411}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1764930413 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8847368900192975676, guid: 7fdaefd9aaf515c4eb57d96f86c462ec, type: 3}
+  m_PrefabInstance: {fileID: 1764930411}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2060c1c4636820145a1a510a2a5aed49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1766880003
 GameObject:
   m_ObjectHideFlags: 0
@@ -52341,6 +52357,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 758826153465488152, guid: 7fdaefd9aaf515c4eb57d96f86c462ec, type: 3}
   m_PrefabInstance: {fileID: 1919574350}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1919574352 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8847368900192975676, guid: 7fdaefd9aaf515c4eb57d96f86c462ec, type: 3}
+  m_PrefabInstance: {fileID: 1919574350}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2060c1c4636820145a1a510a2a5aed49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1923073746
 GameObject:
   m_ObjectHideFlags: 0
@@ -57533,10 +57560,14 @@ PrefabInstance:
     - target: {fileID: 3340254238450821378, guid: 1160f8f7d3e9c3946a17d21134d3dc8d, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1764930413}
     - target: {fileID: 3340254238450821378, guid: 1160f8f7d3e9c3946a17d21134d3dc8d, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: GetUiItem
+      objectReference: {fileID: 0}
+    - target: {fileID: 3340254238450821378, guid: 1160f8f7d3e9c3946a17d21134d3dc8d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OpenItemPanel, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3340254238450821381, guid: 1160f8f7d3e9c3946a17d21134d3dc8d, type: 3}
       propertyPath: m_Sprite
