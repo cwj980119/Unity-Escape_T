@@ -16,8 +16,6 @@ public class DoorLockButton : MonoBehaviour
 	{
 		if (codeTextValue == "3572")
 		{
-			//student.isSafeOpened = true;
-			// �׳� ���� �غ��� codeTextValue = "9999";
 			Door.SetActive(false);
             Canvas.SetActive(false);
 		}
