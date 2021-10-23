@@ -16,6 +16,7 @@ public class doorS : MonoBehaviour
 	void Start()
 	{
 		Openlock.enabled = false;
+
 	}
 
 	//Å×½ºÆ®
