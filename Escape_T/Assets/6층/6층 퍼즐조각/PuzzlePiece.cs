@@ -18,7 +18,6 @@ public class PuzzlePiece : MonoBehaviour, IDragHandler, IEndDragHandler
     {
         for (int i = 0; i < puzzle.PuzzlePosSet.transform.childCount; i++)
         {
-            //위치에 자식오브젝트가 있으면 이미 퍼즐조각이 놓여진 것입니다.
             if (puzzle.PuzzlePosSet.transform.GetChild(i).childCount != 0)
             {
                 continue;
@@ -40,18 +39,12 @@ public class PuzzlePiece : MonoBehaviour, IDragHandler, IEndDragHandler
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        //일치하는 위치가 없을 경우 부모자식 관계를 해제합니다.
         if (!CheckSnapPuzzle())
         {
             transform.SetParent(puzzle.PuzzlePieceSet.transform);
         }
     }
     
-    void Start()
-    {
-        
-    }
-
     // Update is called once per frame
     void Update()
     {

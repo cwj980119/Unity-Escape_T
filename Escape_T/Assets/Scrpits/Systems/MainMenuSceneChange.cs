@@ -11,7 +11,7 @@ public class MainMenuSceneChange : MonoBehaviour
 
     public void MMSC()
     {
-        SceneManager.LoadScene(SceneName);
+        LoadingScene.LoadScene(SceneName);
         Destroy(scene_camera);
         Destroy(student);
     }

@@ -9,16 +9,6 @@ public class DoorLock4 : MonoBehaviour
 	Text codeText;
 	string codeTextValue = "";
 
-	// 테스트
-	public Image Openlock;
-
-	void Start()
-	{
-
-	}
-
-	//테스트
-
 	// Update is called once per frame
 	void Update()
 	{
@@ -26,8 +16,6 @@ public class DoorLock4 : MonoBehaviour
 
 		if (codeTextValue == "91")
 		{
-			//student.isSafeOpened = true;
-			// 그냥 내가 해본거 codeTextValue = "9999";
 			GameObject.Find("Canvas").transform.GetChild(14).gameObject.SetActive(false);
 			GameObject.Find("Canvas-world").transform.GetChild(10).gameObject.SetActive(false);
 		}

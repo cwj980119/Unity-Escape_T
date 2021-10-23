@@ -12,13 +12,13 @@ public class Piece : MonoBehaviour, IDragHandler, IEndDragHandler
     public void Number()
     {
         piece_no = gameObject.name[gameObject.name.Length - 1] - '0';
-    }
+    } // 조각에 대해 정답 위치 번호
 
     bool CheckSnapPuzzle()
     {
         for (int i = 0; i < line.Bottom.transform.childCount; i++)
         {
-            //위치에 자식오브젝트가 있으면 이미 퍼즐조각이 놓여진 것입니다.
+            // 퍼즐 바닥에 자식이 없을 때,
             if (line.Bottom.transform.GetChild(i).childCount != 0)
             {
                 continue;
@@ -28,7 +28,7 @@ public class Piece : MonoBehaviour, IDragHandler, IEndDragHandler
                 transform.SetParent(line.Bottom.transform.GetChild(i).transform);
                 transform.localPosition = Vector3.zero;
                 return true;
-            }
+            }// snapOffset 숫자 보다 더 가까운 위치에 위치해 있으면, 그 자리로 들어간다.
         }
         return false;
     }
@@ -36,25 +36,14 @@ public class Piece : MonoBehaviour, IDragHandler, IEndDragHandler
     public void OnDrag(PointerEventData eventData)
     {
         transform.position = eventData.position;
-    }
+    } // 드래그 할 때, 움직임
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        //일치하는 위치가 없을 경우 부모자식 관계를 해제합니다.
+        //퍼즐을 다시 원위치로 돌려놓으면 자식이였던 것이 독립된 개체로 나감
         if (!CheckSnapPuzzle())
         {
             transform.SetParent(line.Upper.transform);
         }
-    }
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
     }
 }
