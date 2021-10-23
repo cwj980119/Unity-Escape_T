@@ -1059,10 +1059,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "4\uCE35 \uC81C\uC791 \uBC0F \uAC8C\uC784 \uC2DC\uC2A4\uD15C \uAD6C\uD604
-    : \uCD5C\uC6D0\uC7AC\n5\uCE35 \uC81C\uC791 \uBC0F \uC791\uD654 : \uAE40\uC608\uC6D0\n6\uCE35
-    \uC81C\uC791 \uBC0F \uCE90\uB9AD\uD130 \uC560\uB2C8\uBA54\uC774\uD305 : \uBC31\uB3D9\uAE30
-    \n7\uCE35 \uC81C\uC791 \uBC0F \uC2A4\uD1A0\uB9AC : \uC815\uC724\uC9C0"
+  m_Text: "\uC81C\uC791\uC790:\n\uCD5C\uC6D0\uC7AC, \uAE40\uC608\uC6D0, \uC815\uC724\uC9C0,
+    \uBC31\uB3D9\uAE30\n\uBC16\uC73C\uB85C \uB098\uAC08\uB824\uBA74 \uC544\uBB34\uB370\uB098
+    \uB204\uB974\uC138\uC694."
 --- !u!222 &394751327
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1409,7 +1408,6 @@ MonoBehaviour:
   textlist:
   - {fileID: 1184379938}
   - {fileID: 394751326}
-  - {fileID: 1739503212}
   tx: {fileID: 2057966819}
   jungPanel: {fileID: 714717122}
 --- !u!1 &710805572
@@ -1494,7 +1492,6 @@ RectTransform:
   - {fileID: 591450771}
   - {fileID: 1184379937}
   - {fileID: 394751325}
-  - {fileID: 1739503211}
   m_Father: {fileID: 1045212394}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5079,8 +5076,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -4.040283, y: -0.8244629}
-  m_SizeDelta: {x: 8.0806, y: 120.44}
+  m_AnchoredPosition: {x: 0, y: -0.00015258789}
+  m_SizeDelta: {x: 0, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1573205499
 MonoBehaviour:
@@ -5427,85 +5424,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1688754717}
-  m_CullTransparentMesh: 1
---- !u!1 &1739503210
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1739503211}
-  - component: {fileID: 1739503213}
-  - component: {fileID: 1739503212}
-  m_Layer: 5
-  m_Name: "4\uBC88Text"
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1739503211
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1739503210}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 714717123}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1739503212
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1739503210}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 100
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 1
-    m_MaxSize: 100
-    m_Alignment: 0
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: "\uBC16\uC73C\uB85C \uB098\uAC08\uB824\uBA74 \uC544\uBB34\uB370\uB098 \uB204\uB974\uC138\uC694."
---- !u!222 &1739503213
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1739503210}
   m_CullTransparentMesh: 1
 --- !u!1 &1855860923
 GameObject:
