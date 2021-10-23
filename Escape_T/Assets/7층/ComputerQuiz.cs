@@ -25,12 +25,12 @@ public class ComputerQuiz : MonoBehaviour
 	{
 		codeText.text = codeTextValue;
 
-		if (codeTextValue == "46")
+		if (codeTextValue == "460")
 		{
 			Openlock.enabled = true;
 		}
 
-		if (codeTextValue.Length >= 2)
+		if (codeTextValue.Length >= 3)
 			codeTextValue = "";
 
 	}

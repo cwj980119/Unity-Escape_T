@@ -14,13 +14,13 @@ public class Door4Lock : MonoBehaviour
 	// Update is called once per frame
 	void Update()
 	{
-		if (codeTextValue == "163767")
+		if (codeTextValue == "1946")
 		{ 
 			Door.SetActive(false);
 			Canvas.SetActive(false);
 		}
 
-		if (codeTextValue.Length >= 6)
+		if (codeTextValue.Length >= 4)
 			codeTextValue = "";
 	}
 
