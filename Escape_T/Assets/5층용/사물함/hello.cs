@@ -164,9 +164,13 @@ public class hello : MonoBehaviour
 		if(i==1)
         {
 			codeText.text = codeTextValue;
+			//
+			int a = 0;
+			int b = 0;
+			//
 			int n = int.Parse(codeTextValue);
-			int a = n / 10;
-			int b = n % 10;
+			a = n / 10;
+			b = n % 10;
 
 			Stext.text = "2^"+a.ToString()+" + 2^"+b.ToString()+" = "+tenConvertTwo(codeTextValue)+"\n올바른 2진수 비밀번호가 아닙니다.\n다시 입력하세요.";
 
@@ -204,10 +208,14 @@ public class hello : MonoBehaviour
 		if(i==3)
         {
 			codeText.text = codeTextValue;
+			//
+			int a = 0;
+			int b = 0, c=0;
+			//
 			int n = int.Parse(codeTextValue);
-			int a = n / 100;
-			int b = (n % 100) / 10;
-			int c = n % 10;
+			a = n / 100;
+			b = (n % 100) / 10;
+			c = n % 10;
 
 			Ftext.text = "2^" + a.ToString() + " + 2^" + b.ToString() + " + 2^" + c.ToString() + " = " + ConvertTwo(codeTextValue) + "\n올바른 2진수 비밀번호가 아닙니다.\n다시 입력하세요.";
 
@@ -239,38 +247,3 @@ public class hello : MonoBehaviour
 	}
 
 }
-
-/*
-int tenConvertTwo(int n)
-{
-	int a = n / 10;
-	int b = n % 10;
-
-	int rr = Math.Pow(2, a) + Math.Pow(2, b);
-    int result = 0;
-    for(int i=0;rr>0;i*=10)
-    {
-        int binary = rr % 2;
-        result += binary * i;
-        rr /= 2;
-    }
-    return result;
-}
-
-int twoConvertTen(int n)
-{
-    int result = 0;
-    int mul = 1;
-    while(num>0)
-    {
-        if(n%2)
-        { 
-            result += mul; 
-        }
-        mul *= 2;
-        num /= 10;
-    }
-    return result;
-}
-
-*/
