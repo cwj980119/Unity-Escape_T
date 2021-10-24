@@ -11,11 +11,12 @@ public class doorS : MonoBehaviour
 	string codeTextValue = "";
 
 	// 테스트
-	public Image Openlock;
+	//public Image Openlock;
+	public GameObject panel;
 
 	void Start()
 	{
-		Openlock.enabled = false;
+		//Openlock.enabled = false;
 
 	}
 
@@ -33,7 +34,8 @@ public class doorS : MonoBehaviour
 			//Openlock.enabled = true;
 			//GameObject(prefab).SetActive(false);
 			GameObject.Find("Canvas_world큰세미나실문").transform.GetChild(0).gameObject.SetActive(false);
-			Openlock.enabled = true;
+			//Openlock.enabled = true;
+			panel.gameObject.SetActive(false);
 		}
 
 		if (codeTextValue.Length >= 4)

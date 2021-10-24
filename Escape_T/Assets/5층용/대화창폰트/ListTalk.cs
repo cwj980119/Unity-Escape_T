@@ -8,7 +8,7 @@ public class ListTalk : MonoBehaviour
     public Text[] textlist;
 
     public Text tx;
-    private string m_text = "�ǹ� ���� �ؽ�Ʈ�ϱ� �ǵ帮�� ���ÿ�.";
+    private string m_text = "";
 
     List<string> talkText = new List<string>();
     int i = 0;
@@ -20,16 +20,12 @@ public class ListTalk : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        // ��ȭâ�� �� ��ȭ�� �� �Ʒ����� ������ 
 
         for(int i=0;i<textlist.Length;i++){
             talkText.Add(textlist[i].text);
         }
 
-        // ��ȭâ�� �� ��ȭ�� �� ������ ������ �ؽ�Ʈ �� ���� ������ talkText.Add("��¼����¼��"); ���� �� �߰��ϻ�
-        // ��Ʈ �߰��ϰ� ���� ��ŭ �ϵ� �ϳ��� 3�ٱ����� ������
-
-        talkText.Add("�ǹ� ���� �ؽ�Ʈ�ϱ� �ǵ帮�� ���ÿ�.");
+        talkText.Add("");
         StartCoroutine(_typing());
     }
 
@@ -67,17 +63,14 @@ public class ListTalk : MonoBehaviour
 
         else
         {
-            // ��� �ּ��϶� - ������ ������ ����۽� ������â
-            //i = 0; // - ������ �ٽ� �ȳ��ϼ���� ���ƿͼ� ������ ����
+
             //if (Input.GetMouseButtonDown(0))
             //{
             //i = 0;
             //jungPanel.gameObject.SetActive(false);
-            //i = 0; // �ѹ� �� �����߸� ������
             //}
             jungPanel.gameObject.SetActive(false);
-            i = 0; // �ѹ� �� �����߸� ������
-            //i = 0; // - ������ �ٽ� �ȳ��ϼ���� ���ƿͼ� ������ ����
+            i = 0; 
         }
     }
 }
