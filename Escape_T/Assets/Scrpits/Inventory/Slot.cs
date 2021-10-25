@@ -41,7 +41,7 @@ public class Slot : MonoBehaviour
                 child.GetComponent<RectTransform>().SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, 1000);
                 child.GetComponent<RectTransform>().SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, 1000);
                 expandPosition.x = 400;
-                expandPosition.y = -400;
+                expandPosition.y = -700;
                 child.transform.localPosition = expandPosition;
                 InvenCanvas.GetComponent<Inventory>().expand = true;
             }
