@@ -786,6 +786,7 @@ GameObject:
   - component: {fileID: 256380543}
   - component: {fileID: 256380542}
   - component: {fileID: 256380541}
+  - component: {fileID: 256380544}
   m_Layer: 5
   m_Name: 7F
   m_TagString: Untagged
@@ -857,9 +858,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 779704591}
-        m_TargetAssemblyTypeName: DataController, Assembly-CSharp
-        m_MethodName: Check7F
+      - m_Target: {fileID: 256380544}
+        m_TargetAssemblyTypeName: LoadGame, Assembly-CSharp
+        m_MethodName: LoadScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -907,6 +908,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 256380539}
   m_CullTransparentMesh: 1
+--- !u!114 &256380544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 256380539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ea333eac27804b44b578bb01749f6b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: {fileID: 0}
+  i: 7
 --- !u!1 &281121627
 GameObject:
   m_ObjectHideFlags: 0
@@ -1901,6 +1916,7 @@ GameObject:
   - component: {fileID: 905388900}
   - component: {fileID: 905388899}
   - component: {fileID: 905388898}
+  - component: {fileID: 905388901}
   m_Layer: 5
   m_Name: 6F
   m_TagString: Untagged
@@ -1972,9 +1988,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 779704591}
-        m_TargetAssemblyTypeName: DataController, Assembly-CSharp
-        m_MethodName: Check6F
+      - m_Target: {fileID: 905388901}
+        m_TargetAssemblyTypeName: LoadGame, Assembly-CSharp
+        m_MethodName: LoadScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2022,6 +2038,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 905388896}
   m_CullTransparentMesh: 1
+--- !u!114 &905388901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 905388896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ea333eac27804b44b578bb01749f6b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: {fileID: 0}
+  i: 6
 --- !u!1 &919847206
 GameObject:
   m_ObjectHideFlags: 0
@@ -3705,6 +3735,7 @@ GameObject:
   - component: {fileID: 1308526651}
   - component: {fileID: 1308526650}
   - component: {fileID: 1308526649}
+  - component: {fileID: 1308526652}
   m_Layer: 5
   m_Name: 4F
   m_TagString: Untagged
@@ -3776,9 +3807,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 779704591}
-        m_TargetAssemblyTypeName: DataController, Assembly-CSharp
-        m_MethodName: Check4F
+      - m_Target: {fileID: 1308526652}
+        m_TargetAssemblyTypeName: LoadGame, Assembly-CSharp
+        m_MethodName: LoadScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3826,6 +3857,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1308526647}
   m_CullTransparentMesh: 1
+--- !u!114 &1308526652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1308526647}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ea333eac27804b44b578bb01749f6b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: {fileID: 0}
+  i: 4
 --- !u!1 &1318399749
 GameObject:
   m_ObjectHideFlags: 0
@@ -5491,6 +5536,7 @@ GameObject:
   - component: {fileID: 1647020401}
   - component: {fileID: 1647020400}
   - component: {fileID: 1647020399}
+  - component: {fileID: 1647020402}
   m_Layer: 5
   m_Name: 5F
   m_TagString: Untagged
@@ -5562,9 +5608,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 779704591}
-        m_TargetAssemblyTypeName: DataController, Assembly-CSharp
-        m_MethodName: Check5F
+      - m_Target: {fileID: 1647020402}
+        m_TargetAssemblyTypeName: LoadGame, Assembly-CSharp
+        m_MethodName: LoadScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5612,6 +5658,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1647020397}
   m_CullTransparentMesh: 1
+--- !u!114 &1647020402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1647020397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ea333eac27804b44b578bb01749f6b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: {fileID: 0}
+  i: 5
 --- !u!1 &1688754717
 GameObject:
   m_ObjectHideFlags: 0
