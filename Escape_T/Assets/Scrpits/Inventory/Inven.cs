@@ -49,6 +49,13 @@ public class Inven : MonoBehaviour
         }
     }
 
+    //remove items all on the list
+    public void RemoveItemsAll(){
+        for(int i = items.Count -1; i>=0;i--){
+            items.Remove(items[i]);
+        }
+    }
+
     //if object is item ready to add item
     private void OnTriggerEnter2D(Collider2D other) {
         if(other.CompareTag("Item")){

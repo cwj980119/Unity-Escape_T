@@ -5082,7 +5082,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   codeText: {fileID: 344239740}
-  Openlock: {fileID: 0}
 --- !u!114 &151927569
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29149,7 +29148,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   codeText: {fileID: 992216731}
-  Openlock: {fileID: 0}
 --- !u!114 &924599216
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43152,7 +43150,7 @@ GameObject:
   - component: {fileID: 1405271632}
   - component: {fileID: 1405271631}
   m_Layer: 0
-  m_Name: to5F
+  m_Name: save_point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -43166,8 +43164,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1405271629}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.55, y: 4.21, z: 0}
-  m_LocalScale: {x: 0.89157516, y: 12.458835, z: 1}
+  m_LocalPosition: {x: 6.45, y: 0.76, z: 0}
+  m_LocalScale: {x: 0.89157516, y: 22.733635, z: 1}
   m_Children: []
   m_Father: {fileID: 1194116706}
   m_RootOrder: 2
@@ -43181,10 +43179,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1405271629}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 29648b26dc6c0354686a94657fb5c780, type: 3}
+  m_Script: {fileID: 11500000, guid: fff380426a1804140b46ff3814107922, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextScene: 5F Scene
+  stage: 6
 --- !u!61 &1405271632
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -52087,7 +52085,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   codeText: {fileID: 475477592}
-  Openlock: {fileID: 437419924}
 --- !u!1 &1728126281
 GameObject:
   m_ObjectHideFlags: 0
@@ -59598,7 +59595,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   codeText: {fileID: 996414548}
-  Openlock: {fileID: 0}
 --- !u!114 &1997622079
 MonoBehaviour:
   m_ObjectHideFlags: 0
