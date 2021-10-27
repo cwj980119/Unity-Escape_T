@@ -6,9 +6,9 @@ public class JigsawPuzzle : MonoBehaviour
 {
     public GameObject PuzzlePosSet;
     public GameObject PuzzlePieceSet;
-    public int number1;
-    public int number2;
-    public int number3;
+    public int number1; //닫을 panel 순번
+    public int number2; //열 panel 순번
+    public int number3; //ItemName에서 아이템의 위치
     public string ItemsName;
 
     public bool IsClear()
