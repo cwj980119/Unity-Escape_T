@@ -16,28 +16,27 @@ public class LoadGame : MonoBehaviour
 
 
     void CheckSceneClear4(){
-        check = data.GetComponent<DataController>().gameData.isClear4;
+        check = data.GetComponent<DataController>().gameData.isClear3;
         LoadIfTrue();
     }
 
     void CheckSceneClear5(){
-        check = data.GetComponent<DataController>().gameData.isClear5;
+        check = data.GetComponent<DataController>().gameData.isClear4;
         LoadIfTrue();
     }
 
     void CheckSceneClear6(){
-        check = data.GetComponent<DataController>().gameData.isClear6;
+        check = data.GetComponent<DataController>().gameData.isClear5;
         LoadIfTrue();
     }
 
     void CheckSceneClear7(){
-        check = data.GetComponent<DataController>().gameData.isClear7;
+        check = data.GetComponent<DataController>().gameData.isClear6;
         LoadIfTrue();
     }
 
     void LoadIfTrue(){
         if(check){
-            Debug.Log("t");
             LoadingScene.LoadScene(i.ToString()+"F Scene");
         }
     }

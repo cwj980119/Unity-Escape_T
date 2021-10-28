@@ -28,6 +28,9 @@ public class SceneSave : MonoBehaviour
     private void SaveStage(){
         switch (stage)
         {
+            case 3:
+                datacontrol.GetComponent<DataController>().gameData.isClear3 =true;
+                break;
             case 4:
                 datacontrol.GetComponent<DataController>().gameData.isClear4 =true;
                 break;

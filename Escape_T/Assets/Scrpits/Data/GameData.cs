@@ -8,6 +8,7 @@ using UnityEngine;
 public class GameData
 { 
     // data
+    public bool isClear3;
     public bool isClear4; 
     public bool isClear5; 
     public bool isClear6; 
