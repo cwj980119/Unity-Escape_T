@@ -9,7 +9,7 @@
 ```
   - 개요
   - 시작화면, 설정, 게임 기본 화면
-  - 인트로 씬
+  - 튜토리얼
   - 4층
   - 5층
   - 6층
@@ -71,11 +71,12 @@
 >- 인벤토리 창은 다음과 같이 생겼다.
 >
 >![Inventory](https://user-images.githubusercontent.com/80233719/139191800-7173994e-c954-4494-9538-a727ab57a4cf.jpg)
+>```
 > 	- 1번 버튼을 눌러 켤 수 있다.
 > 	- 물건 근처에서 4번 버튼을 누르면 여기에 저장이 된다.
 > 	- 인벤토리 화면에서 물건을 클릭하면 큰 화면으로 볼 수 있다.
 > 	- 다시 1번 버튼을 눌러 끌 수 있다.
-> 	
+>``` 	
 >#### - 설정
 >- 설정창은 다음과 같다.
 ![SettingPanel](https://user-images.githubusercontent.com/80233719/139190332-92e690f9-51ee-4ec3-81cd-7b17e9acb03d.jpg)
@@ -84,3 +85,25 @@
 	- 효과음 : 음표를 터치하여 효과음을 끄고 켤 수 있다.
 	- 뒤로가기 : 게임화면으로 돌아 갈 수 있다.
 	- 메인 메뉴로 나가기 : 시작화면으로 돌아간다.
+```
+### (3) 튜토리얼
+>	i. 맨 처음 제4공학관 앞에서 시작한다.
+![tutorial1](https://user-images.githubusercontent.com/80233719/139273323-0da7514d-a000-4f73-8e31-72af8f8b8035.jpg)
+>	ii. 8층으로 이동하여 졸업작품을 확인하기 위해 컴퓨터를 켠다.
+![tutorial2](https://user-images.githubusercontent.com/80233719/139273831-ddea9c71-8903-43f9-938b-d96d4071dfdc.jpg)
+
+### (4) 4층
+>![4층](https://user-images.githubusercontent.com/80233719/139274518-8422ef0f-46e5-4ca8-a6d7-21531e8c553d.jpg)
+
+### (5) 5층
+> 룰루랄라 신촌을 누비는 내마음은 마냥 이야에로~~
+
+### (6) 6층
+>![6층](https://user-images.githubusercontent.com/80233719/139274790-f30be13c-f6d4-404c-a357-e6714ccaf6a1.png)
+
+### (7) 7층
+>![7층](https://user-images.githubusercontent.com/80233719/139274835-b614b41d-1590-4186-ae2b-2556327b13ae.jpg)
+
+### (8) 엔딩
+>	- 8층까지 올라가서 다시 USB를 가져오고 무사히 졸업작품을 발표하게 된다.
+>![tutorial2](https://user-images.githubusercontent.com/80233719/139273831-ddea9c71-8903-43f9-938b-d96d4071dfdc.jpg)
