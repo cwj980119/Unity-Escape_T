@@ -19,10 +19,8 @@
 
 > 4. 게임 동작 방식
 
-	  - 코드를 활용한 동작
+	  - C# 스크립트를 활용한 동작
 	  - Unity Tool을 활용한 동작
-
-> 5. 마무리
 
 
 > ## 1. 개요
@@ -31,6 +29,7 @@
 >- Escape-T는 4개의 층에 다양한 퀴즈와 단서를 활용하여 각 층을 탈출하여 최종 목표까지 가는 게임이다. 
 >- Escape-T는 Unity엔진(2020.3.12버전)으로 개발되었다. 
 >- 스크립트 언어는 C#으로 개발됬다.
+>- 이 게임은 안드로이드 용 게임으로 나왔다. 즉, 아쉽게도 Apple 폰에서는 구동되지 않는다.
 
 > ## 2. 스토리
 > 졸업프로젝트 전날, 4학년 홍와우(캐릭터 이름)는 8층에서 작업을 하려고 방에 들어가서 그 컴퓨터 USB를 꽂고 확인해볼려는 순간, 천둥번개 소리에 그대로 기절을 해버리고...
@@ -96,10 +95,10 @@
 >![4층](https://user-images.githubusercontent.com/80233719/139274518-8422ef0f-46e5-4ca8-a6d7-21531e8c553d.jpg)
 
 ### (5) 5층
-> 룰루랄라 신촌을 누비는 내마음은 마냥 이야에로~~
+> 5층 내용은 [여기](https://github.com/cwj980119/Unity-Escape_T/files/7435185/5.pdf)를 눌러 확인
 
 ### (6) 6층
->![6층](https://user-images.githubusercontent.com/80233719/139274790-f30be13c-f6d4-404c-a357-e6714ccaf6a1.png)
+>![6층](https://user-images.githubusercontent.com/80233719/139279510-96e63c29-1efc-42e5-8843-6bcad63afe1f.png)
 
 ### (7) 7층
 >![7층](https://user-images.githubusercontent.com/80233719/139274835-b614b41d-1590-4186-ae2b-2556327b13ae.jpg)
@@ -107,3 +106,54 @@
 ### (8) 엔딩
 >	- 8층까지 올라가서 다시 USB를 가져오고 무사히 졸업작품을 발표하게 된다.
 >![tutorial2](https://user-images.githubusercontent.com/80233719/139273831-ddea9c71-8903-43f9-938b-d96d4071dfdc.jpg)
+
+## 4. 게임 동작 방식
+> - 게임 구현 방식으로는 C# 스크립트를 활용한 것과 Unity 자체 Tool을 활용한 것이 있다.
+> - 여기서는 자주 사용된 것 위주로 소개할 예정이다.
+
+> ### (1) C# 스크립트를 활용한 동작
+>#### i. 캐릭터 움직이기
+> ![movement](https://user-images.githubusercontent.com/80233719/139282016-eca3cf8d-8e2c-4d95-befe-d2c207cb9ef6.jpg)
+> - 여기서는 캐릭터 움직이기 뿐만이 아니라 캐릭터가 움직임이 있을 때만 소리가 나도록 구현이 되어있다.
+
+> #### ii. 설정창
+> ![setting1](https://user-images.githubusercontent.com/80233719/139282854-ee3fd743-8e66-4e38-a9c2-c6c095aef4d4.jpg)
+![setting2](https://user-images.githubusercontent.com/80233719/139282863-b227442e-dd2a-4c77-89f2-d40713011ae7.jpg)
+> - 설정 창의 주요 기능인 소리를 끄고 켜는 기능을 구현한 코드이다.
+
+>#### iii. Scene Change
+> ![scenechange](https://user-images.githubusercontent.com/80233719/139284278-385d809c-8ca5-487d-b54c-575f939e65a4.jpg)
+> - 한 층에서 다른 층으로 이동할 때 사용된 코드이다.
+
+>#### iv. 아이템과 인벤토리
+>![invent](https://user-images.githubusercontent.com/80233719/139285209-15fb5b8e-5d2f-4609-beb3-f0f5dc3df41b.jpg)
+> - 아이템과 인벤토리와 관련된 스크립트는 많으나 문서 분량 상 여기에서는 인벤토리 슬롯과 관련된 코드만 있다.
+> - 더 자세히 코드를 보고 싶으면 https://github.com/cwj980119/Unity-Escape_T/tree/1012/Escape_T/Assets/Scrpits/Inventory 에서 볼 수 있다.
+
+> #### v. 그 외
+>  - 그 외 코드는 https://github.com/cwj980119/Unity-Escape_T/tree/1012/Escape_T/Assets/Scrpits 에서 확인할 수 있다.
+
+> ### (2) Unity Tool을 활용한 동작
+
+> #### i. Canvas Scaler
+> ![canvas scaler](https://user-images.githubusercontent.com/80233719/139285983-aaa32fd3-2559-48b2-bbeb-4c749b112f82.jpg)
+> - 이 기능을 이용하여 다양한 스마트폰에서도 일정한 비율로 게임을 출력할 수 있다.
+
+> #### ii. Button
+> ![button](https://user-images.githubusercontent.com/80233719/139287408-2e6f883e-92aa-42b5-b7c4-9a95f9e0598a.jpg)
+![button2](https://user-images.githubusercontent.com/80233719/139286756-e64f5b47-bc0b-44d8-9809-9f2ad8ae1075.jpg)
+> - Button으로 키패드나 나가기 버튼 등을 개발하는 데 활용했다.
+
+>### iii. Prefab
+>![prefab](https://user-images.githubusercontent.com/80233719/139287186-be647802-030a-4bdb-b6d3-3481742af1cc.jpg)
+> - Prefab 기능을 활용하여 여러 곳에 사용되는 요소를 일괄적으로 관리 할 수 있게 되었다.
+
+>### iv. Box Collider
+>![box collider](https://user-images.githubusercontent.com/80233719/139288188-a8136389-6098-436a-8090-aef4ed49c123.jpg)
+![box collider2](https://user-images.githubusercontent.com/80233719/139288200-a2399a99-9a95-426e-9087-616e983aae34.jpg)
+> - Box Collider을 이용하여 상호작용 장치로 이용하거나(Is Trigger), 벽처럼 통과하지 못하게 하는 기능을 구현했다.
+
+>#### v. Animation
+> ![animation1](https://user-images.githubusercontent.com/80233719/139289257-b40e2905-e8a5-403e-848e-8fd01328e375.jpg)
+> ![animation2](https://user-images.githubusercontent.com/80233719/139289260-9aa32d51-1e1e-41a5-aa3f-56189b77a7a2.jpg)
+> - Animation 기능으로 캐릭터 움직임을 구현했다.
