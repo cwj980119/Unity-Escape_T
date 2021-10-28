@@ -96,10 +96,10 @@
 >![4층](https://user-images.githubusercontent.com/80233719/139274518-8422ef0f-46e5-4ca8-a6d7-21531e8c553d.jpg)
 
 ### (5) 5층
-> 룰루랄라 신촌을 누비는 내마음은 마냥 이야에로~~
+> 5층 내용은 [여기](https://github.com/cwj980119/Unity-Escape_T/files/7435185/5.pdf)를 눌러 확인
 
 ### (6) 6층
->![6층](https://user-images.githubusercontent.com/80233719/139274790-f30be13c-f6d4-404c-a357-e6714ccaf6a1.png)
+>![6층](https://user-images.githubusercontent.com/80233719/139279510-96e63c29-1efc-42e5-8843-6bcad63afe1f.png)
 
 ### (7) 7층
 >![7층](https://user-images.githubusercontent.com/80233719/139274835-b614b41d-1590-4186-ae2b-2556327b13ae.jpg)
