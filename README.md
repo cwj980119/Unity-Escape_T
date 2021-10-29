@@ -157,3 +157,9 @@
 > ![animation1](https://user-images.githubusercontent.com/80233719/139289257-b40e2905-e8a5-403e-848e-8fd01328e375.jpg)
 > ![animation2](https://user-images.githubusercontent.com/80233719/139289260-9aa32d51-1e1e-41a5-aa3f-56189b77a7a2.jpg)
 > - Animation 기능으로 캐릭터 움직임을 구현했다.
+
+>## 참조
+>- https://unitybeginner.tistory.com/
+>- https://wergia.tistory.com/category/Unity3D
+>- [유튜브 CodeMonkey](https://www.youtube.com/channel/UCFK6NCbuCIVzA6Yj1G_ZqCg)
+>...
