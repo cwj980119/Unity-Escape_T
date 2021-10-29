@@ -96,10 +96,6 @@ public class DataController : MonoBehaviour
         
         // Log Test)
         print("Save"); 
-        print("4F Clear " + gameData.isClear4); 
-        print("5F Clear " + gameData.isClear5); 
-        print("6F Clear " + gameData.isClear6);
-        print("7F Clear " + gameData.isClear7); 
     } 
     
     // AutoSave(quitGame)

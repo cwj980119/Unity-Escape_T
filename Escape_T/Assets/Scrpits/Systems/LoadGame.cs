@@ -7,7 +7,6 @@ public class LoadGame : MonoBehaviour
     public GameObject data;
     public int i;
     bool check;
-
     public void LoadScene(){
         check = false;
         data = GameObject.Find("Data");
