@@ -144,11 +144,11 @@
 ![button2](https://user-images.githubusercontent.com/80233719/139286756-e64f5b47-bc0b-44d8-9809-9f2ad8ae1075.jpg)
 > - Button으로 키패드나 나가기 버튼 등을 개발하는 데 활용했다.
 
->### iii. Prefab
+>#### iii. Prefab
 >![prefab](https://user-images.githubusercontent.com/80233719/139287186-be647802-030a-4bdb-b6d3-3481742af1cc.jpg)
 > - Prefab 기능을 활용하여 여러 곳에 사용되는 요소를 일괄적으로 관리 할 수 있게 되었다.
 
->### iv. Box Collider
+>#### iv. Box Collider
 >![box collider](https://user-images.githubusercontent.com/80233719/139288188-a8136389-6098-436a-8090-aef4ed49c123.jpg)
 ![box collider2](https://user-images.githubusercontent.com/80233719/139288200-a2399a99-9a95-426e-9087-616e983aae34.jpg)
 > - Box Collider을 이용하여 상호작용 장치로 이용하거나(Is Trigger), 벽처럼 통과하지 못하게 하는 기능을 구현했다.
