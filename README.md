@@ -140,10 +140,12 @@
 >![gamecontrol2](https://user-images.githubusercontent.com/80233719/139528585-1ba17c5f-a426-4a36-9c22-540b7cc4ef38.jpg)
 >![gamecontrol3](https://user-images.githubusercontent.com/80233719/139528589-df9592ff-c01f-4203-bbaf-d86711e73b63.jpg)
 
-> - 여기서는 5층에 C언어 관련 퀴즈에 대한 코드 설명이다.
+> - 여기서는 5층에 C++ 관련 퀴즈에 대한 코드 설명이다.
 > - 위에서 첫번째, 두번째는 TouchRotation 코드이고, 터치하면 90도로 회전하게 만든 코드이다.
 > - 맨 아래코드는 GameControl 코드이며, 이미지가 맞춰지면, 정답으로 판단해 로딩중이라는 텍스트를 활성화 시키고 힌트를 알려주는 화면을 활성화하는 코드이다.
+> 
 > ※ 예시 화면
+> 
 >![code1](https://user-images.githubusercontent.com/80233719/139528928-61ea5271-499c-46f6-801e-f0f7594a601f.jpg)
 >![code2](https://user-images.githubusercontent.com/80233719/139528931-4a13fc41-883b-444b-8428-e30a50a384c1.jpg)
 >![code3](https://user-images.githubusercontent.com/80233719/139528936-bd1df758-0e5c-4788-8ce8-2c0c401bdfa7.jpg)
