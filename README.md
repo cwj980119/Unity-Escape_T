@@ -22,6 +22,7 @@
 	  - C# 스크립트를 활용한 동작
 	  - Unity tool을 활용한 동작
 
+> 5. 
 
 > ## 1. 개요
 >-  Escape-T 게임은 어드벤처 게임과 퍼즐 게임의 일종인 방탈출 게임이다.
@@ -127,10 +128,28 @@
 >#### iv. 아이템과 인벤토리
 >![invent](https://user-images.githubusercontent.com/80233719/139285209-15fb5b8e-5d2f-4609-beb3-f0f5dc3df41b.jpg)
 > - 아이템과 인벤토리와 관련된 스크립트는 많으나 문서 분량 상 여기에서는 인벤토리 슬롯과 관련된 코드만 있다.
-> - 더 자세히 코드를 보고 싶으면 https://github.com/cwj980119/Unity-Escape_T/tree/1012/Escape_T/Assets/Scrpits/Inventory 에서 볼 수 있다.
+> - 더 자세히 코드를 보고 싶으면 https://github.com/cwj980119/Unity-Escape_T/tree/master/Escape_T/Assets/Scrpits/Inventory 에서 볼 수 있다.
 
-> #### v. 그 외
->  - 그 외 코드는 https://github.com/cwj980119/Unity-Escape_T/tree/1012/Escape_T/Assets/Scrpits 에서 확인할 수 있다.
+>#### v. 도어락
+>![keypad1](https://user-images.githubusercontent.com/80233719/139528992-01d26d3e-2c4a-4f79-ba69-1093fcffe5ec.jpg)
+> - 5, 6, 7층에서 사용된 광 범위하게 사용된 코드이다.
+> - 도어락의 번호를 눌러서 번호가 맞으면 OpenPanel이 열리게 하거나 문이 열리게 하는 코드이다.
+
+>#### vi. 퀴즈 관련 코드
+>![gamecontrol1](https://user-images.githubusercontent.com/80233719/139528584-dcc0da9a-2bde-4e80-8cc5-ee2cd3c3b81c.jpg)
+>![gamecontrol2](https://user-images.githubusercontent.com/80233719/139528585-1ba17c5f-a426-4a36-9c22-540b7cc4ef38.jpg)
+>![gamecontrol3](https://user-images.githubusercontent.com/80233719/139528589-df9592ff-c01f-4203-bbaf-d86711e73b63.jpg)
+
+> - 여기서는 5층에 C언어 관련 퀴즈에 대한 코드 설명이다.
+> - 위에서 첫번째, 두번째는 TouchRotation 코드이고, 터치하면 90도로 회전하게 만든 코드이다.
+> - 맨 아래코드는 GameControl 코드이며, 이미지가 맞춰지면, 정답으로 판단해 로딩중이라는 텍스트를 활성화 시키고 힌트를 알려주는 화면을 활성화하는 코드이다.
+> ※ 예시 화면
+> ![code1](https://user-images.githubusercontent.com/80233719/139528928-61ea5271-499c-46f6-801e-f0f7594a601f.jpg)
+>![code2](https://user-images.githubusercontent.com/80233719/139528931-4a13fc41-883b-444b-8428-e30a50a384c1.jpg)
+>![code3](https://user-images.githubusercontent.com/80233719/139528936-bd1df758-0e5c-4788-8ce8-2c0c401bdfa7.jpg)
+
+> #### vii. 그 외
+>  - 그 외 코드는 https://github.com/cwj980119/Unity-Escape_T/tree/master/Escape_T/Assets/Scrpits 에서 확인할 수 있다.
 
 > ### (2) Unity Tool을 활용한 동작
 
@@ -157,7 +176,7 @@
 > ![animation2](https://user-images.githubusercontent.com/80233719/139289260-9aa32d51-1e1e-41a5-aa3f-56189b77a7a2.jpg)
 > - Animation 기능으로 캐릭터 움직임을 구현했다.
 
->## 참조
+>## 5. 참조
 >- https://unitybeginner.tistory.com/
 >- https://wergia.tistory.com/category/Unity3D
 >- [유튜브 CodeMonkey](https://www.youtube.com/channel/UCFK6NCbuCIVzA6Yj1G_ZqCg)
