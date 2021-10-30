@@ -7,27 +7,22 @@ public class GameControl : MonoBehaviour
     [SerializeField]
     private Transform[] pictures;
 
-    //
     [SerializeField]
     private GameObject winText;
-
     public static bool youWin;
-    //
+
     [SerializeField]
     private GameObject solveImage;
-
     public static bool youSolve;
-    //
+
 
     // Start is called before the first frame update
     void Start()
     {
         winText.SetActive(false);
         youWin = false;
-        //
         solveImage.SetActive(false);
         youSolve = false;
-        //
     }
 
     // Update is called once per frame
@@ -42,11 +37,7 @@ public class GameControl : MonoBehaviour
         {
             youWin = true;
             winText.SetActive(true);
-
             Invoke("comeon", 2);
-            //
-            
-            //
         }
     }
 
