@@ -22,7 +22,8 @@
 	  - C# 스크립트를 활용한 동작
 	  - Unity tool을 활용한 동작
 
-> 5. 
+> 5. 다운로드
+> 6. 
 
 > ## 1. 개요
 >-  Escape-T 게임은 어드벤처 게임과 퍼즐 게임의 일종인 방탈출 게임이다.
@@ -178,7 +179,11 @@
 > ![animation2](https://user-images.githubusercontent.com/80233719/139289260-9aa32d51-1e1e-41a5-aa3f-56189b77a7a2.jpg)
 > - Animation 기능으로 캐릭터 움직임을 구현했다.
 
->## 5. 참조
+>## 5. 다운로드
+>- 게임 다운로드는 다음의 링크에서 가능하다.
+>- https://drive.google.com/drive/u/1/folders/0AGhpibG2Q8zYUk9PVA
+
+>## 6. 참조
 >- https://unitybeginner.tistory.com/
 >- https://wergia.tistory.com/category/Unity3D
 >- [유튜브 CodeMonkey](https://www.youtube.com/channel/UCFK6NCbuCIVzA6Yj1G_ZqCg)
