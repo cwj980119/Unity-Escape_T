@@ -65,7 +65,13 @@ https://user-images.githubusercontent.com/86039114/140431993-a245744e-fb75-45a0-
 ![녹화_2021_11_05_08_07_59_769](https://user-images.githubusercontent.com/86039114/140433028-12c6d06d-1f99-4867-b621-65ae3643edf8.gif)
 ![030](https://user-images.githubusercontent.com/86039114/140433033-f6b3c0e6-df2a-4e2d-93b6-106fc5c8ee7e.jpg)
 ![031](https://user-images.githubusercontent.com/86039114/140433038-6d698c0d-c431-4b41-bec3-5b88b69408b0.jpg)
->
+>   
+>   
+> PPT 이미지 파일들은 목차 기준 `1. 개요` ~ `4. 게임 동작 방식` 까지의 내용을 포함함.  
+> PPT에 없는 추가된 내용인 각 층에 대한 설명은
+> [4부터 7층](#4부터-7층) 이미지 확인 바람.
+>   
+
 
 > ## 1. 개요
 >-  Escape-T 게임은 어드벤처 게임과 퍼즐 게임의 일종인 방탈출 게임이다.
@@ -134,6 +140,7 @@ https://user-images.githubusercontent.com/86039114/140431993-a245744e-fb75-45a0-
 >	ii. 8층으로 이동하여 졸업 프로젝트를 확인하기 위해 컴퓨터에 USB를 꽂는다.
 ![tutorial2](https://user-images.githubusercontent.com/80233719/139273831-ddea9c71-8903-43f9-938b-d96d4071dfdc.jpg)
 
+## 4부터 7층
 ### (4) 4층
 >![4층](https://user-images.githubusercontent.com/80233719/139274518-8422ef0f-46e5-4ca8-a6d7-21531e8c553d.jpg)
 
@@ -226,7 +233,8 @@ https://user-images.githubusercontent.com/86039114/140431993-a245744e-fb75-45a0-
 >- https://drive.google.com/drive/u/1/folders/1l4YMKq9pvaw-OHnLOoMrP7oer1fXnUkn
 
 >## 6. 참조
+>- 교재 : 유니티 교과서 https://book.naver.com/bookdb/book_detail.nhn?bid=17892611
 >- https://unitybeginner.tistory.com/
 >- https://wergia.tistory.com/category/Unity3D
->- [유튜브 CodeMonkey](https://www.youtube.com/channel/UCFK6NCbuCIVzA6Yj1G_ZqCg)
+>- [유튜브 CodeMonkey](https://www.youtube.com/channel/UCFK6NCbuCIVzA6Yj1G_ZqCg) 등
 >...
