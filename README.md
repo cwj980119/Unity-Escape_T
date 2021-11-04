@@ -181,7 +181,7 @@
 
 >## 5. 다운로드
 >- 게임 다운로드는 다음의 링크에서 가능하다.
->- https://drive.google.com/drive/u/1/folders/0AGhpibG2Q8zYUk9PVA
+>- https://drive.google.com/drive/u/1/folders/1l4YMKq9pvaw-OHnLOoMrP7oer1fXnUkn
 
 >## 6. 참조
 >- https://unitybeginner.tistory.com/
