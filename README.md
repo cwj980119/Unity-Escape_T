@@ -1,6 +1,8 @@
 > Written with [StackEdit](https://stackedit.io/).
 > # Escape-T
 > ## 목차
+> 0. 게임 설명 PPT</br>
+> 
 > 1. 개요</br>
 
 > 2. 스토리</br>
@@ -24,6 +26,47 @@
 
 > 5. 다운로드
 > 6. 참조
+
+> ## 0. 게임 설명 PPT
+![001](https://user-images.githubusercontent.com/86039114/140431624-199a600d-81cf-46f8-9a2d-87629c559490.jpg)
+![002](https://user-images.githubusercontent.com/86039114/140431684-55c314fd-5447-4a72-935e-4cf175c68f20.jpg)
+![003](https://user-images.githubusercontent.com/86039114/140431696-85bbdcae-589d-41cc-adf4-6927b9c40e3c.jpg)
+![004](https://user-images.githubusercontent.com/86039114/140431853-a17865e2-8f95-4778-bfae-1f5187709cfd.jpg)
+![005](https://user-images.githubusercontent.com/86039114/140431857-866f1557-1467-419b-aad9-3445d68f69e9.jpg)
+![006](https://user-images.githubusercontent.com/86039114/140431863-3b3a0765-b2d6-488b-b03e-06b6f5eafdea.jpg)
+![007](https://user-images.githubusercontent.com/86039114/140431871-b1c6b4b4-68e2-415b-b65e-0696b1de4d86.jpg)
+![008](https://user-images.githubusercontent.com/86039114/140431876-4b5daec7-4c11-4aa5-8ebf-a2bc685227ec.jpg)
+![009](https://user-images.githubusercontent.com/86039114/140431878-2525d141-64c9-47e8-ad37-9fb1424d8827.jpg)
+
+>
+>- 게임 플레이 화면 ( 실제로는 마우스가 아닌 터치로 동작, 빠른 진행을 위해 2배속 녹화, 소리 O)
+>
+
+https://user-images.githubusercontent.com/86039114/140431993-a245744e-fb75-45a0-b12b-097e63098295.mp4
+
+![011](https://user-images.githubusercontent.com/86039114/140432123-caf4108e-d065-4f8f-9796-8570a70dcb1b.jpg)
+![녹화_2021_11_05_08_16_07_458](https://user-images.githubusercontent.com/86039114/140433159-9e15fd38-fc89-426d-a6e4-4590e76e0d16.gif)
+![013](https://user-images.githubusercontent.com/86039114/140432564-cac5e3e8-c91e-4427-b612-2d99243ae268.jpg)
+![014](https://user-images.githubusercontent.com/86039114/140432571-96c52c00-fdb8-4bbd-9c94-54bde68b210c.jpg)
+![녹화_2021_11_05_08_05_34_847](https://user-images.githubusercontent.com/86039114/140432846-9e0f05cb-56d1-4507-8c86-3eef948bfd77.gif)
+![녹화_2021_11_05_08_06_01_862](https://user-images.githubusercontent.com/86039114/140432896-a98bc5ab-6baa-4632-a3ff-3d16a9f50b18.gif)
+![017](https://user-images.githubusercontent.com/86039114/140432905-fee74785-c652-4650-a0f3-6276020bebc1.jpg)
+![018](https://user-images.githubusercontent.com/86039114/140432909-f6a1679b-5182-4105-8c88-cffcedcbe886.jpg)
+![019](https://user-images.githubusercontent.com/86039114/140432914-169b3e14-02a9-49df-af6f-6f3c2bd64408.jpg)
+![녹화_2021_11_05_08_06_27_599](https://user-images.githubusercontent.com/86039114/140432929-53470ea2-2a44-45b5-9dd6-27e3e88feb8d.gif)
+![021](https://user-images.githubusercontent.com/86039114/140432944-b5795b26-1d2f-4af2-bf4c-6736b47d3236.jpg)
+![022](https://user-images.githubusercontent.com/86039114/140432954-944b46c5-d0d1-4cfd-b18d-c364400c95ef.jpg)
+![녹화_2021_11_05_08_06_52_540](https://user-images.githubusercontent.com/86039114/140432962-efe080cd-0fff-449a-8152-d3e192576c73.gif)
+![024](https://user-images.githubusercontent.com/86039114/140432967-61cdc06a-b689-4782-877f-bc36c92b3d80.jpg)
+![녹화_2021_11_05_08_07_15_834](https://user-images.githubusercontent.com/86039114/140432976-41c84a94-96be-4fba-91d7-ce8876486085.gif)
+![026](https://user-images.githubusercontent.com/86039114/140432992-5c02eaa9-b008-4276-8113-986af5e9a510.jpg)
+![027](https://user-images.githubusercontent.com/86039114/140432997-ff0e317e-dc16-421e-a551-a8dc80f4d627.jpg)
+![녹화_2021_11_05_08_07_38_959](https://user-images.githubusercontent.com/86039114/140433004-e29ea6b3-c3d3-4ae1-8266-2ebb8b8074fc.gif)
+![녹화_2021_11_05_08_07_59_769](https://user-images.githubusercontent.com/86039114/140433028-12c6d06d-1f99-4867-b621-65ae3643edf8.gif)
+![030](https://user-images.githubusercontent.com/86039114/140433033-f6b3c0e6-df2a-4e2d-93b6-106fc5c8ee7e.jpg)
+![031](https://user-images.githubusercontent.com/86039114/140433038-6d698c0d-c431-4b41-bec3-5b88b69408b0.jpg)
+>   
+
 
 > ## 1. 개요
 >-  Escape-T 게임은 어드벤처 게임과 퍼즐 게임의 일종인 방탈출 게임이다.
@@ -96,7 +139,9 @@
 >![4층](https://user-images.githubusercontent.com/80233719/139274518-8422ef0f-46e5-4ca8-a6d7-21531e8c553d.jpg)
 
 ### (5) 5층
-> 5층 내용은 [여기](https://github.com/cwj980119/Unity-Escape_T/files/7435185/5.pdf)를 눌러 확인
+>![층구조](https://user-images.githubusercontent.com/86039114/140436300-4f04f3f8-e75b-4ea5-842d-b3ddf58a5f5f.png)
+>![층구조2](https://user-images.githubusercontent.com/86039114/140436308-4c4e9bce-a340-4e65-95fa-0846ca42f1ee.png)
+
 
 ### (6) 6층
 >![6층](https://user-images.githubusercontent.com/80233719/139279510-96e63c29-1efc-42e5-8843-6bcad63afe1f.png)
@@ -184,7 +229,8 @@
 >- https://drive.google.com/drive/u/1/folders/1l4YMKq9pvaw-OHnLOoMrP7oer1fXnUkn
 
 >## 6. 참조
+>- 교재 : 유니티 교과서 https://book.naver.com/bookdb/book_detail.nhn?bid=17892611
 >- https://unitybeginner.tistory.com/
 >- https://wergia.tistory.com/category/Unity3D
->- [유튜브 CodeMonkey](https://www.youtube.com/channel/UCFK6NCbuCIVzA6Yj1G_ZqCg)
+>- [유튜브 CodeMonkey](https://www.youtube.com/channel/UCFK6NCbuCIVzA6Yj1G_ZqCg) 등
 >...
