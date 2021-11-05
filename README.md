@@ -66,11 +66,6 @@ https://user-images.githubusercontent.com/86039114/140431993-a245744e-fb75-45a0-
 ![030](https://user-images.githubusercontent.com/86039114/140433033-f6b3c0e6-df2a-4e2d-93b6-106fc5c8ee7e.jpg)
 ![031](https://user-images.githubusercontent.com/86039114/140433038-6d698c0d-c431-4b41-bec3-5b88b69408b0.jpg)
 >   
->   
-> PPT 이미지 파일들은 목차 기준 `1. 개요` ~ `4. 게임 동작 방식` 까지의 내용을 포함함.  
-> PPT에 없는 추가된 내용인 각 층에 대한 설명은
-> [4부터 7층](#4부터-7층) 이미지 확인 바람.
->   
 
 
 > ## 1. 개요
@@ -140,12 +135,13 @@ https://user-images.githubusercontent.com/86039114/140431993-a245744e-fb75-45a0-
 >	ii. 8층으로 이동하여 졸업 프로젝트를 확인하기 위해 컴퓨터에 USB를 꽂는다.
 ![tutorial2](https://user-images.githubusercontent.com/80233719/139273831-ddea9c71-8903-43f9-938b-d96d4071dfdc.jpg)
 
-## 4부터 7층
 ### (4) 4층
 >![4층](https://user-images.githubusercontent.com/80233719/139274518-8422ef0f-46e5-4ca8-a6d7-21531e8c553d.jpg)
 
 ### (5) 5층
-> 5층 내용은 [여기](https://github.com/cwj980119/Unity-Escape_T/files/7435185/5.pdf)를 눌러 확인
+>![층구조](https://user-images.githubusercontent.com/86039114/140436300-4f04f3f8-e75b-4ea5-842d-b3ddf58a5f5f.png)
+>![층구조2](https://user-images.githubusercontent.com/86039114/140436308-4c4e9bce-a340-4e65-95fa-0846ca42f1ee.png)
+
 
 ### (6) 6층
 >![6층](https://user-images.githubusercontent.com/80233719/139279510-96e63c29-1efc-42e5-8843-6bcad63afe1f.png)
